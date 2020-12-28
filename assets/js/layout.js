@@ -6,7 +6,7 @@ $(document).ready(function(){
         realFunc()
     })
 
-    var carouselWidth = document.querySelector('.carousel-wrapper').getClientRects().width
+    var carouselWidth = document.querySelector('.carousel-wrapper').getClientRects()[0].width
 
     window.addEventListener('scroll', realFunc);
 
