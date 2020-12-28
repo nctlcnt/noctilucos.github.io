@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+{%- include head.html -%}
+
+<style>
+    .markdown-body .editLinkColour { color: #323234; vertical-align: middle; height: 24px; line-height: 24px; display: inline-block; }
+    .markdown-body .editLinkColour:hover { color: #616167; }
+    .homepageContainer {
+        min-height: calc(100vh - 165px);
+    }
+    @media (max-width: 767px) {
+        .homepageContainer {
+            min-height: calc(100vh - 144px);
+        }
+    }
+</style>
+
+<body>
+    <div class="headWrapper">
+        {%- include page_header.html -%}
+    </div>
+    <div class="markdown-body homepageContainer container">
+        <div class="row">
+            <div class="col-xs-12 col-xl-10 col-xl-offset-1">
+                <!-- <p class="pull-right">
+                    {% capture sourceCodeUrl %}		
+                    {% if page.url contains '.html' %}		
+                        {{ page.url | strip | replace: '.html', '.md'}}		
+                    {% else %}
+                        {{ page.url	| strip }}index.md
+                    {% endif %}
+                    {% endcapture %}
+                    <a href="{{ site.repositoryUrl }}{{ sourceCodeUrl | strip }}" class="editLinkColour">Edit<img src="{{ site.edit_icon }}" width="20px" height="15px" style="vertical-align: middle; margin-left: 5px; margin-top: -3px;" /></a>
+                </p> -->
+                {{ content }}
+            </div>
+        </div>
+    </div>
+    <div id="footerWrapper">
+        {%- include page_footer.html -%}
+    </div>
+
+    <script>anchors.add();</script>
+    <script>
+        $('.tabList li').on('click', function() {
+            let index = $(this).index();
+            console.log($(this).index());
+            $('.tabList li').removeClass('on');
+            $(this).addClass('on');
+            $('.tabContentList .tabContent').removeClass('on');
+            $('.tabContentList .tabContent').eq(index).addClass('on');
+        })
+    </script>
+</body>
+
+</html>
