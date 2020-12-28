@@ -134,6 +134,8 @@ The barcode has long been used in retail and the possibilities for its use conti
       </div>
     </li>
   </ul>
-  <i class="prev-icon disabled"></i>
-  <i class="next-icon"></i>
+  <div class="button-wrapper">
+    <i class="prev-icon disabled"></i>
+    <i class="next-icon"></i>
+  </div>
 </div>

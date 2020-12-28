@@ -138,13 +138,20 @@ ul.circle > li p:hover, ul.circle li.on p, ul.square > li.on p, ul.square > li p
     border: none;
 }
 .carousel-wrapper img {
-    left: unset;
-    top: unset;
-    transform: none;
+    left: unset !important;
+    top: unset !important;
+    transform: none !important;
+    height: 100%;
+}
+.button-wrapper {
+    text-align: center;
 }
 
 i.prev-icon {
     background-image: url(../img-icon/normal_left.png);
+    height: 43px;
+    width: 43px;
+    display: inline-block;
 }
 i.prev-icon.disabled {
     background-image: url(../img-icon/disable_left.png);
@@ -152,6 +159,9 @@ i.prev-icon.disabled {
 
 i.next-icon {
     background-image: url(../img-icon/normal_right.png);
+    height: 43px;
+    width: 43px;
+    display: inline-block;
 }
 i.next-icon.disabled {
     background-image: url(../img-icon/disable_right.png);
