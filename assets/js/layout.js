@@ -6,6 +6,8 @@ $(document).ready(function(){
         realFunc()
     })
 
+    var carouselWidth = document.querySelector('.carousel-wrapper').getClientRects().width
+
     window.addEventListener('scroll', realFunc);
 
     function init() {
@@ -94,7 +96,6 @@ $(document).ready(function(){
 
 // carousel
 let carouselControl = 0
-let carouselWidth = document.querySelector('.carousel-wrapper').getClientRects().width
 $('.prev-icon').on('click', function(e){
     if(carouselControl <= 0) {
         carouselControl = 0
