@@ -101,23 +101,26 @@ ul.circle > li p:hover, ul.circle li.on p, ul.square > li.on p, ul.square > li p
 
 
 /* card carousel */
-.markdown-body ul {     
+.carousel-wrapper ul {     
     list-style: none;
     padding-left: 0;
     font-size: 0;
-    width: 1720px;
-    margin-left: -20px;
+    width: 3870px;
 }
-.markdown-body ul li {
+.carousel-wrapper ul li {
     list-style: none;
     display: inline-block;
     margin: 0 20px;
-    width: 390px;
+    width: 380px;
+    height: 540px;
 }
 
 .carousel-wrapper {
     width: 100%;
+    margin: auto;
     overflow: hidden;
+    padding: 10px;
+    background-color: #F5F5F5;
 }
 
 .carousel-wrapper .card-content h3 {

@@ -17,8 +17,6 @@ The barcode has long been used in retail and the possibilities for its use conti
 - Instantly pull up product information, availability and stock location to help drive more sales.
 - Reduce costs and cashier wait time by allowing customer self-checkout.
 
-
-
 ## Featured Content
 
 <table class="card-table">
@@ -39,7 +37,6 @@ The barcode has long been used in retail and the possibilities for its use conti
         </div>
       </div>
     </td>
-
   </tr>
 </table>
 
