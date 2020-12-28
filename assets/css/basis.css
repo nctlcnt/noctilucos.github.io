@@ -101,8 +101,18 @@ ul.circle > li p:hover, ul.circle li.on p, ul.square > li.on p, ul.square > li p
 
 
 /* card carousel */
-.markdown-body ul { list-style: none; display: block; width: auto; }
-.markdown-body ul li { list-style: none; display: inline-block; }
+.markdown-body ul {     
+    list-style: none;
+    padding-left: 0px;
+    font-size: 0px; 
+}
+.markdown-body ul li {
+    list-style: none;
+    display: inline-block;
+    width: 30.7%;
+    /* margin: 5px; */
+    margin: 0 11px;
+}
 
 
 #menuLsitContainer ul { display: none; }

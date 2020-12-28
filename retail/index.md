@@ -45,42 +45,43 @@ The barcode has long been used in retail and the possibilities for its use conti
 
 ## How Barcode Reader is Optimized for retail product scanning
 <ul>
-    <li width="33.3%" style="vertical-align: top">
+    <li style="vertical-align: top">
       <div class="card-item">
         <div class="imgBox"><img /></div>
         <div class="card-content">
-          <h3>Resist Wrinkles and Deformation on Packagings</h3>
-          <p>Read product barcode on soft packagings and deformed round bottles accurately and quickly for accurate information lookup and faster self-checkout.</p>
-          <p>Get the <a class="orangeLink" href="https://www.dynamsoft.com/barcode-reader/introduction/how-to-guide/set-custom-area-for-accompanying-texts.html">AccompanyingTextBytes</a> and compare it with the barcode result to guarantee that there is no room for mistakes.</p>
+          <h3>UPC-A </h3>
+          <span>1D Barcode</span>
+          <p>The 1D barcode, <a href="https://www.dynamsoft.com/Barcode-Types/UPC-A.aspx">UPC-A</a>, is widely used in retail for point-of-sale (POS) scanning. <strong>You can spot a UPC-A code on many things, from consumer goods packaging to books, newspapers, and magazines.</strong> Common in countries like the United States, the UK, Australia, and New Zealand, the UPC-A code encodes 12 digits of barcode data with 11 digits of product information. </p>
         </div>
       </div>
     </li>
-    <li width="33.3%" style="vertical-align: top">
+    <li style="vertical-align: top">
       <div class="card-item">
         <div class="imgBox"><img /></div>
         <div class="card-content">
-          <h3>Remove Glares on Reflective Cans</h3>
-          <p>Grocery stores have a wide variety of products and often face issues like light glare from reflective surfaces such as from soda pop cans, condensation build up from frozen foods, and curved barcodes on canned goods.</p>
+          <h3>UPC-A </h3>
+          <span>1D Barcode</span>
+          <p>The 1D barcode, <a href="https://www.dynamsoft.com/Barcode-Types/UPC-A.aspx">UPC-A</a>, is widely used in retail for point-of-sale (POS) scanning. <strong>You can spot a UPC-A code on many things, from consumer goods packaging to books, newspapers, and magazines.</strong> Common in countries like the United States, the UK, Australia, and New Zealand, the UPC-A code encodes 12 digits of barcode data with 11 digits of product information. </p>
         </div>
       </div>
     </li>
-    <li width="33.3%" style="vertical-align: top">
+    <li style="vertical-align: top">
       <div class="card-item">
         <div class="imgBox"><img /></div>
         <div class="card-content">
-          <h3>Verify via Accompanying Text</h3>
-          <p>To ensure 100% accuracy, and eliminate manual verification, automatically verify barcode result with the accompanying text that usually appears below the product barcode.</p>
-          <p>Get the <a class="orangeLink" href="https://www.dynamsoft.com/barcode-reader/introduction/how-to-guide/set-custom-area-for-accompanying-texts.html">AccompanyingTextBytes</a> and compare it with the barcode result to guarantee that there is no room for mistakes.</p>
+          <h3>UPC-A </h3>
+          <span>1D Barcode</span>
+          <p>The 1D barcode, <a href="https://www.dynamsoft.com/Barcode-Types/UPC-A.aspx">UPC-A</a>, is widely used in retail for point-of-sale (POS) scanning. <strong>You can spot a UPC-A code on many things, from consumer goods packaging to books, newspapers, and magazines.</strong> Common in countries like the United States, the UK, Australia, and New Zealand, the UPC-A code encodes 12 digits of barcode data with 11 digits of product information. </p>
         </div>
       </div>
-    </li>
-    <li width="33.3%" style="vertical-align: top">
+    </li>    
+    <li style="vertical-align: top">
       <div class="card-item">
         <div class="imgBox"><img /></div>
         <div class="card-content">
-          <h3>Verify via Accompanying Text</h3>
-          <p>To ensure 100% accuracy, and eliminate manual verification, automatically verify barcode result with the accompanying text that usually appears below the product barcode.</p>
-          <p>Get the <a class="orangeLink" href="https://www.dynamsoft.com/barcode-reader/introduction/how-to-guide/set-custom-area-for-accompanying-texts.html">AccompanyingTextBytes</a> and compare it with the barcode result to guarantee that there is no room for mistakes.</p>
+          <h3>UPC-A </h3>
+          <span>1D Barcode</span>
+          <p>The 1D barcode, <a href="https://www.dynamsoft.com/Barcode-Types/UPC-A.aspx">UPC-A</a>, is widely used in retail for point-of-sale (POS) scanning. <strong>You can spot a UPC-A code on many things, from consumer goods packaging to books, newspapers, and magazines.</strong> Common in countries like the United States, the UK, Australia, and New Zealand, the UPC-A code encodes 12 digits of barcode data with 11 digits of product information. </p>
         </div>
       </div>
     </li>
