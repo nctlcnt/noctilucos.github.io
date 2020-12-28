@@ -44,8 +44,9 @@ The barcode has long been used in retail and the possibilities for its use conti
 </table>
 
 ## How Barcode Reader is Optimized for retail product scanning
-<ul>
-    <li class="col-4" style="vertical-align: top">
+<div class="carousel-wrapper">
+  <ul>
+    <li style="vertical-align: top">
       <div class="card-item">
         <div class="imgBox"><img /></div>
         <div class="card-content">
@@ -55,7 +56,7 @@ The barcode has long been used in retail and the possibilities for its use conti
         </div>
       </div>
     </li>
-    <li class="col-4" style="vertical-align: top">
+    <li style="vertical-align: top">
       <div class="card-item">
         <div class="imgBox"><img /></div>
         <div class="card-content">
@@ -65,7 +66,7 @@ The barcode has long been used in retail and the possibilities for its use conti
         </div>
       </div>
     </li>
-    <li class="col-4" style="vertical-align: top">
+    <li style="vertical-align: top">
       <div class="card-item">
         <div class="imgBox"><img /></div>
         <div class="card-content">
@@ -75,7 +76,7 @@ The barcode has long been used in retail and the possibilities for its use conti
         </div>
       </div>
     </li>    
-    <li class="col-4" style="vertical-align: top">
+    <li style="vertical-align: top">
       <div class="card-item">
         <div class="imgBox"><img /></div>
         <div class="card-content">
@@ -85,4 +86,5 @@ The barcode has long been used in retail and the possibilities for its use conti
         </div>
       </div>
     </li>
-</ul>
+  </ul>
+</div>
