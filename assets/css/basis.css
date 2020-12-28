@@ -125,6 +125,7 @@ ul.circle > li p:hover, ul.circle li.on p, ul.square > li.on p, ul.square > li p
     padding-left: 0;
     font-size: 0;
     width: 3870px;
+    transition: all ease-in-out 0.5s;
 }
 .carousel-wrapper ul li {
     list-style: none;
@@ -142,6 +143,7 @@ ul.circle > li p:hover, ul.circle li.on p, ul.square > li.on p, ul.square > li p
     overflow: hidden;
     padding: 10px;
     background-color: #F5F5F5;
+    padding-top: 40px;
 }
 
 .carousel-wrapper .card-content h3 {

@@ -25,7 +25,7 @@ $(document).ready(function(){
     $('.next-icon').on('click', function(e){
         carouselControl += carouselWidth - 10
         if(carouselControl >= 2 * carouselWidth - 40) {
-            carouselControl = 2 * carouselWidth - 40
+            carouselControl = 2 * carouselWidth - 30
             $('.carousel-wrapper ul').css('transform', 'translateX(-'+ carouselControl +'px)')
             $('.next-icon').addClass('disabled')
         } else {
