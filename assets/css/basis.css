@@ -109,8 +109,7 @@ ul.circle > li p:hover, ul.circle li.on p, ul.square > li.on p, ul.square > li p
 .markdown-body ul li {
     list-style: none;
     display: inline-block;
-    width: 30.7%;
-    /* margin: 5px; */
+    /* width: 30.7%; */
     margin: 0 11px;
 }
 

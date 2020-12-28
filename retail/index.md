@@ -45,7 +45,17 @@ The barcode has long been used in retail and the possibilities for its use conti
 
 ## How Barcode Reader is Optimized for retail product scanning
 <ul>
-    <li style="vertical-align: top">
+    <li class="col-4 col-sm-12 col-md-6" style="vertical-align: top">
+      <div class="card-item">
+        <div class="imgBox"><img /></div>
+        <div class="card-content">
+          <h3>UPC-A </h3>
+          <span>1D Barcode</span>
+          <p>The 1D barcode, <a href="https://www.dynamsoft.com/Barcode-Types/UPC-A.aspx">UPC-A</a>, is widely used in retail for point-of-sale (POS) scanning. <b>You can spot a UPC-A code on many things, from consumer goods packaging to books, newspapers, and magazines.</b> Common in countries like the United States, the UK, Australia, and New Zealand, the UPC-A code encodes 12 digits of barcode data with 11 digits of product information. </p>
+        </div>
+      </div>
+    </li>
+    <li class="col-4 col-sm-12 col-md-6" style="vertical-align: top">
       <div class="card-item">
         <div class="imgBox"><img /></div>
         <div class="card-content">
@@ -55,17 +65,7 @@ The barcode has long been used in retail and the possibilities for its use conti
         </div>
       </div>
     </li>
-    <li style="vertical-align: top">
-      <div class="card-item">
-        <div class="imgBox"><img /></div>
-        <div class="card-content">
-          <h3>UPC-A </h3>
-          <span>1D Barcode</span>
-          <p>The 1D barcode, <a href="https://www.dynamsoft.com/Barcode-Types/UPC-A.aspx">UPC-A</a>, is widely used in retail for point-of-sale (POS) scanning. <strong>You can spot a UPC-A code on many things, from consumer goods packaging to books, newspapers, and magazines.</strong> Common in countries like the United States, the UK, Australia, and New Zealand, the UPC-A code encodes 12 digits of barcode data with 11 digits of product information. </p>
-        </div>
-      </div>
-    </li>
-    <li style="vertical-align: top">
+    <li class="col-4 col-sm-12 col-md-6" style="vertical-align: top">
       <div class="card-item">
         <div class="imgBox"><img /></div>
         <div class="card-content">
@@ -75,7 +75,7 @@ The barcode has long been used in retail and the possibilities for its use conti
         </div>
       </div>
     </li>    
-    <li style="vertical-align: top">
+    <li class="col-4 col-sm-12 col-md-6" style="vertical-align: top">
       <div class="card-item">
         <div class="imgBox"><img /></div>
         <div class="card-content">
