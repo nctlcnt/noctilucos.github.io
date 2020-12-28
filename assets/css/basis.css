@@ -20,6 +20,25 @@ strong {color:#444;font-weight:400}
 a.orangeLink { color: #FE8E14 !important; }
 a.orangeLink:hover { color: #FEA543 !important; }
 a.orangeLink:active { color: #FEA543 !important; }
+i.prev-icon {
+    background-image: url(../img-icon/normal_left.png);
+    height: 43px;
+    width: 43px;
+    display: inline-block;
+}
+i.prev-icon.disabled {
+    background-image: url(../img-icon/disable_left.png);
+}
+
+i.next-icon {
+    background-image: url(../img-icon/normal_right.png);
+    height: 43px;
+    width: 43px;
+    display: inline-block;
+}
+i.next-icon.disabled {
+    background-image: url(../img-icon/disable_right.png);
+}
 
 .otherLinkColour { color: #3C3C3C; }
 .otherLinkColour:hover { text-decoration: underline; color: #585858; }
@@ -147,25 +166,7 @@ ul.circle > li p:hover, ul.circle li.on p, ul.square > li.on p, ul.square > li p
     text-align: center;
 }
 
-i.prev-icon {
-    background-image: url(../img-icon/normal_left.png);
-    height: 43px;
-    width: 43px;
-    display: inline-block;
-}
-i.prev-icon.disabled {
-    background-image: url(../img-icon/disable_left.png);
-}
 
-i.next-icon {
-    background-image: url(../img-icon/normal_right.png);
-    height: 43px;
-    width: 43px;
-    display: inline-block;
-}
-i.next-icon.disabled {
-    background-image: url(../img-icon/disable_right.png);
-}
 
 
 #menuLsitContainer ul { display: none; }
