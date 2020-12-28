@@ -112,7 +112,7 @@ ul.circle > li p:hover, ul.circle li.on p, ul.square > li.on p, ul.square > li p
     display: inline-block;
     margin: 0 20px;
     width: 380px;
-    height: 540px;
+    height: 550px;
     border: 2px solid #AAAAAA;
     background-color: white;
 }
@@ -136,6 +136,25 @@ ul.circle > li p:hover, ul.circle li.on p, ul.square > li.on p, ul.square > li p
 }
 .carousel-wrapper .card-item {
     border: none;
+}
+.carousel-wrapper img {
+    left: unset;
+    top: unset;
+    transform: none;
+}
+
+i.prev-icon {
+    background-image: url(../img-icon/normal_left.png);
+}
+i.prev-icon.disabled {
+    background-image: url(../img-icon/disable_left.png);
+}
+
+i.next-icon {
+    background-image: url(../img-icon/normal_right.png);
+}
+i.next-icon.disabled {
+    background-image: url(../img-icon/disable_right.png);
 }
 
 
@@ -920,8 +939,13 @@ i.dbr-white-logo { display: inline-block; width: 221px; height: 30px; background
 .card-table tr:last-child td { border-bottom: 0!important; }
 .card-item { border: 1px solid #ddd; height: 100%; font-size: 16px; }
 .card-item h3 { padding-top: 0px; margin-top: -0px; }
-.card-item .imgBox { width: 100%; height: 200px; background: #ddd; }
-.card-item .imgBox img { width: 100%; height: 100%; }
+.card-item .imgBox { width: 100%; height: 200px; background: #ddd; overflow: hidden; position: relative; }
+.card-item .imgBox img {     
+    width: 100%;
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%); }
 .card-item .card-content { padding: 20px; }
 
 .h1Title { width: 750px; margin: 0 auto 20px; }
