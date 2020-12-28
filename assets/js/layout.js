@@ -90,3 +90,29 @@ $(document).ready(function(){
         stopPropagation(e);
     })
 })
+
+
+// carousel
+let carouselControl = 0
+let carouselWidth = document.querySelector('.carousel-wrapper').getClientRects().width
+$('.prev-icon').on('click', function(e){
+    if(carouselControl <= 0) {
+        carouselControl = 0
+        $('.carousel-wrapper ul').css('transform', 'translateX(-'+ carouselControl +'px)')
+        $('.prev-icon').addClass('disabled')
+    } else {
+        carouselControl -= carouselWidth - 10
+        $('.carousel-wrapper ul').css('transform', 'translateX(-'+ carouselControl +'px)')
+    }
+})
+
+$('.next-icon').on('click', function(e){
+    if(carouselControl >= 3 * carouselWidth - 30) {
+        carouselControl = 3 * carouselWidth - 30
+        $('.carousel-wrapper ul').css('transform', 'translateX(-'+ carouselControl +'px)')
+        $('.next-icon').addClass('disabled')
+    } else {
+        carouselControl += carouselWidth - 10
+        $('.carousel-wrapper ul').css('transform', 'translateX(-'+ carouselControl +'px)')
+    }
+})
