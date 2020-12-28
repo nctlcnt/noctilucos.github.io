@@ -99,6 +99,12 @@ ul.circle > li p:hover, ul.circle li.on p, ul.square > li.on p, ul.square > li p
 #crumbs ul li { display: inline-block; }
 #crumbs ul > li + li:before { color: #CCCCCC; content: "> "; padding: 0 5px; }
 
+
+/* card carousel */
+.markdown-body ul { list-style: none; display: block; width: auto; }
+.markdown-body ul li { list-style: none; display: inline-block; }
+
+
 #menuLsitContainer ul { display: none; }
 
 .sideBar, .docContainer { padding-top: 60px; }

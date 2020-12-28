@@ -44,10 +44,8 @@ The barcode has long been used in retail and the possibilities for its use conti
 </table>
 
 ## How Barcode Reader is Optimized for retail product scanning
-
-<table class="card-table">
-  <tr>
-    <td width="33.3%" style="vertical-align: top">
+<ul>
+    <li width="33.3%" style="vertical-align: top">
       <div class="card-item">
         <div class="imgBox"><img /></div>
         <div class="card-content">
@@ -56,8 +54,8 @@ The barcode has long been used in retail and the possibilities for its use conti
           <p>Get the <a class="orangeLink" href="https://www.dynamsoft.com/barcode-reader/introduction/how-to-guide/set-custom-area-for-accompanying-texts.html">AccompanyingTextBytes</a> and compare it with the barcode result to guarantee that there is no room for mistakes.</p>
         </div>
       </div>
-    </td>
-    <td width="33.3%" style="vertical-align: top">
+    </li>
+    <li width="33.3%" style="vertical-align: top">
       <div class="card-item">
         <div class="imgBox"><img /></div>
         <div class="card-content">
@@ -65,8 +63,8 @@ The barcode has long been used in retail and the possibilities for its use conti
           <p>Grocery stores have a wide variety of products and often face issues like light glare from reflective surfaces such as from soda pop cans, condensation build up from frozen foods, and curved barcodes on canned goods.</p>
         </div>
       </div>
-    </td>
-    <td width="33.3%" style="vertical-align: top">
+    </li>
+    <li width="33.3%" style="vertical-align: top">
       <div class="card-item">
         <div class="imgBox"><img /></div>
         <div class="card-content">
@@ -75,8 +73,8 @@ The barcode has long been used in retail and the possibilities for its use conti
           <p>Get the <a class="orangeLink" href="https://www.dynamsoft.com/barcode-reader/introduction/how-to-guide/set-custom-area-for-accompanying-texts.html">AccompanyingTextBytes</a> and compare it with the barcode result to guarantee that there is no room for mistakes.</p>
         </div>
       </div>
-    </td>
-    <td width="33.3%" style="vertical-align: top">
+    </li>
+    <li width="33.3%" style="vertical-align: top">
       <div class="card-item">
         <div class="imgBox"><img /></div>
         <div class="card-content">
@@ -85,6 +83,5 @@ The barcode has long been used in retail and the possibilities for its use conti
           <p>Get the <a class="orangeLink" href="https://www.dynamsoft.com/barcode-reader/introduction/how-to-guide/set-custom-area-for-accompanying-texts.html">AccompanyingTextBytes</a> and compare it with the barcode result to guarantee that there is no room for mistakes.</p>
         </div>
       </div>
-    </td>
-  </tr>
-</table>
+    </li>
+</ul>
