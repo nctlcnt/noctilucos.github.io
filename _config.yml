@@ -55,7 +55,7 @@ dnt_icon: /assets/img-icon/icon-dnt.svg
 # Replace the <firstLevelUrl> with the value of firstLevelUrl defined above.
 
 # baseurl: "<firstLevelUrl>"
-baseurl: "/use-cases/"
+baseurl: "/"
 
 plugins:
   - jemoji
