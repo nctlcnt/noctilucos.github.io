@@ -103,20 +103,31 @@ ul.circle > li p:hover, ul.circle li.on p, ul.square > li.on p, ul.square > li p
 /* card carousel */
 .markdown-body ul {     
     list-style: none;
-    padding-left: 0px;
-    font-size: 0px; 
-    width: 1680px;
+    padding-left: 0;
+    font-size: 0;
+    width: 1720px;
+    margin-left: -20px;
 }
 .markdown-body ul li {
     list-style: none;
     display: inline-block;
     margin: 0 20px;
-    width: 380px;
+    width: 390px;
 }
 
 .carousel-wrapper {
     width: 100%;
     overflow: hidden;
+}
+
+.carousel-wrapper .card-content h3 {
+    display: inline-block;
+}
+.carousel-wrapper .card-content span {
+    float: right;
+    margin-top: 5px;
+    color: #AAAAAA;
+    font-family: 'Oswald';
 }
 
 
