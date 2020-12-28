@@ -113,6 +113,8 @@ ul.circle > li p:hover, ul.circle li.on p, ul.square > li.on p, ul.square > li p
     margin: 0 20px;
     width: 380px;
     height: 540px;
+    border: 2px solid #AAAAAA;
+    background-color: white;
 }
 
 .carousel-wrapper {
@@ -131,6 +133,9 @@ ul.circle > li p:hover, ul.circle li.on p, ul.square > li.on p, ul.square > li p
     margin-top: 5px;
     color: #AAAAAA;
     font-family: 'Oswald';
+}
+.carousel-wrapper .card-item {
+    border: none;
 }
 
 

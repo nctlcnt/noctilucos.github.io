@@ -45,7 +45,7 @@ The barcode has long been used in retail and the possibilities for its use conti
   <ul>
     <li style="vertical-align: top">
       <div class="card-item">
-        <div class="imgBox"><img /></div>
+        <div class="imgBox"><img src='https://github.com/Dynamsoft/use-cases-docs/blob/master/retail/assets/upc_a.jpg' /></div>
         <div class="card-content">
           <h3>UPC-A</h3>
           <span>1D Barcode</span>
@@ -55,7 +55,7 @@ The barcode has long been used in retail and the possibilities for its use conti
     </li>
     <li style="vertical-align: top">
       <div class="card-item">
-        <div class="imgBox"><img /></div>
+        <div class="imgBox"><img src='https://github.com/Dynamsoft/use-cases-docs/blob/master/retail/assets/upc-e.jpg'/></div>
         <div class="card-content">
           <h3>UPC-E</h3>
           <span>1D Barcode</span>
@@ -65,7 +65,7 @@ The barcode has long been used in retail and the possibilities for its use conti
     </li>
     <li style="vertical-align: top">
       <div class="card-item">
-        <div class="imgBox"><img /></div>
+        <div class="imgBox"><img src='https://github.com/Dynamsoft/use-cases-docs/blob/master/retail/assets/ean-8.jpg' /></div>
         <div class="card-content">
           <h3>EAN-8</h3>
           <span>1D Barcode</span>
@@ -75,7 +75,7 @@ The barcode has long been used in retail and the possibilities for its use conti
     </li>    
     <li style="vertical-align: top">
       <div class="card-item">
-        <div class="imgBox"><img /></div>
+        <div class="imgBox"><img src='https://github.com/Dynamsoft/use-cases-docs/blob/master/retail/assets/ean-13.jpg' /></div>
         <div class="card-content">
           <h3>EAN-13</h3>
           <span>1D Barcode</span>
@@ -85,7 +85,7 @@ The barcode has long been used in retail and the possibilities for its use conti
     </li>
     <li style="vertical-align: top">
       <div class="card-item">
-        <div class="imgBox"><img /></div>
+        <div class="imgBox"><img src='https://github.com/Dynamsoft/use-cases-docs/blob/master/retail/assets/industrial-2-of-5.jpg'/></div>
         <div class="card-content">
           <h3 id="industrial-2-of-5">Industrial 2 of 5</h3>
           <span>1D Barcode</span>
@@ -95,7 +95,7 @@ The barcode has long been used in retail and the possibilities for its use conti
     </li>
     <li style="vertical-align: top">
       <div class="card-item">
-        <div class="imgBox"><img /></div>
+        <div class="imgBox"><img src="https://github.com/Dynamsoft/use-cases-docs/blob/master/retail/assets/code93.jpg"/></div>
         <div class="card-content">
           <h3 id="code-93">Code 93</h3>
           <span>1D Barcode</span>
@@ -105,7 +105,7 @@ The barcode has long been used in retail and the possibilities for its use conti
     </li>
     <li style="vertical-align: top">
       <div class="card-item">
-        <div class="imgBox"><img /></div>
+        <div class="imgBox"><img src='https://github.com/Dynamsoft/use-cases-docs/blob/master/retail/assets/qr-code.jpg' /></div>
         <div class="card-content">
           <h3 id="qr-codes">QR Codes</h3>
           <span>2D Barcodes</span>
@@ -115,7 +115,7 @@ The barcode has long been used in retail and the possibilities for its use conti
     </li>
     <li style="vertical-align: top">
       <div class="card-item">
-        <div class="imgBox"><img /></div>
+        <div class="imgBox"><img src='https://github.com/Dynamsoft/use-cases-docs/blob/master/retail/assets/data-matrix.jpg' /></div>
         <div class="card-content">
           <h3 id="datamatrix">DataMatrix</h3>
           <span>2D Barcodes</span>
@@ -125,7 +125,7 @@ The barcode has long been used in retail and the possibilities for its use conti
     </li>
     <li style="vertical-align: top">
       <div class="card-item">
-        <div class="imgBox"><img /></div>
+        <div class="imgBox"><img src='https://github.com/Dynamsoft/use-cases-docs/blob/master/retail/assets/gs1-databar-composite.jpg'/></div>
         <div class="card-content">
           <h3 id="gs1-composite-code">GS1 Composite Code</h3>
           <span>Composite Code</span>
