@@ -163,6 +163,7 @@ ul.circle > li p:hover, ul.circle li.on p, ul.square > li.on p, ul.square > li p
 
 .carousel-wrapper .card-content h3 {
     display: inline-block;
+    width: 65%;
 }
 .carousel-wrapper .card-content span {
     float: right;
