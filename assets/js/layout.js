@@ -11,6 +11,7 @@ $(document).ready(function(){
     var carouselControl = 0
     var step = 0
     var currentPage = 0
+    var max = 6
     getCarouselConfig()
 
     $('.prev-icon').on('click', function(e){
@@ -29,22 +30,26 @@ $(document).ready(function(){
 
     $('.next-icon').on('click', function(e){
         currentPage++
-        if(currentPage > 6) {
-            currentPage = 6
+        if(currentPage > max) {
+            currentPage = max
             return
         }
 
         carouselControl += step
         $('.carousel-wrapper ul').css('transform', 'translateX(-'+ carouselControl +'px)')
         $('.prev-icon').removeClass('disabled')
-        if(currentPage >= 6) {
+        if(currentPage >= max) {
             $('.next-icon').addClass('disabled')
         }
     })
 
     function getCarouselConfig(){
-        carouselControl = 0
         step = $('.carousel-wrapper li').width() + 44
+        if($(window).width() < 1200) {
+            max = 7
+        }else if($(window).width() < 737) {
+            max = 8
+        }
     }
 
     window.addEventListener('scroll', realFunc);
