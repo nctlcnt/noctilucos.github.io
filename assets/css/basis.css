@@ -18,6 +18,7 @@ strong {color:#444;font-weight:400}
 *{ box-sizing: border-box; margin: 0; padding: 0; }
 .fontOswald { font-family: Oswald; }
 a.orangeLink { color: #FE8E14 !important; }
+a.orangeLink.fontOswald { font-weight: medium; font-size: 20px; line-height: 36px; }
 a.orangeLink:hover { color: #FEA543 !important; }
 a.orangeLink:active { color: #FEA543 !important; }
 i.prev-icon {
@@ -1058,11 +1059,11 @@ i.dbr-white-logo { display: inline-block; width: 221px; height: 30px; background
     padding-top: 40px;
 }
 
-.carousel-wrapper .card-content h3 {
+.carousel-wrapper .card-text h3 {
     display: inline-block;
     width: 65%;
 }
-.carousel-wrapper .card-content span {
+.carousel-wrapper .card-text span {
     float: right;
     margin-top: 5px;
     color: #AAAAAA;
