@@ -11,10 +11,11 @@ $(document).ready(function(){
     var carouselWidth = 0
     var carouselControl = 0
     var maxLength = 0
+    var step = 0
     getCarouselConfig()
 
     $('.prev-icon').on('click', function(e){
-        carouselControl -= carouselWidth
+        carouselControl -= step
         if(carouselControl <= 0) {
             carouselControl = 0
             $('.carousel-wrapper ul').css('transform', 'translateX(-'+ carouselControl +'px)')
@@ -26,9 +27,9 @@ $(document).ready(function(){
     })
 
     $('.next-icon').on('click', function(e){
-        carouselControl += carouselWidth
+        carouselControl += step
         if(carouselControl >= maxLength) {
-            carouselControl = $('.carousel-wrapper ul').width() - carouselWidth
+            // carouselControl = $('.carousel-wrapper ul').width() - carouselWidth
             $('.carousel-wrapper ul').css('transform', 'translateX(-'+ carouselControl +'px)')
             $('.next-icon').addClass('disabled')
         } else {
@@ -40,7 +41,8 @@ $(document).ready(function(){
     function getCarouselConfig(){
         carouselWidth = $('.carousel-wrapper').width()
         carouselControl = 0
-        maxLength = $('.carousel-wrapper ul').width() - carouselWidth * 2
+        maxLength = $('.carousel-wrapper ul').width()
+        step = $('.carousel-wrapper li').width() + 40
     }
 
     window.addEventListener('scroll', realFunc);
