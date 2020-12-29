@@ -29,7 +29,7 @@ $(document).ready(function(){
     $('.next-icon').on('click', function(e){
         carouselControl += step
         if(carouselControl >= maxLength) {
-            // carouselControl = $('.carousel-wrapper ul').width() - carouselWidth
+            carouselControl = $('.carousel-wrapper ul').width() - step * 2
             $('.carousel-wrapper ul').css('transform', 'translateX(-'+ carouselControl +'px)')
             $('.next-icon').addClass('disabled')
         } else {

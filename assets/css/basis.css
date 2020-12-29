@@ -138,6 +138,9 @@ ul.circle > li p:hover, ul.circle li.on p, ul.square > li.on p, ul.square > li p
 }
 
 @media (max-width: 1699px){
+    .carousel-wrapper ul {     
+        width: 3213px;
+    }
     .carousel-wrapper ul li {
         width: 315px;
     }
