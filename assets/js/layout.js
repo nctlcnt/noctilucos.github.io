@@ -44,6 +44,8 @@ $(document).ready(function(){
     })
 
     function getCarouselConfig(){
+        carouselControl = 0
+        $('.carousel-wrapper ul').css('transform', 'translateX(-'+ carouselControl +'px)')
         step = $('.carousel-wrapper li').width() + 44
         if($(window).width() < 1200) {
             max = 7
