@@ -8,40 +8,36 @@ $(document).ready(function(){
     })
 
     // carousel
-    var carouselWidth = 0
     var carouselControl = 0
-    var maxLength = 0
     var step = 0
+    var currentPage = 0
     getCarouselConfig()
 
     $('.prev-icon').on('click', function(e){
-        carouselControl -= step
-        if(carouselControl <= 0) {
-            carouselControl = 0
-            $('.carousel-wrapper ul').css('transform', 'translateX(-'+ carouselControl +'px)')
+        currentPage--
+        if(currentPage <= 0) {
             $('.prev-icon').addClass('disabled')
-        } else {
-            $('.carousel-wrapper ul').css('transform', 'translateX(-'+ carouselControl +'px)')
-            $('.next-icon').removeClass('disabled')
+            return
         }
+        carouselControl -= step
+        $('.next-icon').removeClass('disabled')
+        $('.carousel-wrapper ul').css('transform', 'translateX(-'+ carouselControl +'px)')
     })
 
     $('.next-icon').on('click', function(e){
-        carouselControl += step
-        if(carouselControl >= $('.carousel-wrapper ul').width() - step * 3 - 108) {
-            carouselControl = $('.carousel-wrapper ul').width() - step * 3 - 108
-            $('.carousel-wrapper ul').css('transform', 'translateX(-'+ carouselControl +'px)')
+        currentPage++
+        if(currentPage >= 6) {
             $('.next-icon').addClass('disabled')
-        } else {
-            $('.carousel-wrapper ul').css('transform', 'translateX(-'+ carouselControl +'px)')
-            $('.prev-icon').removeClass('disabled')
+            return
         }
+
+        carouselControl += step
+        $('.carousel-wrapper ul').css('transform', 'translateX(-'+ carouselControl +'px)')
+        $('.prev-icon').removeClass('disabled')
     })
 
     function getCarouselConfig(){
-        carouselWidth = $('.carousel-wrapper').width()
         carouselControl = 0
-        maxLength = $('.carousel-wrapper ul').width()
         step = $('.carousel-wrapper li').width() + 44
     }
 
