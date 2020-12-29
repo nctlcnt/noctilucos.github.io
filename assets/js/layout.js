@@ -47,7 +47,8 @@ $(document).ready(function(){
         step = $('.carousel-wrapper li').width() + 44
         if($(window).width() < 1200) {
             max = 7
-        }else if($(window).width() < 737) {
+        }
+        if($(window).width() < 737) {
             max = 8
         }
     }
