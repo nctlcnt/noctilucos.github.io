@@ -4,6 +4,7 @@ $(document).ready(function(){
     $(window).resize(function() {
         init()
         realFunc()
+        var carouselWidth = document.querySelector('.carousel-wrapper').getClientRects()[0].width
     })
 
     // carousel
