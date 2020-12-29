@@ -64,7 +64,7 @@ The barcode has long been used in retail and the possibilities for its use conti
 </div>
 
 ## Most Commonly Seen Barcode Symbologies in Retail
-<div class="carousel-wrapper">
+<div class="carousel-wrapper content-wrapper">
   <ul>
     <li style="vertical-align: top" class="content-card">
       <div>
