@@ -47,6 +47,8 @@ $(document).ready(function(){
         carouselControl = 0
         currentPage = 0
         $('.carousel-wrapper ul').css('transform', 'translateX(-'+ carouselControl +'px)')
+        $('.prev-icon').addClass('disabled')
+        $('.next-icon').removeClass('disabled')
 
         step = $('.carousel-wrapper li').width() + 44
         if($(window).width() < 1200) {
