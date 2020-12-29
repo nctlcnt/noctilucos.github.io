@@ -19,39 +19,29 @@ The barcode has long been used in retail and the possibilities for its use conti
 
 ## How Dynamsoft Barcode Reader is Optimized for Retail Product Scanning
 
-<table class="card-table">
-  <tr>
-    <td width="33.3%" style="vertical-align: top">
-      <div class="card-item">
-        <div class="imgBox"><img /></div>
-        <div class="card-content">
-          <h3>Resist Wrinkles and Deformation on Packagings</h3>
-          <p>Read product barcode on soft packagings and deformed round bottles accurately and quickly for accurate information lookup and faster self-checkout.</p>
-          <p>Get the <a class="orangeLink" href="https://www.dynamsoft.com/barcode-reader/introduction/how-to-guide/set-custom-area-for-accompanying-texts.html">AccompanyingTextBytes</a> and compare it with the barcode result to guarantee that there is no room for mistakes.</p>
-        </div>
-      </div>
-    </td>
-    <td width="33.3%" style="vertical-align: top">
-      <div class="card-item">
-        <div class="imgBox"><img /></div>
-        <div class="card-content">
-          <h3>Remove Glares on Reflective Cans</h3>
-          <p>Grocery stores have a wide variety of products and often face issues like light glare from reflective surfaces such as from soda pop cans, condensation build up from frozen foods, and curved barcodes on canned goods.</p>
-        </div>
-      </div>
-    </td>
-    <td width="33.3%" style="vertical-align: top">
-      <div class="card-item">
-        <div class="imgBox"><img /></div>
-        <div class="card-content">
-          <h3>Verify via Accompanying Text</h3>
-          <p>To ensure 100% accuracy, and eliminate manual verification, automatically verify barcode result with the accompanying text that usually appears below the product barcode.</p>
-          <p>Get the <a class="orangeLink" href="https://www.dynamsoft.com/barcode-reader/introduction/how-to-guide/set-custom-area-for-accompanying-texts.html">AccompanyingTextBytes</a> and compare it with the barcode result to guarantee that there is no room for mistakes.</p>
-        </div>
-      </div>
-    </td>
-  </tr>
-</table>
+<div class="content-card">
+  <div class="imgBox"><img src="assets/resist-wrinkles-and-deformation.png"/></div>
+  <div class="card-content">
+    <h3>Resist Wrinkles and Deformation on Packagings</h3>
+    <p>Read product barcode on soft packagings and deformed round bottles accurately and quickly for accurate information lookup and faster self-checkout.</p>
+    <p>Get the <a class="orangeLink" href="https://www.dynamsoft.com/barcode-reader/introduction/how-to-guide/set-custom-area-for-accompanying-texts.html">AccompanyingTextBytes</a> and compare it with the barcode result to guarantee that there is no room for mistakes.</p>
+  </div>
+</div>
+<div class="content-card">
+  <div class="imgBox"><img src="assets/remove-glares-on-reflective-cans.png" /></div>
+  <div class="card-content">
+    <h3>Remove Glares on Reflective Cans</h3>
+    <p>Grocery stores have a wide variety of products and often face issues like light glare from reflective surfaces such as from soda pop cans, condensation build up from frozen foods, and curved barcodes on canned goods.</p>
+  </div>
+</div>
+<div class="content-card">
+  <div class="imgBox"><img src="assets/verify-via-accompanying-text.png"/></div>
+  <div class="card-content">
+    <h3>Verify via Accompanying Text</h3>
+    <p>To ensure 100% accuracy, and eliminate manual verification, automatically verify barcode result with the accompanying text that usually appears below the product barcode.</p>
+    <p>Get the <a class="orangeLink" href="https://www.dynamsoft.com/barcode-reader/introduction/how-to-guide/set-custom-area-for-accompanying-texts.html">AccompanyingTextBytes</a> and compare it with the barcode result to guarantee that there is no room for mistakes.</p>
+  </div>
+</div>
 
 ## Featured Content
 
@@ -59,7 +49,7 @@ The barcode has long been used in retail and the possibilities for its use conti
   <tr>
     <td width="50%" style="vertical-align: top">
       <div class="card-item">
-        <div class="imgBox" style="height: 300px;"><img src="http://img.youtube.com/vi/fraXfsNqr24/0.jpg"></div>
+        <div class="imgBox"><img src="http://img.youtube.com/vi/fraXfsNqr24/0.jpg"></div>
         <div class="card-content">
           <p><a href="http://www.youtube.com/watch?v=fraXfsNqr24">Video: How the barcode wrinkles are corrected</a></p>
         </div>
@@ -67,7 +57,7 @@ The barcode has long been used in retail and the possibilities for its use conti
     </td>
     <td width="50%" style="vertical-align: top">
       <div class="card-item">
-        <div class="imgBox" style="height: 300px;"><img src="https://www.dynamsoft.com/assets/images/img-banner/caseStudyImage/oceania-leading-retailer-case-study-banner.png"></div>
+        <div class="imgBox"><img src="https://www.dynamsoft.com/assets/images/img-banner/caseStudyImage/oceania-leading-retailer-case-study-banner.png"></div>
         <div class="card-content">
           <p><a href="https://www.dynamsoft.com/Company/oceania-leading-retailer-case-study.aspx">Case study: Multi-Billion Dollar Retailer Switched to Dynamsoft Barcode Reader SDK to Realize Consumer-Grade Barcode App Performance</a></p>
         </div>
@@ -80,7 +70,7 @@ The barcode has long been used in retail and the possibilities for its use conti
 <div class="carousel-wrapper">
   <ul>
     <li style="vertical-align: top">
-      <div class="card-item">
+      <div class="content-card">
         <div class="imgBox"><img src='assets/upc_a.jpg' /></div>
         <div class="card-content">
           <h3>UPC-A</h3>
@@ -90,7 +80,7 @@ The barcode has long been used in retail and the possibilities for its use conti
       </div>
     </li>
     <li style="vertical-align: top">
-      <div class="card-item">
+      <div class="content-card">
         <div class="imgBox"><img src='assets/upc-e.jpg'/></div>
         <div class="card-content">
           <h3>UPC-E</h3>
@@ -100,7 +90,7 @@ The barcode has long been used in retail and the possibilities for its use conti
       </div>
     </li>
     <li style="vertical-align: top">
-      <div class="card-item">
+      <div class="content-card">
         <div class="imgBox"><img src='assets/ean-8.jpg' /></div>
         <div class="card-content">
           <h3>EAN-8</h3>
@@ -110,7 +100,7 @@ The barcode has long been used in retail and the possibilities for its use conti
       </div>
     </li>    
     <li style="vertical-align: top">
-      <div class="card-item">
+      <div class="content-card">
         <div class="imgBox"><img src='assets/ean-13.jpg' /></div>
         <div class="card-content">
           <h3>EAN-13</h3>
@@ -120,7 +110,7 @@ The barcode has long been used in retail and the possibilities for its use conti
       </div>
     </li>
     <li style="vertical-align: top">
-      <div class="card-item">
+      <div class="content-card">
         <div class="imgBox"><img src='assets/industrial-2-of-5.jpg'/></div>
         <div class="card-content">
           <h3 id="industrial-2-of-5">Industrial 2 of 5</h3>
@@ -130,7 +120,7 @@ The barcode has long been used in retail and the possibilities for its use conti
       </div>
     </li>
     <li style="vertical-align: top">
-      <div class="card-item">
+      <div class="content-card">
         <div class="imgBox"><img src="assets/code93.jpg"/></div>
         <div class="card-content">
           <h3 id="code-93">Code 93</h3>
@@ -140,7 +130,7 @@ The barcode has long been used in retail and the possibilities for its use conti
       </div>
     </li>
     <li style="vertical-align: top">
-      <div class="card-item">
+      <div class="content-card">
         <div class="imgBox"><img src='assets/qr-code.jpg' /></div>
         <div class="card-content">
           <h3 id="qr-codes">QR Codes</h3>
@@ -150,7 +140,7 @@ The barcode has long been used in retail and the possibilities for its use conti
       </div>
     </li>
     <li style="vertical-align: top">
-      <div class="card-item">
+      <div class="content-card">
         <div class="imgBox"><img src='assets/data-matrix.jpg' /></div>
         <div class="card-content">
           <h3 id="datamatrix">DataMatrix</h3>
@@ -160,7 +150,7 @@ The barcode has long been used in retail and the possibilities for its use conti
       </div>
     </li>
     <li style="vertical-align: top">
-      <div class="card-item">
+      <div class="content-card">
         <div class="imgBox"><img src='assets/gs1-databar-composite.jpg'/></div>
         <div class="card-content">
           <h3 id="gs1-composite-code">GS1 Composite Code</h3>
