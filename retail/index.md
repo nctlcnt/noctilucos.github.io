@@ -17,6 +17,42 @@ The barcode has long been used in retail and the possibilities for its use conti
 - Instantly pull up product information, availability and stock location to help drive more sales.
 - Reduce costs and cashier wait time by allowing customer self-checkout.
 
+## How Dynamsoft Barcode Reader is Optimized for Retail Product Scanning
+
+<table class="card-table">
+  <tr>
+    <td width="33.3%" style="vertical-align: top">
+      <div class="card-item">
+        <div class="imgBox"><img /></div>
+        <div class="card-content">
+          <h3>Resist Wrinkles and Deformation on Packagings</h3>
+          <p>Read product barcode on soft packagings and deformed round bottles accurately and quickly for accurate information lookup and faster self-checkout.</p>
+          <p>Get the <a class="orangeLink" href="https://www.dynamsoft.com/barcode-reader/introduction/how-to-guide/set-custom-area-for-accompanying-texts.html">AccompanyingTextBytes</a> and compare it with the barcode result to guarantee that there is no room for mistakes.</p>
+        </div>
+      </div>
+    </td>
+    <td width="33.3%" style="vertical-align: top">
+      <div class="card-item">
+        <div class="imgBox"><img /></div>
+        <div class="card-content">
+          <h3>Remove Glares on Reflective Cans</h3>
+          <p>Grocery stores have a wide variety of products and often face issues like light glare from reflective surfaces such as from soda pop cans, condensation build up from frozen foods, and curved barcodes on canned goods.</p>
+        </div>
+      </div>
+    </td>
+    <td width="33.3%" style="vertical-align: top">
+      <div class="card-item">
+        <div class="imgBox"><img /></div>
+        <div class="card-content">
+          <h3>Verify via Accompanying Text</h3>
+          <p>To ensure 100% accuracy, and eliminate manual verification, automatically verify barcode result with the accompanying text that usually appears below the product barcode.</p>
+          <p>Get the <a class="orangeLink" href="https://www.dynamsoft.com/barcode-reader/introduction/how-to-guide/set-custom-area-for-accompanying-texts.html">AccompanyingTextBytes</a> and compare it with the barcode result to guarantee that there is no room for mistakes.</p>
+        </div>
+      </div>
+    </td>
+  </tr>
+</table>
+
 ## Featured Content
 
 <table class="card-table">
@@ -40,7 +76,7 @@ The barcode has long been used in retail and the possibilities for its use conti
   </tr>
 </table>
 
-## Barcode Symbologies
+## Most Commonly Seen Barcode Symbologies in Retail
 <div class="carousel-wrapper">
   <ul>
     <li style="vertical-align: top">
