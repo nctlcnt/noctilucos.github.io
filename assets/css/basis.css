@@ -1024,8 +1024,7 @@ i.dbr-white-logo { display: inline-block; width: 221px; height: 30px; background
 
 @media (max-width: 1680px){
     .content-wrapper .content-card {
-        width: 363px;
-        margin-right: 8px;
+        width: 350px;
         height: 510px;
     }
     .content-wrapper .content-card .imgBox {
