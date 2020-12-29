@@ -1,18 +1,18 @@
 $(document).ready(function(){
     init()
-    var carouselWidth = document.querySelector('.carousel-wrapper li').getClientRects()[0].width+40
 
     $(window).resize(function() {
         init()
         realFunc()
-        carouselWidth = document.querySelector('.carousel-wrapper li').getClientRects()[0].width+40
+        var carouselWidth = document.querySelector('.carousel-wrapper').getClientRects()[0].width
     })
 
     // carousel
+    var carouselWidth = document.querySelector('.carousel-wrapper').getClientRects()[0].width
     var carouselControl = 0
 
     $('.prev-icon').on('click', function(e){
-        carouselControl -= carouselWidth*2 + 10
+        carouselControl -= carouselWidth - 10
         if(carouselControl <= 0) {
             carouselControl = 0
             $('.carousel-wrapper ul').css('transform', 'translateX(-'+ carouselControl +'px)')
@@ -24,9 +24,9 @@ $(document).ready(function(){
     })
 
     $('.next-icon').on('click', function(e){
-        carouselControl += carouselWidth*2 + 10
-        if(carouselControl >= 9 * carouselWidth - 40) {
-            carouselControl = 9 * carouselWidth - 10
+        carouselControl += carouselWidth - 10
+        if(carouselControl >= 2 * carouselWidth - 40) {
+            carouselControl = 2 * carouselWidth - 30
             $('.carousel-wrapper ul').css('transform', 'translateX(-'+ carouselControl +'px)')
             $('.next-icon').addClass('disabled')
         } else {
