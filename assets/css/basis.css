@@ -1023,8 +1023,24 @@ i.dbr-white-logo { display: inline-block; width: 221px; height: 30px; background
 }
 
 @media (max-width: 1680px){
-    .carousel-wrapper ul li {
-        width: 325px;
+    .content-wrapper .content-card {
+        width: 363px;
+        margin-right: 8px;
+        height: 510px;
+    }
+    .content-wrapper .content-card .imgBox {
+        height: 192px;
+    }
+    .content-wrapper .content-card .card-text {
+        padding: 20px 15px;
+    }
+
+    /* two columns */
+    .content-wrapper.two-column .content-card {
+        width: 525px;
+    }
+    .content-wrapper.two-column .content-card .imgBox {
+        height: 320px;
     }
 }
 
@@ -1052,6 +1068,7 @@ i.dbr-white-logo { display: inline-block; width: 221px; height: 30px; background
     margin-top: 5px;
     color: #AAAAAA;
     font-family: 'Oswald';
+    font-size: 16px;
 }
 .carousel-wrapper .card-item {
     border: none;
@@ -1064,6 +1081,9 @@ i.dbr-white-logo { display: inline-block; width: 221px; height: 30px; background
 }
 .button-wrapper {
     text-align: center;
+}
+.button-wrapper i{
+    cursor: pointer;
 }
 .button-wrapper i.prev-icon {
     margin-right: 20px;
