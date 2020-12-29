@@ -14,7 +14,7 @@ $(document).ready(function(){
     getCarouselConfig()
 
     $('.prev-icon').on('click', function(e){
-        carouselControl -= carouselWidth - 20
+        carouselControl -= carouselWidth
         if(carouselControl <= 0) {
             carouselControl = 0
             $('.carousel-wrapper ul').css('transform', 'translateX(-'+ carouselControl +'px)')
@@ -26,7 +26,7 @@ $(document).ready(function(){
     })
 
     $('.next-icon').on('click', function(e){
-        carouselControl += carouselWidth - 20
+        carouselControl += carouselWidth
         if(carouselControl >= maxLength) {
             carouselControl = $('.carousel-wrapper ul').width() - carouselWidth
             $('.carousel-wrapper ul').css('transform', 'translateX(-'+ carouselControl +'px)')
