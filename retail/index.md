@@ -46,18 +46,19 @@ The barcode has long been used in retail and the possibilities for its use conti
 
 ## Featured Content
 
-<div class="card-table">
-  <div class="card-item">
+<div class="content-wrapper two-column">
+  <div class="content-card">
     <div class="imgBox"><img src="http://img.youtube.com/vi/fraXfsNqr24/0.jpg"></div>
     <div class="card-content">
-      <p><a href="http://www.youtube.com/watch?v=fraXfsNqr24">Video: How the barcode wrinkles are corrected</a></p>
+      <p>Video: How the barcode wrinkles are corrected</p>
+      <p><a href="http://www.youtube.com/watch?v=fraXfsNqr24">Learn More</a></p>
     </div>
   </div>
-
-  <div class="card-item">
+  <div class="content-card">
     <div class="imgBox"><img src="https://www.dynamsoft.com/assets/images/img-banner/caseStudyImage/oceania-leading-retailer-case-study-banner.png"></div>
     <div class="card-content">
-      <p><a href="https://www.dynamsoft.com/Company/oceania-leading-retailer-case-study.aspx">Case study: Multi-Billion Dollar Retailer Switched to Dynamsoft Barcode Reader SDK to Realize Consumer-Grade Barcode App Performance</a></p>
+      <p>Case study: Multi-Billion Dollar Retailer Switched to Dynamsoft Barcode Reader SDK to Realize Consumer-Grade Barcode App Performance</p>
+      <p><a href="https://www.dynamsoft.com/Company/oceania-leading-retailer-case-study.aspx">Learn More</a></p>
     </div>
   </div>
 </div>
