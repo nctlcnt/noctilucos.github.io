@@ -1000,6 +1000,7 @@ i.dbr-white-logo { display: inline-block; width: 221px; height: 30px; background
 
 .content-wrapper.two-column .content-card .imgBox {
     height: 400px;
+    overflow: hidden;
 }
 
 /* card carousel */
@@ -1014,6 +1015,7 @@ i.dbr-white-logo { display: inline-block; width: 221px; height: 30px; background
     list-style: none;
     display: inline-block;
     background-color: white !important;
+    margin-right: 20px;
 }
 
 .carousel-wrapper.content-wrapper .content-card .card-text {

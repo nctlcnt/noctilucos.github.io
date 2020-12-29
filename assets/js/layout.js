@@ -50,7 +50,7 @@ $(document).ready(function(){
         $('.prev-icon').addClass('disabled')
         $('.next-icon').removeClass('disabled')
 
-        step = $('.carousel-wrapper li').width() + 44
+        step = $('.carousel-wrapper li').width() + 40
         if($(window).width() < 1200) {
             max = 7
         }
