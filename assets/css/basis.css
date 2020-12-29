@@ -119,67 +119,7 @@ ul.circle > li p:hover, ul.circle li.on p, ul.square > li.on p, ul.square > li p
 #crumbs ul > li + li:before { color: #CCCCCC; content: "> "; padding: 0 5px; }
 
 
-/* card carousel */
-.carousel-wrapper ul {     
-    list-style: none;
-    padding-left: 0;
-    font-size: 0;
-    width: 4644px;
-    transition: all ease-in-out 0.5s;
-}
-.carousel-wrapper ul li {
-    list-style: none;
-    display: inline-block;
-    margin: 0 20px;
-    width: 476px;
-    height: 520px;
-    border: 2px solid #AAAAAA;
-    background-color: white;
-}
 
-@media (max-width: 1680px){
-    .carousel-wrapper ul li {
-        width: 325px;
-    }
-}
-
-@media (max-width: 1200px){
-    .carousel-wrapper ul li {
-        width: 295px;
-    }
-}
-
-.carousel-wrapper {
-    width: 100%;
-    margin: auto;
-    overflow: hidden;
-    padding: 10px;
-    background-color: #F5F5F5;
-    padding-top: 40px;
-}
-
-.carousel-wrapper .card-content h3 {
-    display: inline-block;
-    width: 65%;
-}
-.carousel-wrapper .card-content span {
-    float: right;
-    margin-top: 5px;
-    color: #AAAAAA;
-    font-family: 'Oswald';
-}
-.carousel-wrapper .card-item {
-    border: none;
-}
-.carousel-wrapper img {
-    left: unset !important;
-    top: unset !important;
-    transform: none !important;
-    height: 100%;
-}
-.button-wrapper {
-    text-align: center;
-}
 
 
 
@@ -1009,4 +949,95 @@ i.dbr-white-logo { display: inline-block; width: 221px; height: 30px; background
 @media (max-width: 767px) {
     .h1Title { width: 100%; }
     .titleDescription { width: 100%; }
+}
+
+
+/* retail page */
+.content-wrapper {
+    vertical-align: top;
+}
+.content-wrapper .content-card {
+    width: 500px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 20px;
+    background: #f5f5f5;
+    height: 550px;
+}
+
+.content-wrapper .content-card:last-child {
+    margin-right: 0px;
+}
+
+.content-wrapper .content-card .card-text {
+    padding: 10px 31px;
+}
+.content-wrapper .content-card .card-text h3 {
+    padding-top: unset;
+    margin-top: unset;
+}
+.content-wrapper .content-card .card-text p {
+    font-size: 16px;
+}
+
+/* card carousel */
+.carousel-wrapper ul {     
+    list-style: none;
+    padding-left: 0;
+    font-size: 0;
+    width: 4644px;
+    transition: all ease-in-out 0.5s;
+}
+.carousel-wrapper ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    width: 476px;
+    height: 520px;
+    /* border: 2px solid #AAAAAA; */
+    background-color: white;
+}
+
+@media (max-width: 1680px){
+    .carousel-wrapper ul li {
+        width: 325px;
+    }
+}
+
+@media (max-width: 1200px){
+    .carousel-wrapper ul li {
+        width: 295px;
+    }
+}
+
+.carousel-wrapper {
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+    padding: 10px;
+    background-color: #F5F5F5;
+    padding-top: 40px;
+}
+
+.carousel-wrapper .card-content h3 {
+    display: inline-block;
+    width: 65%;
+}
+.carousel-wrapper .card-content span {
+    float: right;
+    margin-top: 5px;
+    color: #AAAAAA;
+    font-family: 'Oswald';
+}
+.carousel-wrapper .card-item {
+    border: none;
+}
+.carousel-wrapper img {
+    left: unset !important;
+    top: unset !important;
+    transform: none !important;
+    height: 100%;
+}
+.button-wrapper {
+    text-align: center;
 }
