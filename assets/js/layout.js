@@ -15,25 +15,31 @@ $(document).ready(function(){
 
     $('.prev-icon').on('click', function(e){
         currentPage--
-        if(currentPage <= 0) {
-            $('.prev-icon').addClass('disabled')
+        if(currentPage < 0) {
+            currentPage = 0
             return
         }
         carouselControl -= step
         $('.next-icon').removeClass('disabled')
         $('.carousel-wrapper ul').css('transform', 'translateX(-'+ carouselControl +'px)')
+        if(currentPage <= 0) {
+            $('.prev-icon').addClass('disabled')
+        }
     })
 
     $('.next-icon').on('click', function(e){
         currentPage++
         if(currentPage > 6) {
-            $('.next-icon').addClass('disabled')
+            currentPage = 6
             return
         }
 
         carouselControl += step
         $('.carousel-wrapper ul').css('transform', 'translateX(-'+ carouselControl +'px)')
         $('.prev-icon').removeClass('disabled')
+        if(currentPage >= 6) {
+            $('.next-icon').addClass('disabled')
+        }
     })
 
     function getCarouselConfig(){
