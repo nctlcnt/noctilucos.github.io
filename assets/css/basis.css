@@ -1010,14 +1010,14 @@ i.dbr-white-logo { display: inline-block; width: 221px; height: 30px; background
     width: 4644px;
     transition: all ease-in-out 0.5s;
 }
-.carousel-wrapper ul li {
+.carousel-wrapper ul li.content-card  {
     list-style: none;
     display: inline-block;
-    margin: 0 20px;
-    width: 476px;
-    height: 520px;
-    /* border: 2px solid #AAAAAA; */
-    background-color: white;
+    background-color: white !important;
+}
+
+.carousel-wrapper.content-wrapper .content-card .card-text {
+    padding: 10px 31px;
 }
 
 @media (max-width: 1680px){
