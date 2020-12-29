@@ -26,7 +26,7 @@ $(document).ready(function(){
 
     $('.next-icon').on('click', function(e){
         currentPage++
-        if(currentPage >= 6) {
+        if(currentPage > 6) {
             $('.next-icon').addClass('disabled')
             return
         }
