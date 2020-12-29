@@ -1,11 +1,11 @@
 $(document).ready(function(){
     init()
-    var carouselWidth = document.querySelector('.carousel-wrapper li').getClientRects()[0].width+20
+    var carouselWidth = document.querySelector('.carousel-wrapper li').getClientRects()[0].width+40
 
     $(window).resize(function() {
         init()
         realFunc()
-        carouselWidth = document.querySelector('.carousel-wrapper li').getClientRects()[0].width+20
+        carouselWidth = document.querySelector('.carousel-wrapper li').getClientRects()[0].width+40
     })
 
     // carousel
