@@ -11,6 +11,7 @@ $(document).ready(function(){
     var carouselWidth = 0
     var carouselControl = 0
     var maxLength = 0
+    getCarouselConfig()
 
     $('.prev-icon').on('click', function(e){
         carouselControl -= carouselWidth - 10
