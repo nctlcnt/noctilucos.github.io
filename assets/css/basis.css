@@ -131,7 +131,7 @@ ul.circle > li p:hover, ul.circle li.on p, ul.square > li.on p, ul.square > li p
     list-style: none;
     display: inline-block;
     margin: 0 20px;
-    width: 380px;
+    width: 378px;
     height: 550px;
     border: 2px solid #AAAAAA;
     background-color: white;
@@ -139,7 +139,7 @@ ul.circle > li p:hover, ul.circle li.on p, ul.square > li.on p, ul.square > li p
 
 @media (max-width: 1699px){
     .carousel-wrapper ul li {
-        width: 317px;
+        width: 315px;
     }
 }
 

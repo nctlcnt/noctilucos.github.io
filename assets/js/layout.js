@@ -40,7 +40,7 @@ $(document).ready(function(){
     function getCarouselConfig(){
         carouselWidth = $('.carousel-wrapper').width()
         carouselControl = 0
-        maxLength = $('.carousel-wrapper ul').width() - 2 * ($('.carousel-wrapper li').width() + 40)
+        maxLength = $('.carousel-wrapper ul').width() - carouselWidth * 2
     }
 
     window.addEventListener('scroll', realFunc);
