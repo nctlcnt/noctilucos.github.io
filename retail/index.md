@@ -20,18 +20,11 @@ The barcode has long been used in retail and the possibilities for its use conti
 ## How Dynamsoft Barcode Reader is Optimized for Retail Product Scanning
 <div class="content-wrapper">
   <div class="content-card">
-    <div class="imgBox"><img src="assets/verify-via-accompanying-text.png"/></div>
-    <div class="card-text">
-      <h2>Verify via Accompanying Text</h2>
-      <p>To ensure 100% accuracy, and eliminate manual verification, automatically verify barcode result with the accompanying text that usually appears below the product barcode.</p>
-      <p><a class="orangeLink fontOswald" href="https://www.dynamsoft.com/barcode-reader/introduction/how-to-guide/set-custom-area-for-accompanying-texts.html">Get the Accompanying Text Bytes ></a></p>
-    </div>
-  </div>
-  <div class="content-card">
     <div class="imgBox"><img src="assets/resist-wrinkles-and-deformation.png"/></div>
     <div class="card-text">
       <h2>Resist Wrinkles and Deformation on Packagings</h2>
       <p>Read product barcode on soft packagings and deformed round bottles accurately and quickly for accurate information lookup and faster self-checkout.</p>
+      <p><a class="orangeLink fontOswald" href="https://www.dynamsoft.com/barcode-reader/introduction/how-to-guide/set-custom-area-for-accompanying-texts.html">Deformation Resistance ></a></p>
     </div>
   </div>
   <div class="content-card">
@@ -39,6 +32,14 @@ The barcode has long been used in retail and the possibilities for its use conti
     <div class="card-text">
       <h2>Remove Glares on Reflective Cans</h2>
       <p>Grocery stores have a wide variety of products and often face issues like light glare from reflective surfaces such as from soda pop cans, condensation build up from frozen foods, and curved barcodes on canned goods.</p>
+    </div>
+  </div>
+  <div class="content-card">
+    <div class="imgBox"><img src="assets/verify-via-accompanying-text.png"/></div>
+    <div class="card-text">
+      <h2>Verify via Accompanying Text</h2>
+      <p>To ensure 100% accuracy, and eliminate manual verification, automatically verify barcode result with the accompanying text that usually appears below the product barcode.</p>
+      <p><a class="orangeLink fontOswald" href="https://www.dynamsoft.com/barcode-reader/introduction/how-to-guide/set-custom-area-for-accompanying-texts.html">Get the Accompanying Text Bytes ></a></p>
     </div>
   </div>
 </div>
@@ -50,14 +51,14 @@ The barcode has long been used in retail and the possibilities for its use conti
     <div class="imgBox"><img src="http://img.youtube.com/vi/fraXfsNqr24/0.jpg"></div>
     <div class="card-text">
       <h3>Video: How the barcode wrinkles are corrected</h3>
-      <p><a class="orangeLink fontOswald" href="http://www.youtube.com/watch?v=fraXfsNqr24">Learn More</a></p>
+      <p><a class="orangeLink fontOswald" href="http://www.youtube.com/watch?v=fraXfsNqr24">Read More</a></p>
     </div>
   </div>
   <div class="content-card">
     <div class="imgBox"><img src="https://www.dynamsoft.com/assets/images/img-banner/caseStudyImage/oceania-leading-retailer-case-study-banner.png"></div>
     <div class="card-text">
       <h3>Case study: Multi-Billion Dollar Retailer Switched to Dynamsoft Barcode Reader SDK to Realize Consumer-Grade Barcode App Performance</h3>
-      <p><a class="orangeLink fontOswald" href="https://www.dynamsoft.com/Company/oceania-leading-retailer-case-study.aspx">Learn More</a></p>
+      <p><a class="orangeLink fontOswald" href="https://www.dynamsoft.com/Company/oceania-leading-retailer-case-study.aspx">Read More</a></p>
     </div>
   </div>
 </div>
