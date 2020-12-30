@@ -964,7 +964,7 @@ i.dbr-white-logo { display: inline-block; width: 221px; height: 30px; background
     font-family: Oswald;
     font-size: 24px;
     text-align: center;
-    padding: 7px 70px;
+    line-height: 50px;
 }
 ul.grey-wrapper {
     padding: 0px;
@@ -1120,6 +1120,12 @@ ul.grey-wrapper {
     }
     .content-wrapper.two-column .content-card .imgBox {
         height: 280px;
+    }
+    .imgBox span {
+        width: 200px;
+        height: 40px;
+        font-size: 20px;
+        line-height: 40px;
     }
 }
 
