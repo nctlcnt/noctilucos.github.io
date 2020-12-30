@@ -1087,7 +1087,7 @@ ul.grey-wrapper {
         width: 350px;
         height: 550px;
     }
-    .content-wrapper .content-card.scanning {
+    .content-wrapper.scanning .content-card {
         height: 506px;
     }
     .content-wrapper .content-card .imgBox {
