@@ -40,7 +40,7 @@ noTitleIndex: true
     <div class="card-text">
       <h2>Resist Wrinkles and Deformation on Packagings</h2>
       <p>Read product barcode on soft packagings and deformed round bottles accurately and quickly for accurate information lookup and faster self-checkout.</p>
-      <p><a class="orangeLink fontOswald mediumLink" href="https://www.dynamsoft.com/barcode-reader/introduction/how-to-guide/set-custom-area-for-accompanying-texts.html">Deformation Resistance ></a></p>
+      <p><a class="orangeLink fontOswald mediumLink textUpperCase" href="https://www.dynamsoft.com/barcode-reader/introduction/how-to-guide/set-custom-area-for-accompanying-texts.html">Deformation Resistance ></a></p>
     </div>
   </div>
   <div class="content-card">
@@ -55,7 +55,7 @@ noTitleIndex: true
     <div class="card-text">
       <h2>Verify via Accompanying Text</h2>
       <p>To ensure 100% accuracy, and eliminate manual verification, automatically verify barcode result with the accompanying text that usually appears below the product barcode.</p>
-      <p><a class="orangeLink fontOswald mediumLink" href="https://www.dynamsoft.com/barcode-reader/introduction/how-to-guide/set-custom-area-for-accompanying-texts.html">Get the Accompanying Text Bytes ></a></p>
+      <p><a class="orangeLink fontOswald mediumLink textUpperCase" href="https://www.dynamsoft.com/barcode-reader/introduction/how-to-guide/set-custom-area-for-accompanying-texts.html">Get the Accompanying Text Bytes ></a></p>
     </div>
   </div>
 </div>
@@ -67,14 +67,14 @@ noTitleIndex: true
     <div class="imgBox"><img src="assets/video.png"></div>
     <div class="card-text">
       <h3>Video: How the barcode wrinkles are corrected</h3>
-      <p><a class="orangeLink fontOswald mediumLink" href="http://www.youtube.com/watch?v=fraXfsNqr24">Read More</a></p>
+      <p><a class="orangeLink fontOswald mediumLink textUpperCase" href="http://www.youtube.com/watch?v=fraXfsNqr24">Read more ></a></p>
     </div>
   </div>
   <div class="content-card">
     <div class="imgBox"><img src="assets/use-case.png"></div>
     <div class="card-text">
       <h3>Case study: Multi-Billion Dollar Retailer Switched to Dynamsoft Barcode Reader SDK to Realize Consumer-Grade Barcode App Performance</h3>
-      <p><a class="orangeLink fontOswald mediumLink" href="https://www.dynamsoft.com/Company/oceania-leading-retailer-case-study.aspx">Read More</a></p>
+      <p><a class="orangeLink fontOswald mediumLink textUpperCase" href="https://www.dynamsoft.com/Company/oceania-leading-retailer-case-study.aspx">Read more ></a></p>
     </div>
   </div>
 </div>
