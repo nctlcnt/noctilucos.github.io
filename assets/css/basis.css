@@ -1125,9 +1125,15 @@ ul.grey-wrapper {
     .content-wrapper.scanning .content-card {
         height: 496px;
     }
+    .content-wrapper .content-card .imgBox {
+        height: 160px;
+    }
     .content-wrapper.two-column .content-card {
         width: 450px;
         height: 410px;
+    }
+    .content-wrapper.two-column .content-card:first-child {
+        margin-right: 30px;
     }
     .content-wrapper .content-card {
         width: 300px;
