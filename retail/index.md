@@ -11,13 +11,16 @@ noTitleIndex: true
 
 ## Benefits of Robust Product Label Scanning
 
-The barcode has long been used in retail and the possibilities for its use continue to evolve and grow. It offers many benefits including:
+The barcode has long been used in retail and the possibilities for its use continue to evolve and grow. 
 
-- Provide better retail customer experience with fast product lookup and convenient self-checkout.
-- Instantly pull up product information, availability and stock location to help drive more sales.
-- Reduce costs and cashier wait time by allowing customer self-checkout.
+<ul class="grey-wrapper">
+  <li class="grey-box">Provide better retail customer experience with fast product lookup and convenient self-checkout.</li>
+  <li class="grey-box">Instantly pull up product information, availability and stock location to help drive more sales.</li>
+  <li class="grey-box">Reduce costs and cashier wait time by allowing customer self-checkout.</li>
+</ul>
 
 ## How Dynamsoft Barcode Reader is Optimized for Retail Product Scanning
+
 <div class="content-wrapper">
   <div class="content-card">
     <div class="imgBox"><img src="assets/resist-wrinkles-and-deformation.png"/></div>
@@ -64,6 +67,7 @@ The barcode has long been used in retail and the possibilities for its use conti
 </div>
 
 ## Most Commonly Seen Barcode Symbologies in Retail
+
 <div class="carousel-wrapper content-wrapper">
   <ul>
     <li style="vertical-align: top" class="content-card">

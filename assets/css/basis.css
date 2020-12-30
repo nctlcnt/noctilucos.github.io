@@ -953,6 +953,12 @@ i.dbr-white-logo { display: inline-block; width: 221px; height: 30px; background
 
 
 /* retail page */
+
+.grey-wrapper .grey-box {
+    display: inline-block;
+    background-color: #F5F5F5;
+}
+
 .content-wrapper {
     vertical-align: top;
 }
