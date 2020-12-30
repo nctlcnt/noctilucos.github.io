@@ -1024,6 +1024,10 @@ ul.grey-wrapper {
     padding-top: unset;
     margin-top: unset;
 }
+.content-wrapper .content-card .card-text h2 {
+    padding-top: unset;
+    margin-top: unset;
+}
 .content-wrapper .content-card .card-text p {
     font-size: 16px;
 }
@@ -1067,9 +1071,14 @@ ul.grey-wrapper {
 }
 
 @media (max-width: 1680px){
+    .grey-wrapper .grey-box {
+        width: 350px;
+        font-size: 21px;
+        padding: 30px;
+    }
     .content-wrapper .content-card {
         width: 350px;
-        height: 510px;
+        height: 550px;
     }
     .content-wrapper .content-card .imgBox {
         height: 192px;
@@ -1081,9 +1090,10 @@ ul.grey-wrapper {
     /* two columns */
     .content-wrapper.two-column .content-card {
         width: 525px;
+        height: 450px;
     }
     .content-wrapper.two-column .content-card .imgBox {
-        height: 320px;
+        height: 280px;
     }
 }
 
