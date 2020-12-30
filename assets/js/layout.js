@@ -51,6 +51,9 @@ $(document).ready(function(){
         $('.next-icon').removeClass('disabled')
 
         step = $('.carousel-wrapper li').width() + 20
+        if($(window).width() >= 1200) {
+            max = 6
+        }
         if($(window).width() < 1200) {
             max = 7
         }
