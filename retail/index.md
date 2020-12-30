@@ -9,9 +9,7 @@ noTitleIndex: true
 
 # Dynamsoft Barcode Reader in Retail
 
-## Benefits of Robust Product Label Scanning
-
-The barcode has long been used in retail and the possibilities for its use continue to evolve and grow.
+<p style="text-align: center;">The barcode has long been used in retail and the possibilities for its use continue to evolve and grow.</p>
 
 <ul class="grey-wrapper">
   <li class="grey-box">

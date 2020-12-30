@@ -1112,7 +1112,8 @@ ul.grey-wrapper {
 
 @media (max-width: 1200px){
     .grey-wrapper .grey-box {
-        width: 290px;
+        width: 300px;
+        margin-right: 13px;
     }
     .content-wrapper .content-card {
         width: 290px;
@@ -1120,6 +1121,17 @@ ul.grey-wrapper {
     }
     .content-wrapper.scanning .content-card {
         height: 526px;
+    }
+    .content-wrapper.two-column .content-card {
+        width: 450px;
+        height: 410px;
+    }
+    .content-wrapper .content-card {
+        width: 300px;
+        margin-right: 13px;
+    }
+    .content-wrapper.two-column .content-card .imgBox {
+        height: 240px;
     }
 
     .carousel-wrapper.content-wrapper .content-card {
