@@ -36,7 +36,7 @@ The barcode has long been used in retail and the possibilities for its use conti
 
 ## How Dynamsoft Barcode Reader is Optimized for Retail Product Scanning
 
-<div class="content-wrapper">
+<div class="content-wrapper scanning">
   <div class="content-card">
     <div class="imgBox"><img src="assets/resist-wrinkles-and-deformation.png"/></div>
     <div class="card-text">

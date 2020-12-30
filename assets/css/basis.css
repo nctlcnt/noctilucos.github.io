@@ -1075,10 +1075,20 @@ ul.grey-wrapper {
         width: 350px;
         font-size: 21px;
         padding: 30px;
+        height: 220px;
+    }
+    .grey-wrapper .grey-box i {
+        top: -70px;
+    }
+    .grey-wrapper .grey-box p {
+        margin-top: -63px;
     }
     .content-wrapper .content-card {
         width: 350px;
         height: 550px;
+    }
+    .content-wrapper .content-card.scanning {
+        height: 506px;
     }
     .content-wrapper .content-card .imgBox {
         height: 192px;
