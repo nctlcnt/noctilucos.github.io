@@ -1119,8 +1119,11 @@ ul.grey-wrapper {
         width: 290px;
         height: 550px;
     }
+    .content-wrapper .content-card .imgBox {
+        height: 160px;
+    }
     .content-wrapper.scanning .content-card {
-        height: 526px;
+        height: 496px;
     }
     .content-wrapper.two-column .content-card {
         width: 450px;

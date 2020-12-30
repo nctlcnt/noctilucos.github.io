@@ -7,7 +7,7 @@ needAutoGenerateSidebar: false
 noTitleIndex: true
 ---
 
-# Dynamsoft Barcode Reader in Retail
+<h1 style="text-align: center;">Dynamsoft Barcode Reader in Retail</h1> 
 
 <p style="text-align: center;">The barcode has long been used in retail and the possibilities for its use continue to evolve and grow.</p>
 
