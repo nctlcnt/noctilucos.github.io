@@ -64,14 +64,14 @@ noTitleIndex: true
 
 <div class="content-wrapper two-column">
   <div class="content-card">
-    <div class="imgBox"><img src="assets/video.png"></div>
+    <div class="imgBox"><span class="textUpperCase">Video</span><img src="assets/video.png"></div>
     <div class="card-text">
       <h3>Video: How the barcode wrinkles are corrected</h3>
       <p><a class="orangeLink fontOswald mediumLink textUpperCase" href="http://www.youtube.com/watch?v=fraXfsNqr24">Read more ></a></p>
     </div>
   </div>
   <div class="content-card">
-    <div class="imgBox"><img src="assets/use-case.png"></div>
+    <div class="imgBox"><span class="textUpperCase">Case study</span><img src="assets/use-case.png"></div>
     <div class="card-text">
       <h3>Case study: Multi-Billion Dollar Retailer Switched to Dynamsoft Barcode Reader SDK to Realize Consumer-Grade Barcode App Performance</h3>
       <p><a class="orangeLink fontOswald mediumLink textUpperCase" href="https://www.dynamsoft.com/Company/oceania-leading-retailer-case-study.aspx">Read more ></a></p>
