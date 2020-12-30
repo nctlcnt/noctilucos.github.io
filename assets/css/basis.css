@@ -1096,6 +1096,9 @@ ul.grey-wrapper {
     .content-wrapper .content-card .card-text {
         padding: 20px 15px;
     }
+    .content-wrapper .content-card .card-text h2 {
+        font-size: 26px;
+    }
 
     /* two columns */
     .content-wrapper.two-column .content-card {
