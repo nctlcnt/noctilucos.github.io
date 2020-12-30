@@ -1111,8 +1111,19 @@ ul.grey-wrapper {
 }
 
 @media (max-width: 1200px){
-    .carousel-wrapper ul li {
-        width: 295px;
+    .grey-wrapper .grey-box {
+        width: 290px;
+    }
+    .content-wrapper .content-card {
+        width: 290px;
+        height: 550px;
+    }
+    .content-wrapper.scanning .content-card {
+        height: 526px;
+    }
+
+    .carousel-wrapper.content-wrapper .content-card {
+        width: 350px;
     }
 }
 
