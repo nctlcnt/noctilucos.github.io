@@ -953,7 +953,7 @@ i.dbr-white-logo { display: inline-block; width: 221px; height: 30px; background
 
 
 /* retail page */
-.grey-wrapper {
+ul.grey-wrapper {
     padding: 0px;
     margin-top: 100px;
     margin-bottom: 80px;
@@ -973,12 +973,18 @@ i.dbr-white-logo { display: inline-block; width: 221px; height: 30px; background
 }
 .grey-wrapper .grey-box i {
     display: inline-block;
-    background-color: white;
+    background-color: #fff;
     height: 80px;
     width: 80px;
     position: relative;
     top: -40px;
-    border: 1px solid black;
+    border: 2px solid #323234;
+}
+
+.grey-wrapper .grey-box i img {
+    position: absolute;
+    top: 14px;
+    left: 13px;
 }
 .grey-wrapper .grey-box p {
     margin: 0px;
