@@ -15,19 +15,19 @@ The barcode has long been used in retail and the possibilities for its use conti
 
 <ul class="grey-wrapper">
   <li class="grey-box">
-  <i></i>
+  <i><img src="../assets/img-icon/Shopping-E-commerce - Carts - shopping-cart-man.png"/></i>
     <p>
       Provide better retail customer experience with fast product lookup and convenient self-checkout.
     </p>
   </li>
   <li class="grey-box">
-  <i></i>
+  <i><img src="../assets/img-icon/Money-Payments-Finance - Currencies - currency-dollar-increase.png"/></i>
     <p>
       Instantly pull up product information, availability and stock location to help drive more sales.
     </p>
   </li>
   <li class="grey-box" style="margin-right: 0px;">
-  <i></i>
+  <i><img src="../assets/img-icon/Shopping-E-commerce - E-commerce - e-commerce-touch-buy.png"/></i>
     <p>
       Reduce costs and cashier wait time by allowing customer self-checkout.
     </p>
