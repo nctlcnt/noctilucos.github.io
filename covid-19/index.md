@@ -56,7 +56,7 @@ noTitleIndex: true
   <tr>
     <td width="33.3%" style="vertical-align: top">
       <div class="card-item">
-        <div class="imgBox"><img /></div>
+        <div class="imgBox"><img src="./assets/1.jpg"/></div>
         <div class="card-content">
           <h3>How Barcodes Can Help in the Fight Against Covid-19</h3>
           <p>From enabling contactless work environments to generating color-based ‘health codes’ to curb the Covid-19 spread, barcodes can revolutionize many processes amid the ongoing pandemic. </p>
@@ -66,7 +66,7 @@ noTitleIndex: true
     </td>
     <td width="33.3%" style="vertical-align: top">
       <div class="card-item">
-        <div class="imgBox"><img /></div>
+        <div class="imgBox"><img src="./assets/2.jpg"/></div>
         <div class="card-content">
           <h3>Adapting Building Security to Get Back to Work During COVID-19</h3>
           <p>As people get back to work, a major concern is ensuring only healthy workers are returning. What can businesses do to help ensure this?</p>
@@ -76,7 +76,7 @@ noTitleIndex: true
     </td>
     <td width="33.3%" style="vertical-align: top">
       <div class="card-item">
-        <div class="imgBox"><img /></div>
+        <div class="imgBox"><img src="./assets/3.jpg"/></div>
         <div class="card-content">
           <h3>The Role of Barcode Technology in Retail</h3>
           <p>Over the past few years, click and collect was becoming popular in North America. But COVID-19 significantly accelerated it as a strategy for retailers to consider.</p>
