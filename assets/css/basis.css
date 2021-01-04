@@ -1147,6 +1147,10 @@ ul.grey-wrapper {
     .content-wrapper .content-card .imgBox {
         height: 160px;
     }
+    .card-item .imgBox img {
+        width: unset !important;
+        height: 100%;
+    }
     .content-wrapper.two-column .content-card {
         width: 450px;
         height: 410px;
