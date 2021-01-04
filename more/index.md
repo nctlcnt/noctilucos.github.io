@@ -7,8 +7,8 @@ needAutoGenerateSidebar: false
 noTitleIndex: true
 ---
 
-# Achieving Goals Faster with Dynamsoft’s SDKs
 
+<h1 style="text-align:center;">Achieving Goals Faster with Dynamsoft’s SDKs</h2>
 <div class="usecaseItemList">
   <a class="anchor" id="VinScan"></a>
   <div class="usecaseItem">
