@@ -1150,6 +1150,7 @@ ul.grey-wrapper {
     .card-item .imgBox img {
         width: unset !important;
         height: 100%;
+        max-width: unset;
     }
     .content-wrapper.two-column .content-card {
         width: 450px;

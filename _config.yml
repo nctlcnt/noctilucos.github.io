@@ -2,31 +2,31 @@
 # replace the <branch name> with the branch name used for publishing site, usually master branch.
 
 # repositoryUrl: <full url of the public repository>/blob/<branch name>
-repositoryUrl: https://noctilucos.github.io/
-repository: Noctilucos/noctilucos.github.io/
+repositoryUrl: https://github.com/Dynamsoft/use-cases-docs/blob/master
+repository: Dynamsoft/use-cases-docs
 
 # Full url of the publicshed site without last '/'.
 # For example: the full url of dbr doc sit is https://www.dynamsoft.com/barcode-reader/
 # then set docFullPath with https://www.dynamsoft.com/barcode-reader
 
 # docFullPath: <full url of the published site> (eg - https://www.dynamsoft.com/barcode-reader)
-docFullPath: https://noctilucos.github.io/
+docFullPath: https://www.dynamsoft.com/use-cases
 
 # Relative path to first-level domain name without last '/'.
 # For example: the full url of dbr doc sit is https://www.dynamsoft.com/barcode-reader/
 # then set firstLevelUrl with /barcode-reader
 
 # firstLevelUrl: #<relative path to first-level domain> (eg - /barcode-reader)
-firstLevelUrl: /
+firstLevelUrl: /use-cases
 
 # docHomePage: #<relative path of homepage to first-level domain>
 # if index.md in the repo is the homepage, set the value same as firstLevelUrl.
-docHomePage: /
+docHomePage: /use-cases
 
 # Notice the root of the path is the first-level domain, so the relative path shall be started 
 # with the first-level path rather than the root path of the repository.
 
-COVID-19: /covid-19/
+COVID-19: /use-cases/covid-19/
 
 # Example variable:
 
@@ -37,25 +37,25 @@ COVID-19: /covid-19/
 # public resources.
 
 # assets: <firstLevelUrl>/assets/
-assets: /assets/
+assets: /use-cases/assets/
 # edit_icon: <firstLevelUrl>/assets/img-icon/edit-icon.png
-edit_icon: /assets/img-icon/edit-icon.png
+edit_icon: /use-cases/assets/img-icon/edit-icon.png
 # smile_icon: <firstLevelUrl>/assets/img-icon/icon-smile.png
-smile_icon: /assets/img-icon/icon-smile.png
+smile_icon: /use-cases/assets/img-icon/icon-smile.png
 # sad_icon: <firstLevelUrl>/assets/img-icon/icon-sad.png
-sad_icon: /assets/img-icon/icon-sad.png
+sad_icon: /use-cases/assets/img-icon/icon-sad.png
 # dbr_icon: <firstLevelUrl>/assets/img-icon/icon-dbr.svg
-dbr_icon: /assets/img-icon/icon-dbr.svg
+dbr_icon: /use-cases/assets/img-icon/icon-dbr.svg
 # dwt_icon: <firstLevelUrl>/assets/img-icon/icon-dwt.svg
-dwt_icon: /assets/img-icon/icon-dwt.svg
+dwt_icon: /use-cases/assets/img-icon/icon-dwt.svg
 # dnt_icon: <firstLevelUrl>/assets/img-icon/icon-dnt.svg
-dnt_icon: /assets/img-icon/icon-dnt.svg
+dnt_icon: /use-cases/assets/img-icon/icon-dnt.svg
 
 
 # Replace the <firstLevelUrl> with the value of firstLevelUrl defined above.
 
 # baseurl: "<firstLevelUrl>"
-baseurl: "/"
+baseurl: "/use-cases/"
 
 plugins:
   - jemoji

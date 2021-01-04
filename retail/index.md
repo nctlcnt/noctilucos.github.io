@@ -9,25 +9,25 @@ noTitleIndex: true
 
 <h1 style="text-align: center;">Dynamsoft Barcode Reader in Retail</h1> 
 
-<p style="text-align: center;">The barcode has long been used in retail and the possibilities for its use continue to evolve and grow.</p>
+<p style="text-align: center;">Barcodes have long been used in retail, and the possibilities for their use continue to evolve and grow. They offer many benefits including:</p>
 
 <ul class="grey-wrapper">
   <li class="grey-box">
   <i><img src="../assets/img-icon/Shopping-E-commerce - Carts - shopping-cart-man.png"/></i>
     <p>
-      Provide better retail customer experience with fast product lookup and convenient self-checkout.
+      Providing better retail customer experiences with fast product lookup
     </p>
   </li>
   <li class="grey-box">
   <i><img src="../assets/img-icon/Money-Payments-Finance - Currencies - currency-dollar-increase.png"/></i>
     <p>
-      Instantly pull up product information, availability and stock location to help drive more sales.
+      Instantly pulling up product information, availability, and stock location to help drive more sales
     </p>
   </li>
   <li class="grey-box" style="margin-right: 0px;">
   <i><img src="../assets/img-icon/Shopping-E-commerce - E-commerce - e-commerce-touch-buy.png"/></i>
     <p>
-      Reduce costs and cashier wait time by allowing customer self-checkout.
+      Reducing costs and cashier wait time by allowing convenient customer self-checkout
     </p>
   </li>
 </ul>
@@ -39,22 +39,22 @@ noTitleIndex: true
     <div class="imgBox"><img src="assets/resist-wrinkles-and-deformation.png"/></div>
     <div class="card-text">
       <h2>Resist Wrinkles and Deformation on Packagings</h2>
-      <p>Read product barcode on soft packagings and deformed round bottles accurately and quickly for accurate information lookup and faster self-checkout.</p>
-      <p><a class="orangeLink fontOswald mediumLink textUpperCase" href="https://www.dynamsoft.com/barcode-reader/introduction/how-to-guide/set-custom-area-for-accompanying-texts.html">Deformation Resistance ></a></p>
+      <p>Dynamsoft Barcode Reader can read product barcodes on soft or odd-shaped packaging where the codes can be deformed or distorted. It does it accurately for precise information lookup and faster self-checkout.</p>
+      <p><a class="orangeLink fontOswald mediumLink textUpperCase" href="https://www.dynamsoft.com/barcode-reader/parameters/scenario-settings/resist-deformation.html">Deformation Resistance ></a></p>
     </div>
   </div>
   <div class="content-card">
     <div class="imgBox"><img src="assets/remove-glares-on-reflective-cans.png" /></div>
     <div class="card-text">
-      <h2>Remove Glares on Reflective Cans</h2>
-      <p>Grocery stores have a wide variety of products and often face issues like light glare from reflective surfaces such as from soda pop cans, condensation build up from frozen foods, and curved barcodes on canned goods.</p>
+      <h2>Remove Glare on Reflective Cans</h2>
+      <p>Grocery stores often face issues like light glare from reflective surfaces, such as from soda pop cans, condensation build-up from frozen foods, and curved barcodes on canned goods. Dynamsoft Barcode Reader is able to detect and filter out glare.</p>
     </div>
   </div>
   <div class="content-card">
     <div class="imgBox"><img src="assets/verify-via-accompanying-text.png"/></div>
     <div class="card-text">
-      <h2>Verify via Accompanying Text</h2>
-      <p>To ensure 100% accuracy, and eliminate manual verification, automatically verify barcode result with the accompanying text that usually appears below the product barcode.</p>
+      <h2>Verify Results via Accompanying Text</h2>
+      <p>To ensure 100% accuracy and eliminate manual verification, automatically verify barcode results with the accompanying text that usually appears below the product barcode.</p>
       <p><a class="orangeLink fontOswald mediumLink textUpperCase" href="https://www.dynamsoft.com/barcode-reader/introduction/how-to-guide/set-custom-area-for-accompanying-texts.html">Get the Accompanying Text Bytes ></a></p>
     </div>
   </div>
@@ -66,14 +66,14 @@ noTitleIndex: true
   <div class="content-card">
     <div class="imgBox"><span class="textUpperCase">Video</span><img src="assets/video.png"></div>
     <div class="card-text">
-      <h3>Video: How the barcode wrinkles are corrected</h3>
+      <h3>How the barcode wrinkles are corrected</h3>
       <p><a class="orangeLink fontOswald mediumLink textUpperCase" href="http://www.youtube.com/watch?v=fraXfsNqr24">Read more ></a></p>
     </div>
   </div>
   <div class="content-card">
     <div class="imgBox"><span class="textUpperCase">Case study</span><img src="assets/use-case.png"></div>
     <div class="card-text">
-      <h3>Case study: Multi-Billion Dollar Retailer Switched to Dynamsoft Barcode Reader SDK to Realize Consumer-Grade Barcode App Performance</h3>
+      <h3>Multi-Billion Dollar Retailer Switched to Dynamsoft Barcode Reader SDK to Realize Consumer-Grade Barcode App Performance</h3>
       <p><a class="orangeLink fontOswald mediumLink textUpperCase" href="https://www.dynamsoft.com/Company/oceania-leading-retailer-case-study.aspx">Read more ></a></p>
     </div>
   </div>
@@ -89,7 +89,7 @@ noTitleIndex: true
         <div class="card-text">
           <h3>UPC-A</h3>
           <span>1D Barcode</span>
-          <p>The 1D barcode, <a class="orangeLink" href="https://www.dynamsoft.com/Barcode-Types/UPC-A.aspx">UPC-A</a>, is widely used in retail for point-of-sale (POS) scanning. <b>You can spot a UPC-A code on many things, from consumer goods packaging to books, newspapers, and magazines.</b> Common in countries like the United States, the UK, Australia, and New Zealand, the UPC-A code encodes 12 digits of barcode data with 11 digits of product information. </p>
+          <p>The 1D barcode, <a class="orangeLink" href="https://www.dynamsoft.com/Barcode-Types/UPC-A.aspx">UPC-A</a>, is widely used in retail for point-of-sale (POS) scanning. You can spot a UPC-A code on many things, from consumer goods packaging to books, newspapers, and magazines. Common in countries like the United States, the UK, Australia, and New Zealand, the UPC-A code encodes 12 digits of barcode data with 11 digits of product information. </p>
         </div>
       </div>
     </li>
@@ -99,7 +99,7 @@ noTitleIndex: true
         <div class="card-text">
           <h3>UPC-E</h3>
           <span>1D Barcode</span>
-          <p>The <a class="orangeLink" href="https://www.dynamsoft.com/Barcode-Types/UPC-E.aspx">UPC-E</a> code is a variation of the UPC-A code. It is more compact because it compresses out the unnecessary zeros, making it only half the size of a UPC-A barcode. UPC-E codes can also be uncompressed back to UPC-A barcodes. <b>Because of its compact size, the UPC-E barcode is used on smaller items where the UPC-A code won’t fit, such as lip balm sticks.</b> These barcodes are extensively used in countries like the United States and Canada. </p>
+          <p>The <a class="orangeLink" href="https://www.dynamsoft.com/Barcode-Types/UPC-E.aspx">UPC-E</a> code is a variation of the UPC-A code. It is more compact because it compresses out the unnecessary zeros, making it only half the size of a UPC-A barcode. UPC-E codes can also be uncompressed back to UPC-A barcodes. Because of its compact size, the UPC-E barcode is used on smaller items where the UPC-A code won’t fit, such as lip balm sticks. These barcodes are extensively used in countries like the United States and Canada. </p>
         </div>
       </div>
     </li>
@@ -109,7 +109,7 @@ noTitleIndex: true
         <div class="card-text">
           <h3>EAN-8</h3>
           <span>1D Barcode</span>
-          <p><a class="orangeLink" href="https://www.dynamsoft.com/Barcode-Types/EAN-8.aspx">EAN-8</a> barcodes are derived from EAN-13 codes (defined below). <b>They are used on items and in places where limited space is available, such as pencils, small candies, chewing gum packets, cigarettes, etc.</b> The information enclosed in an EAN-8 barcode includes a 2-3-digit country code, a checksum digit, and 4-5 data digits. Some brands use EAN-8 barcodes to identify products exclusively sold in their stores.</p>
+          <p><a class="orangeLink" href="https://www.dynamsoft.com/Barcode-Types/EAN-8.aspx">EAN-8</a> barcodes are derived from EAN-13 codes (defined below). They are used on items and in places where limited space is available, such as pencils, small candies, chewing gum packets, cigarettes, etc. The information enclosed in an EAN-8 barcode includes a 2-3-digit country code, a checksum digit, and 4-5 data digits. Some brands use EAN-8 barcodes to identify products exclusively sold in their stores.</p>
         </div>
       </div>
     </li>    
