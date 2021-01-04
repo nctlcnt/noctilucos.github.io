@@ -111,7 +111,24 @@ noTitleIndex: true
         alt="Track and find different parts in a warehouse">
     </div>
   </div>
-  <a class="anchor" id="Voucher"></a>
+  <a class="anchor" id="Automatic"></a>
+  <div class="usecaseItem">
+    <div class="useCaseImg">
+      <img src="https://www.dynamsoft.com/webres/wwwroot/images/banner/DLR/dlr-usecase9.png"
+        alt="Automatic data extraction with OCR">
+    </div>
+    <div class="useCaseDetail">
+      <h2 id="ups-maxicode">UPS MaxiCode</h2>
+      <p>A 2-dimensional barcode, <a href="https://www.dynamsoft.com/Barcode-Types/MaxiCode.aspx">MaxiCode</a>, was
+        developed by United Parcel Service in 1992 and is used for sorting and addressing US domestic packages, as well
+        as international. MaxiCode consists of concentric circles or Bullseye, a hexagonal grid, and a fixed number of
+        lines and modules.</p>
+      <p>Although MaxiCode has a distinct design, there may be decoding challenges. The concentric circles may get
+        damaged, the orientation patterns could become distorted, or the sparse dots may confuse a barcode reader. But
+        with Dynamsoft Barcode Reader SDK, users can easily scan these codes.</p>
+    </div>
+  </div>
+    <a class="anchor" id="Voucher"></a>
   <div class="usecaseItem">
     <div class="useCaseImg first">
       <img src="https://www.dynamsoft.com/webres/wwwroot/images/banner/DLR/dlr-usecase8.png"
@@ -130,23 +147,6 @@ noTitleIndex: true
     <div class="useCaseImg second">
       <img src="https://www.dynamsoft.com/webres/wwwroot/images/banner/DLR/dlr-usecase8.png"
         alt="Scan voucher codes using mobile devices">
-    </div>
-  </div>
-  <a class="anchor" id="Automatic"></a>
-  <div class="usecaseItem">
-    <div class="useCaseImg">
-      <img src="https://www.dynamsoft.com/webres/wwwroot/images/banner/DLR/dlr-usecase9.png"
-        alt="Automatic data extraction with OCR">
-    </div>
-    <div class="useCaseDetail">
-      <h2 id="ups-maxicode">UPS MaxiCode</h2>
-      <p>A 2-dimensional barcode, <a href="https://www.dynamsoft.com/Barcode-Types/MaxiCode.aspx">MaxiCode</a>, was
-        developed by United Parcel Service in 1992 and is used for sorting and addressing US domestic packages, as well
-        as international. MaxiCode consists of concentric circles or Bullseye, a hexagonal grid, and a fixed number of
-        lines and modules.</p>
-      <p>Although MaxiCode has a distinct design, there may be decoding challenges. The concentric circles may get
-        damaged, the orientation patterns could become distorted, or the sparse dots may confuse a barcode reader. But
-        with Dynamsoft Barcode Reader SDK, users can easily scan these codes.</p>
     </div>
   </div>
 </div>
