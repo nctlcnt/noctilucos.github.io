@@ -8,7 +8,7 @@ noTitleIndex: true
 ---
 
 
-<h1 style="text-align:center;">Achieving Goals Faster with Dynamsoft’s SDKs</h2>
+<h1 style="text-align:center;margin-bottom:60px;">Achieving Goals Faster with Dynamsoft’s SDKs</h1>
 <div class="usecaseItemList">
   <a class="anchor" id="VinScan"></a>
   <div class="usecaseItem">
