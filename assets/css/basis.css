@@ -1213,7 +1213,7 @@ ul.grey-wrapper {
 
 @media (max-width: 767px) { .show-mobile { display: block; }
      .pageMenuList { display: none; }
-     .usecaseItemList { padding-left: 0px; }
+     /* .usecaseItemList { padding-left: 0px; } */
     .basicTitleCon .desc { font-size: 14px; }
      .usecaseItemList .usecaseItem { background: #F5F5F5; margin-bottom: 96px; }
      .usecaseItemList .usecaseItem:last-child { margin-bottom: 0; }
@@ -1230,7 +1230,7 @@ ul.grey-wrapper {
 
 @media (min-width: 768px) {
  .pageMenuList { display: none; }
- .usecaseItemList { padding-left: 0px; }
+ /* .usecaseItemList { padding-left: 0px; } */
  .usecaseItemList .usecaseItem { background: #F5F5F5; display: table; margin-bottom: 96px; }
  .usecaseItemList .usecaseItem:last-child { margin-bottom: 0; }
  .usecaseItemList .usecaseItem .useCaseImg { display: table-cell; overflow: hidden; width: 325px; vertical-align: middle; }
@@ -1252,7 +1252,7 @@ ul.grey-wrapper {
  .pageMenuList li a, .pageMenuList li a:visited, .pageMenuList li a:active { color: #323234; }
  .pageMenuList li.on a { color: #fe8e14!important; }
  .pageMenuList li a:hover { color: #fe8e14; }
- .usecaseItemList { padding-left: 210px; }
+ /* .usecaseItemList { padding-left: 210px; } */
  .usecaseItemList .usecaseItem { background: #F5F5F5; display: table; margin-bottom: 96px; }
  .usecaseItemList .usecaseItem:last-child { margin-bottom: 0; }
  .usecaseItemList .usecaseItem .useCaseImg { display: table-cell; overflow: hidden; width: 325px; vertical-align: middle; }
@@ -1272,10 +1272,10 @@ ul.grey-wrapper {
  .pageMenuList li:last-child { margin-bottom: 0; }
  .pageMenuList li a, .pageMenuList li a:visited, .pageMenuList li a:active { color: #323234; }
  .pageMenuList li a:hover { color: #fe8e14; }
- .usecaseItemList { padding-left: 300px; }
+ /* .usecaseItemList { padding-left: 300px; } */
  .usecaseItemList .usecaseItem { background: #F5F5F5; display: table; margin-bottom: 96px; }
  .usecaseItemList .usecaseItem:last-child { margin-bottom: 0; }
- .usecaseItemList .usecaseItem .useCaseImg { display: table-cell; overflow: hidden; width: 355px; vertical-align: middle; }
+ .usecaseItemList .usecaseItem .useCaseImg { display: table-cell; overflow: hidden; width: 475px; vertical-align: middle; }
  .usecaseItemList .usecaseItem .useCaseImg img { width: 120%; }
  .usecaseItemList .useCaseDetail { display: table-cell; display: table-cell; padding: 0px 35px 0; vertical-align: middle; }
  .usecaseItemList .useCaseDetail .useCaseTitle { margin-bottom: 15px; }
@@ -1287,8 +1287,10 @@ ul.grey-wrapper {
 @media(min-width:1680px) {
  .pageMenuList { width: 275px; font-size: 18px; line-height: 26px; }
  .pageMenuList li { margin-bottom: 10px; }
- .usecaseItemList { padding-left: 370px; }
- .usecaseItemList .usecaseItem { margin-bottom: 120px; }
+ /* .usecaseItemList { padding-left: 370px; } */
+ .usecaseItemList .usecaseItem { margin: auto;
+    margin-bottom: 120px;
+    width: 80%; }
  .usecaseItemList .usecaseItem .useCaseImg { width: 560px; }
  .usecaseItemList .usecaseItem .useCaseImg img { width: 100%; }
  .usecaseItemList .useCaseDetail { padding: 0px 70px 0; }
