@@ -930,8 +930,8 @@ i.dbr-white-logo { display: inline-block; width: 221px; height: 30px; background
 
 @media (max-width: 1679px) {
     .h1Title { font-size: 36px!important; }
-    .tabDetail .descCnt p { font-size: 14px; }
-    .card-item { font-size: 14px; }
+    .tabDetail .descCnt p { font-size: 16px; }
+    .card-item { font-size: 16px; }
 }
 
 @media (max-width: 1199px) {
