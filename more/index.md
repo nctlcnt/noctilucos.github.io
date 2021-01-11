@@ -23,7 +23,7 @@ noTitleIndex: true
   </ul>
   <div class="usecaseItem">
     <div class="useCaseImg">
-      <img src="https://www.dynamsoft.com/webres/wwwroot/images/banner/DLR/dlr-usecase1.png"
+      <img src="./assets/Multiple-Codes.jpg"
         alt="Identify vehicles by VIN code reader">
     </div>
     <div class="useCaseDetail">
@@ -33,7 +33,7 @@ noTitleIndex: true
   </div>
   <div class="usecaseItem">
     <div class="useCaseImg">
-      <img src="https://www.dynamsoft.com/webres/wwwroot/images/banner/DLR/dlr-usecase2.png"
+      <img src="./assets/VIN.jpg"
         alt="OCR ensures accurate price label recognition">
     </div>
     <div class="useCaseDetail">
@@ -43,7 +43,7 @@ noTitleIndex: true
   </div>
   <div class="usecaseItem">
     <div class="useCaseImg">
-      <img src="https://www.dynamsoft.com/webres/wwwroot/images/banner/DLR/dlr-usecase3.png"
+      <img src="./assets/dpm.jpg"
         alt="Capture content with inventory label recognition">
     </div>
     <div class="useCaseDetail">
@@ -59,7 +59,7 @@ noTitleIndex: true
   </div>
   <div class="usecaseItem">
     <div class="useCaseImg">
-      <img src="https://www.dynamsoft.com/webres/wwwroot/images/banner/DLR/dlr-usecase4.png"
+      <img src="./assets/Document-Management.jpg"
         alt="Increase efficiency of passengers' check-in workflow">
     </div>
     <div class="useCaseDetail">
@@ -75,7 +75,7 @@ noTitleIndex: true
   </div>
   <div class="usecaseItem">
     <div class="useCaseImg">
-      <img src="https://www.dynamsoft.com/webres/wwwroot/images/banner/DLR/dlr-usecase7.png"
+      <img src="./assets/Parcel-Tracking.jpg"
         alt="OCR makes it easier to read parcel labels">
     </div>
     <div class="useCaseDetail">
@@ -90,7 +90,7 @@ noTitleIndex: true
   </div>
   <div class="usecaseItem">
     <div class="useCaseImg">
-      <img src="https://www.dynamsoft.com/webres/wwwroot/images/banner/DLR/dlr-usecase6.png"
+      <img src="./assets/Inventory-Count.jpg"
         alt="Track and find different parts in a warehouse">
     </div>
     <div class="useCaseDetail">
@@ -106,7 +106,7 @@ noTitleIndex: true
   </div>
   <div class="usecaseItem">
     <div class="useCaseImg">
-      <img src="https://www.dynamsoft.com/webres/wwwroot/images/banner/DLR/dlr-usecase9.png"
+      <img src="./assets/maxi-code.jpg"
         alt="Automatic data extraction with OCR">
     </div>
     <div class="useCaseDetail">
@@ -122,7 +122,7 @@ noTitleIndex: true
   </div>
   <div class="usecaseItem">
     <div class="useCaseImg">
-      <img src="https://www.dynamsoft.com/webres/wwwroot/images/banner/DLR/dlr-usecase8.png"
+      <img src="./assets/Aadhaar-Card.jpg"
         alt="Scan voucher codes using mobile devices">
     </div>
     <div class="useCaseDetail">
