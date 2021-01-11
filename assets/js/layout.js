@@ -123,7 +123,7 @@ $(document).ready(function(){
         }
         var scrollTop = document.documentElement.scrollTop || window.pageYOffset || document.body.scrollTop;
         if (document.documentElement.clientWidth >= 1680) {
-            if (scrollTop >= 300 && scrollTop <= 5899) {
+            if (scrollTop >= 100 && scrollTop <= 5899) {
                 $('.pageMenuList').css("position", 'fixed');
                 $('.pageMenuList').css("top", '100px');
             } else {
