@@ -147,6 +147,17 @@ $(document).ready(function(){
                 $('.pageMenuList').css("top", '0');
             }
         }
+
+        $($('.pageMenuList li')[getIndex(window.scrollY)]).addClass('on')
+    }
+
+    function getIndex(scrollTop){
+        var list = $('.usecaseItem')
+        for(var i = 0; i < list.length; i++){
+            if(list[i].offsetTop > scrollTop){
+                return i
+            }
+        }
     }
 
     $('.sideBarIcon').click(function() {
