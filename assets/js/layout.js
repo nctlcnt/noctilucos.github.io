@@ -122,9 +122,8 @@ $(document).ready(function(){
             $('.sideBar').css({'padding-top': '20px'})
         }
         var scrollTop = document.documentElement.scrollTop || window.pageYOffset || document.body.scrollTop;
-        console.log(scrollTop)
         if (document.documentElement.clientWidth >= 1680) {
-            if (scrollTop >= 400 && scrollTop <= 5899) {
+            if (scrollTop >= 500 && scrollTop <= 5899) {
                 $('.pageMenuList').css("position", 'fixed');
                 $('.pageMenuList').css("top", '130px');
             } else {
