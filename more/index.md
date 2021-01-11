@@ -9,7 +9,7 @@ noTitleIndex: true
 
 
 <h1 style="text-align:center;margin-bottom:60px;">Achieving Goals Faster with Dynamsoft’s SDKs</h1>
-<ul>
+<ul class="pageMenuList">
   <li><a href="#multiple-codes">Multiple Codes</a></li>
   <li><a href="#vin-codes">VIN codes</a></li>
   <li><a href="#dpm-code-scanning">DPM Code Scanning</a></li>
