@@ -10,17 +10,17 @@ noTitleIndex: true
 
 <h1 style="text-align:center;margin-bottom:60px;">Achieving Goals Faster with Dynamsoft’s SDKs</h1>
 
-<div class="usecaseItemList">
-<ul class="pageMenuList">
-  <li><a href="#multiple-codes">Multiple Codes</a></li>
-  <li><a href="#vin-codes">VIN codes</a></li>
-  <li><a href="#dpm-code-scanning">DPM Code Scanning</a></li>
-  <li><a href="#document-management">Document Management</a></li>
-  <li><a href="#parcel-tracking">Parcel Tracking</a></li>
-  <li><a href="#inventory-count">Inventory Count</a></li>
-  <li><a href="#ups-maxicode">UPS MaxiCode</a></li>
-  <li><a href="#aadhaar-card">Aadhaar Card</a></li>
-</ul>
+<div class="usecaseItemList" style="position:relative;">
+  <ul class="pageMenuList">
+    <li><a href="#multiple-codes">Multiple Codes</a></li>
+    <li><a href="#vin-codes">VIN codes</a></li>
+    <li><a href="#dpm-code-scanning">DPM Code Scanning</a></li>
+    <li><a href="#document-management">Document Management</a></li>
+    <li><a href="#parcel-tracking">Parcel Tracking</a></li>
+    <li><a href="#inventory-count">Inventory Count</a></li>
+    <li><a href="#ups-maxicode">UPS MaxiCode</a></li>
+    <li><a href="#aadhaar-card">Aadhaar Card</a></li>
+  </ul>
   <div class="usecaseItem">
     <div class="useCaseImg">
       <img src="https://www.dynamsoft.com/webres/wwwroot/images/banner/DLR/dlr-usecase1.png"
