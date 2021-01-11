@@ -3788,8 +3788,8 @@
         right: 0px;
     }
     .usecaseItemList .usecaseItem:nth-child(even) .useCaseDetail{
-        padding-right: 610px;
-        height: 460px;
+        padding-right: 510px;
+        height: 500px;
     }
     ul.pageMenuList, ul.pageMenuList li {
         list-style: none;
@@ -3942,21 +3942,22 @@
       background: #f5f5f5;
       display: table;
       margin-bottom: 96px;
-    }
+      height: 300px;
+  }
     .usecaseItemList .usecaseItem:last-child {
       margin-bottom: 0;
     }
 
     .usecaseItemList .usecaseItem .useCaseImg {
-        display: table-cell;
-        overflow: hidden;
-        width: 475px;
-        vertical-align: middle;
-        height: 500px;
+      display: table-cell;
+      overflow: hidden;
+      width: 335px;
+      vertical-align: middle;
+      height: 310px;
     }
     .usecaseItemList .usecaseItem .useCaseImg img {
-        max-width: unset;
-        height: 100%;
+      max-width: unset;
+      height: 100%;
     }
     .usecaseItemList .useCaseDetail {
       display: table-cell;
@@ -3983,6 +3984,10 @@
     }
     .usecaseItemList .useCaseDetail .useCaseInfo:last-child {
       margin-bottom: 0;
+    }
+    .usecaseItemList .usecaseItem:nth-child(even) .useCaseDetail {
+      padding-right: 350px;
+      height: 310px;
     }
   }
   
