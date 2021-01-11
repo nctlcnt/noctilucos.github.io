@@ -31,17 +31,13 @@ noTitleIndex: true
     </div>
   </div>
   <div class="usecaseItem">
-    <div class="useCaseImg first">
+    <div class="useCaseImg">
       <img src="https://www.dynamsoft.com/webres/wwwroot/images/banner/DLR/dlr-usecase2.png"
         alt="OCR ensures accurate price label recognition">
     </div>
     <div class="useCaseDetail">
       <h2 id="vin-codes">VIN codes</h2>
       <p>Vehicle Identification Numbers (VIN) codes are used in the automotive industry to identify individual motor vehicles. You can spot a VIN at the base of the windshield, on the driver’s side door, and on the registration certificate. It can either be a 17-digit alphanumeric code or a subset of Code 39 barcodes. Reading VINs on a vehicle door sticker or through a windshield isn’t easy and the problem is aggravated if the windshield has stains or glare. Dynamsoft’s SDKs can rapidly scan and decode VIN codes at different distances and angles.</p>
-    </div>
-    <div class="useCaseImg second">
-      <img src="https://www.dynamsoft.com/webres/wwwroot/images/banner/DLR/dlr-usecase2.png"
-        alt="OCR ensures accurate price label recognition">
     </div>
   </div>
   <div class="usecaseItem">
@@ -61,7 +57,7 @@ noTitleIndex: true
     </div>
   </div>
   <div class="usecaseItem">
-    <div class="useCaseImg first">
+    <div class="useCaseImg">
       <img src="https://www.dynamsoft.com/webres/wwwroot/images/banner/DLR/dlr-usecase4.png"
         alt="Increase efficiency of passengers' check-in workflow">
     </div>
@@ -74,10 +70,6 @@ noTitleIndex: true
         href="https://www.dynamsoft.com/Company/case-study-Avision.aspx">Read the case study &gt;</a></p>
       <p>Dynamsoft Barcode Reader SDK helped the German Red Cross Society to automate a barcode-to-PDF procedure. <a
           href="https://www.dynamsoft.com/Company/case-study-Avision.aspx">Read the case study &gt;</a></p>
-    </div>
-    <div class="useCaseImg second">
-      <img src="https://www.dynamsoft.com/webres/wwwroot/images/banner/DLR/dlr-usecase4.png"
-        alt="Increase efficiency of passengers' check-in workflow">
     </div>
   </div>
   <div class="usecaseItem">
@@ -96,7 +88,7 @@ noTitleIndex: true
     </div>
   </div>
   <div class="usecaseItem">
-    <div class="useCaseImg first">
+    <div class="useCaseImg">
       <img src="https://www.dynamsoft.com/webres/wwwroot/images/banner/DLR/dlr-usecase6.png"
         alt="Track and find different parts in a warehouse">
     </div>
@@ -109,10 +101,6 @@ noTitleIndex: true
           href="https://officecn.dynamsoft.com:808/Products/barcode-inventory-system.aspx">Dynamsoft Panorama™</a>, an
         enhanced module of the Dynamsoft Barcode Reader SDK, promises to fix the last 1% of scanning error rates that
         can collectively cost businesses billions annually.</p>
-    </div>
-    <div class="useCaseImg second">
-      <img src="https://www.dynamsoft.com/webres/wwwroot/images/banner/DLR/dlr-usecase6.png"
-        alt="Track and find different parts in a warehouse">
     </div>
   </div>
   <div class="usecaseItem">
@@ -132,7 +120,7 @@ noTitleIndex: true
     </div>
   </div>
   <div class="usecaseItem">
-    <div class="useCaseImg first">
+    <div class="useCaseImg">
       <img src="https://www.dynamsoft.com/webres/wwwroot/images/banner/DLR/dlr-usecase8.png"
         alt="Scan voucher codes using mobile devices">
     </div>
@@ -145,10 +133,6 @@ noTitleIndex: true
         Users can scan multiple pages, identifying which page is an Aadhaar card and saving the page as a PDF. The
         barcode SDK can decode the QR code and extract the information of the cardholder. No extra scanning device is
         required because any mobile device can be used.</p>
-    </div>
-    <div class="useCaseImg second">
-      <img src="https://www.dynamsoft.com/webres/wwwroot/images/banner/DLR/dlr-usecase8.png"
-        alt="Scan voucher codes using mobile devices">
     </div>
   </div>
 </div>
