@@ -132,7 +132,7 @@ $(document).ready(function(){
                 $('.pageMenuList').css("top", '0');
             }
         }else if (document.documentElement.clientWidth >= 1200){
-            if (scrollTop >= 360 && scrollTop <= 4584) {
+            if (scrollTop >= 260 && scrollTop <= 4584) {
                 $('.pageMenuList').css("position", 'fixed');
                 $('.pageMenuList').css("top", '100px');
             } else {
@@ -140,7 +140,7 @@ $(document).ready(function(){
                 $('.pageMenuList').css("top", '0');
             }
         }else {
-            if (scrollTop >= 360 && scrollTop <= 4300) {
+            if (scrollTop >= 260 && scrollTop <= 4300) {
                 $('.pageMenuList').css("position", 'fixed');
                 $('.pageMenuList').css("top", '100px');
             } else {
