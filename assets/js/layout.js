@@ -123,6 +123,7 @@ $(document).ready(function(){
         }
         var scrollTop = document.documentElement.scrollTop || window.pageYOffset || document.body.scrollTop;
         if (document.documentElement.clientWidth >= 1680) {
+            console.log(scrollTop)
             if (scrollTop >= 100 && scrollTop <= 5899) {
                 $('.pageMenuList').css("position", 'fixed');
                 $('.pageMenuList').css("top", '100px');
