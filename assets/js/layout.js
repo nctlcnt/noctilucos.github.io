@@ -132,7 +132,7 @@ $(document).ready(function(){
                 $('.pageMenuList').css("top", '0');
             }
         }else if (document.documentElement.clientWidth >= 1200){
-            if (scrollTop >= 260 && scrollTop <= 4584) {
+            if (scrollTop >= 180 && scrollTop <= 4584) {
                 $('.pageMenuList').css("position", 'fixed');
                 $('.pageMenuList').css("top", '100px');
             } else {
