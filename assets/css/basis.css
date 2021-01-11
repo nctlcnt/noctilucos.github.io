@@ -3718,7 +3718,12 @@
   .button-wrapper i.prev-icon {
     margin-right: 20px;
   }
-  
+
+  /* other */
+  .usecaseItemList .usecaseItem {
+    width: 80%;
+    float: right;
+  }
   @media (max-width: 767px) {
     .show-mobile {
       display: block;
@@ -3777,6 +3782,15 @@
   }
   
   @media (min-width: 768px) {
+    
+    .usecaseItemList .usecaseItem:nth-child(even) .useCaseImg{
+        position: absolute;
+        right: 0px;
+    }
+    .usecaseItemList .usecaseItem:nth-child(even) .useCaseDetail{
+        padding-right: 610px;
+        height: 460px;
+    }
     ul.pageMenuList, ul.pageMenuList li {
         list-style: none;
         padding-left: 0px;
@@ -3932,20 +3946,27 @@
     .usecaseItemList .usecaseItem:last-child {
       margin-bottom: 0;
     }
+
     .usecaseItemList .usecaseItem .useCaseImg {
-      display: table-cell;
-      overflow: hidden;
-      width: 475px;
-      vertical-align: middle;
+        display: table-cell;
+        overflow: hidden;
+        width: 475px;
+        vertical-align: middle;
+        height: 500px;
     }
     .usecaseItemList .usecaseItem .useCaseImg img {
-      width: 120%;
+        max-width: unset;
+        height: 100%;
     }
     .usecaseItemList .useCaseDetail {
       display: table-cell;
       display: table-cell;
       padding: 0px 35px 0;
       vertical-align: middle;
+    }
+    .usecaseItemList .useCaseDetail h2 {
+        margin-top: 10px;
+        margin-bottom: 10px;
     }
     .usecaseItemList .useCaseDetail .useCaseTitle {
       margin-bottom: 15px;
@@ -3979,10 +4000,6 @@
       margin-bottom: 120px;
       width: 80%;
       float: right;
-    }
-    .usecaseItemList .usecaseItem:nth-child(even) .useCaseImg{
-        position: absolute;
-        right: 0px;
     }
     .usecaseItemList .usecaseItem:nth-child(even) .useCaseDetail{
         padding-right: 610px;
