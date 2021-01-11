@@ -3777,6 +3777,10 @@
   }
   
   @media (min-width: 768px) {
+    ul.pageMenuList, ul.pageMenuList li {
+        list-style: none;
+        padding-left: 0px;
+    }
     .pageMenuList {
       display: none;
     }
@@ -3972,12 +3976,21 @@
     }
     /* .usecaseItemList { padding-left: 370px; } */
     .usecaseItemList .usecaseItem {
-      margin: auto;
       margin-bottom: 120px;
       width: 80%;
+      float: right;
+    }
+    .usecaseItemList .usecaseItem:nth-child(even) .useCaseImg{
+        position: absolute;
+        right: 0px;
+    }
+    .usecaseItemList .usecaseItem:nth-child(even) .useCaseDetail{
+        padding-right: 610px;
+        height: 460px;
     }
     .usecaseItemList .usecaseItem .useCaseImg {
       width: 560px;
+      height: 460px;
     }
     .usecaseItemList .usecaseItem .useCaseImg img {
       width: 100%;
