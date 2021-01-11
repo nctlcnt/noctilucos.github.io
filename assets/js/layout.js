@@ -148,6 +148,7 @@ $(document).ready(function(){
             }
         }
 
+        $('.pageMenuList li').removeClass('on')
         $($('.pageMenuList li')[getIndex(window.scrollY)]).addClass('on')
     }
 
