@@ -9,8 +9,17 @@ noTitleIndex: true
 
 
 <h1 style="text-align:center;margin-bottom:60px;">Achieving Goals Faster with Dynamsoft’s SDKs</h1>
+<ul>
+  <li><a href="#multiple-codes">Multiple Codes</a></li>
+  <li><a href="#vin-codes">VIN codes</a></li>
+  <li><a href="#dpm-code-scanning">DPM Code Scanning</a></li>
+  <li><a href="#document-management">Document Management</a></li>
+  <li><a href="#parcel-tracking">Parcel Tracking</a></li>
+  <li><a href="#inventory-count">Inventory Count</a></li>
+  <li><a href="#ups-maxicode">UPS MaxiCode</a></li>
+  <li><a href="#aadhaar-card">Aadhaar Card</a></li>
+</ul>
 <div class="usecaseItemList">
-  <a class="anchor" id="VinScan"></a>
   <div class="usecaseItem">
     <div class="useCaseImg">
       <img src="https://www.dynamsoft.com/webres/wwwroot/images/banner/DLR/dlr-usecase1.png"
@@ -18,10 +27,9 @@ noTitleIndex: true
     </div>
     <div class="useCaseDetail">
       <h2 id="multiple-codes">Multiple Codes</h2>
-      <p>lorem ipsum</p>
+      <p>Reading dozens of barcodes in a single scan increases productivity and saves time. But when capturing an entire barcode zone from a distance, the barcodes would be relatively small, so it could be almost impossible to read all of them at once. The situation is worse when some barcodes are of questionable quality. Dynamsoft Panorama™ addresses the issue by breaking the process into two steps: (1) take a bird’s eye view above all the barcodes; (2) move the camera closer and sweep over the barcodes. The “partial” images will be clearer and give better barcode scanning results. The results will then be mapped to the bird’s eye view image.</p>
     </div>
   </div>
-  <a class="anchor" id="Retail"></a>
   <div class="usecaseItem">
     <div class="useCaseImg first">
       <img src="https://www.dynamsoft.com/webres/wwwroot/images/banner/DLR/dlr-usecase2.png"
@@ -29,14 +37,13 @@ noTitleIndex: true
     </div>
     <div class="useCaseDetail">
       <h2 id="vin-codes">VIN codes</h2>
-      <p>lorem ipsum</p>
+      <p>Vehicle Identification Numbers (VIN) codes are used in the automotive industry to identify individual motor vehicles. You can spot a VIN at the base of the windshield, on the driver’s side door, and on the registration certificate. It can either be a 17-digit alphanumeric code or a subset of Code 39 barcodes. Reading VINs on a vehicle door sticker or through a windshield isn’t easy and the problem is aggravated if the windshield has stains or glare. Dynamsoft’s SDKs can rapidly scan and decode VIN codes at different distances and angles.</p>
     </div>
     <div class="useCaseImg second">
       <img src="https://www.dynamsoft.com/webres/wwwroot/images/banner/DLR/dlr-usecase2.png"
         alt="OCR ensures accurate price label recognition">
     </div>
   </div>
-  <a class="anchor" id="Inventory"></a>
   <div class="usecaseItem">
     <div class="useCaseImg">
       <img src="https://www.dynamsoft.com/webres/wwwroot/images/banner/DLR/dlr-usecase3.png"
@@ -53,7 +60,6 @@ noTitleIndex: true
         proprietary algorithmic capabilities.</p>
     </div>
   </div>
-  <a class="anchor" id="IDCards"></a>
   <div class="usecaseItem">
     <div class="useCaseImg first">
       <img src="https://www.dynamsoft.com/webres/wwwroot/images/banner/DLR/dlr-usecase4.png"
@@ -74,14 +80,13 @@ noTitleIndex: true
         alt="Increase efficiency of passengers' check-in workflow">
     </div>
   </div>
-  <a class="anchor" id="Transport"></a>
   <div class="usecaseItem">
     <div class="useCaseImg">
       <img src="https://www.dynamsoft.com/webres/wwwroot/images/banner/DLR/dlr-usecase7.png"
         alt="OCR makes it easier to read parcel labels">
     </div>
     <div class="useCaseDetail">
-          <h2 id="parcel-tracking">Parcel Tracking</h2>
+      <h2 id="parcel-tracking">Parcel Tracking</h2>
       <p>Parcel tracking involves recording the date and time of the shipment’s arrival, the location it was sent to,
         and the recipient’s name. Barcodes ensure high speed, accuracy, accountability, and efficiency. With Dynamsoft
         Barcode Reader SDK, tasks such as searching, tracking, and sorting parcels becomes much easier and faster.</p>
@@ -90,7 +95,6 @@ noTitleIndex: true
         errors.</p>
     </div>
   </div>
-    <a class="anchor" id="Tracking"></a>
   <div class="usecaseItem">
     <div class="useCaseImg first">
       <img src="https://www.dynamsoft.com/webres/wwwroot/images/banner/DLR/dlr-usecase6.png"
@@ -111,7 +115,6 @@ noTitleIndex: true
         alt="Track and find different parts in a warehouse">
     </div>
   </div>
-  <a class="anchor" id="Automatic"></a>
   <div class="usecaseItem">
     <div class="useCaseImg">
       <img src="https://www.dynamsoft.com/webres/wwwroot/images/banner/DLR/dlr-usecase9.png"
@@ -128,7 +131,6 @@ noTitleIndex: true
         with Dynamsoft Barcode Reader SDK, users can easily scan these codes.</p>
     </div>
   </div>
-    <a class="anchor" id="Voucher"></a>
   <div class="usecaseItem">
     <div class="useCaseImg first">
       <img src="https://www.dynamsoft.com/webres/wwwroot/images/banner/DLR/dlr-usecase8.png"
