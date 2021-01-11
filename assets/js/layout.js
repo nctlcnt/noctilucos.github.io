@@ -121,6 +121,32 @@ $(document).ready(function(){
             $('#docHead').css({'top': 'unset'})
             $('.sideBar').css({'padding-top': '20px'})
         }
+        var scrollTop = document.documentElement.scrollTop || window.pageYOffset || document.body.scrollTop;
+        if (document.documentElement.clientWidth >= 1680) {
+            if (scrollTop >= 400 && scrollTop <= 5899) {
+                $('.pageMenuList').css("position", 'fixed');
+                $('.pageMenuList').css("top", '130px');
+            } else {
+                $('.pageMenuList').css("position", 'absolute');
+                $('.pageMenuList').css("top", '0');
+            }
+        }else if (document.documentElement.clientWidth >= 1200){
+            if (scrollTop >= 360 && scrollTop <= 4584) {
+                $('.pageMenuList').css("position", 'fixed');
+                $('.pageMenuList').css("top", '100px');
+            } else {
+                $('.pageMenuList').css("position", 'absolute');
+                $('.pageMenuList').css("top", '0');
+            }
+        }else {
+            if (scrollTop >= 360 && scrollTop <= 4300) {
+                $('.pageMenuList').css("position", 'fixed');
+                $('.pageMenuList').css("top", '100px');
+            } else {
+                $('.pageMenuList').css("position", 'absolute');
+                $('.pageMenuList').css("top", '0');
+            }
+        }
     }
 
     $('.sideBarIcon').click(function() {
@@ -145,35 +171,4 @@ $(document).ready(function(){
         $('.fullVersionInfo').toggle()
         stopPropagation(e);
     })
-})
-
-
-
-$(window).scroll(function () {
-    var scrollTop = document.documentElement.scrollTop || window.pageYOffset || document.body.scrollTop;
-    if (document.documentElement.clientWidth >= 1680) {
-        if (scrollTop >= 400 && scrollTop <= 5899) {
-            $('.pageMenuList').css("position", 'fixed');
-            $('.pageMenuList').css("top", '130px');
-        } else {
-            $('.pageMenuList').css("position", 'absolute');
-            $('.pageMenuList').css("top", '0');
-        }
-    }else if (document.documentElement.clientWidth >= 1200){
-        if (scrollTop >= 360 && scrollTop <= 4584) {
-            $('.pageMenuList').css("position", 'fixed');
-            $('.pageMenuList').css("top", '100px');
-        } else {
-            $('.pageMenuList').css("position", 'absolute');
-            $('.pageMenuList').css("top", '0');
-        }
-    }else {
-        if (scrollTop >= 360 && scrollTop <= 4300) {
-            $('.pageMenuList').css("position", 'fixed');
-            $('.pageMenuList').css("top", '100px');
-        } else {
-            $('.pageMenuList').css("position", 'absolute');
-            $('.pageMenuList').css("top", '0');
-        }
-    }
 })
