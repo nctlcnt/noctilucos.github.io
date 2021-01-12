@@ -158,7 +158,21 @@ $(document).ready(function(){
         }
         var list = $('.usecaseItem')
         for(var i = 0; i < list.length; i++){
-            if(list[i].offsetTop-300 > scrollTop){
+            if(list[i].offsetTop > scrollTop){
+                return i
+            }
+        }
+    }
+    $('.pageMenuList li').on('click', function(e){
+        var idx = getMenuIndex(e.currentTarget)
+        $($('.pageMenuList li')[idx]).addClass('on')
+        window.scrollTo(0, $('h2')[idx].offsetTop)
+    })
+
+    function getMenuIndex(el){
+        var list = $('.pageMenuList li')
+        for(var i = 0; i < list.length; i++){
+            if(list[i] == el){
                 return i
             }
         }

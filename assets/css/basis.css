@@ -3724,6 +3724,9 @@
     width: 80%;
     float: right;
   }
+  body {
+    scroll-behavior: smooth;
+  }
   @media (max-width: 767px) {
     .show-mobile {
       display: block;
