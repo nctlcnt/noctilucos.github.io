@@ -165,8 +165,9 @@ $(document).ready(function(){
     }
     $('.pageMenuList li').on('click', function(e){
         var idx = getMenuIndex(e.currentTarget)
-        $($('.pageMenuList li')[idx]).addClass('on')
         window.scrollTo(0, $('h2')[idx].offsetTop)
+        $('.pageMenuList li').removeClass('on')
+        $($('.pageMenuList li')[idx]).addClass('on')
     })
 
     function getMenuIndex(el){

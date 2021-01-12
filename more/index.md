@@ -12,14 +12,14 @@ noTitleIndex: true
 
 <div class="usecaseItemList" style="position:relative;">
   <ul class="pageMenuList">
-    <li class="on"><a href="#multiple-codes">Multiple Codes</a></li>
-    <li><a href="#vin-codes">VIN codes</a></li>
-    <li><a href="#dpm-code-scanning">DPM Code Scanning</a></li>
-    <li><a href="#document-management">Document Management</a></li>
-    <li><a href="#parcel-tracking">Parcel Tracking</a></li>
-    <li><a href="#inventory-count">Inventory Count</a></li>
-    <li><a href="#ups-maxicode">UPS MaxiCode</a></li>
-    <li><a href="#aadhaar-card">Aadhaar Card</a></li>
+    <li class="on"><a>Multiple Codes</a></li>
+    <li><a>VIN codes</a></li>
+    <li><a>DPM Code Scanning</a></li>
+    <li><a>Document Management</a></li>
+    <li><a>Parcel Tracking</a></li>
+    <li><a>Inventory Count</a></li>
+    <li><a>UPS MaxiCode</a></li>
+    <li><a>Aadhaar Card</a></li>
   </ul>
   <div class="usecaseItem">
     <div class="useCaseImg">
