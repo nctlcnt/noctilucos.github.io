@@ -163,21 +163,22 @@ $(document).ready(function(){
             }
         }
     }
-    // $('.pageMenuList li').on('click', function(e){
-    //     var idx = getMenuIndex(e.currentTarget)
-    //     window.scrollTo(0, $('h2')[idx].offsetTop)
-    //     $('.pageMenuList li').removeClass('on')
-    //     $($('.pageMenuList li')[idx]).addClass('on')
-    // })
+    $('.pageMenuList li').on('click', function(e){
+        var idx = getMenuIndex(e.currentTarget)
+        setTimeout(function(){
+            $('.pageMenuList li').removeClass('on')
+            $($('.pageMenuList li')[idx]).addClass('on')
+        })
+    })
 
-    // function getMenuIndex(el){
-    //     var list = $('.pageMenuList li')
-    //     for(var i = 0; i < list.length; i++){
-    //         if(list[i] == el){
-    //             return i
-    //         }
-    //     }
-    // }
+    function getMenuIndex(el){
+        var list = $('.pageMenuList li')
+        for(var i = 0; i < list.length; i++){
+            if(list[i] == el){
+                return i
+            }
+        }
+    }
 
     $('.sideBarIcon').click(function() {
         $(".sideBar").toggleClass('hide-sm');
