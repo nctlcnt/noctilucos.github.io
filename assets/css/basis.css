@@ -3724,7 +3724,7 @@
     width: 80%;
     float: right;
   }
-  body {
+  html {
     scroll-behavior: smooth;
   }
   @media (max-width: 767px) {
