@@ -153,9 +153,12 @@ $(document).ready(function(){
     }
 
     function getIndex(scrollTop){
+        if(scrollTop === 0){
+            return 0
+        }
         var list = $('.usecaseItem')
         for(var i = 0; i < list.length; i++){
-            if(list[i].offsetTop + 300 > scrollTop){
+            if(list[i].offsetTop > scrollTop){
                 return i
             }
         }
