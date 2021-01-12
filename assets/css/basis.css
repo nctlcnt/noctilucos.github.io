@@ -11,6 +11,12 @@
     font-style: normal;
   }
   @font-face {
+    font-family: Oswald-Medium;
+    src: local("â˜º"), url("../font-face/Oswald-Medium.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
     font-family: OpenSans-Light;
     src: url("../font-face/OpenSans-Light.eot");
     src: local("â˜º"),
@@ -119,6 +125,9 @@
   }
   .fontOswald {
     font-family: Oswald;
+  }
+  .fontOswaldMedium {
+    font-family: Oswald-Medium;
   }
   a.orangeLink {
     color: #fe8e14 !important;
@@ -4031,6 +4040,8 @@
     .usecaseItemList .usecaseItem .useCaseImg img {
       width: 560px;
       height: 460px;
+    max-width: unset;
+
     }
     .usecaseItemList .useCaseDetail {
       padding: 0px 70px 0;

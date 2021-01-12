@@ -8,7 +8,7 @@ noTitleIndex: true
 is1366Compatible: true
 ---
 
-<p class="fontOswald textUpperCase tc" style="font-weight: bold;font-size: 20px;">Use Cases</p>
+<p class="fontOswaldMedium textUpperCase tc" style="font-weight: bold;font-size: 20px;">Use Cases</p>
 <h1 class="fontOswaldLight" style="text-align:center;margin-bottom:100px;margin-top:0px;">Achieving Goals Faster with Dynamsoft’s SDKs</h1>
 
 <div class="usecaseItemList" style="position:relative;">
@@ -16,7 +16,7 @@ is1366Compatible: true
     <li class="on"><a href="#multiple-codes">Multiple Codes</a></li>
     <li><a href="#vin-codes">VIN codes</a></li>
     <li><a href="#dpm-code-scanning">DPM Code Scanning</a></li>
-    <li><a href="#document-management">Document<br/> Management</a></li>
+    <li><a href="#document-management" style="line-height: 20px;">Document<br/> Management</a></li>
     <li><a href="#parcel-tracking">Parcel Tracking</a></li>
     <li><a href="#inventory-count">Inventory Count</a></li>
     <li><a href="#ups-maxicode">UPS MaxiCode</a></li>
