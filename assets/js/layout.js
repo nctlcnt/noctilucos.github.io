@@ -158,7 +158,7 @@ $(document).ready(function(){
         }
         var list = $('.usecaseItem')
         for(var i = 0; i < list.length; i++){
-            if(list[i].offsetTop - 500 > scrollTop){
+            if(list[i].offsetTop + 500 > scrollTop){
                 return i
             }
         }
