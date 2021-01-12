@@ -149,15 +149,16 @@ $(document).ready(function(){
         }
 
         $('.pageMenuList li').removeClass('on')
+        $($('.pageMenuList li')[getIndex(window.scrollY)]).addClass('on')
         if(window.location.hash){
+            
+            $('.pageMenuList li').removeClass('on')
             var list = $('.pageMenuList li a')
             var item = list.filter((el)=>{
                 return $(el).attr('href') == window.location.hash
             })[0]
             $(($(item).parent)[0]).addClass('on')
-        } else {
-            $($('.pageMenuList li')[getIndex(window.scrollY)]).addClass('on')
-        }
+        } 
     }
 
     function getIndex(scrollTop){
