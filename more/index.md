@@ -5,6 +5,7 @@ description: Dynamsoft Barcode Reader helps developers implement multi codes sca
 keywords: barcode reader, SDK, use cases
 needAutoGenerateSidebar: false
 noTitleIndex: true
+is1366Compatible: true
 ---
 
 

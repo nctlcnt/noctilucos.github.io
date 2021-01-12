@@ -40,4 +40,12 @@
             .headCounter h3 { counter-increment: none!important; }
         </style>
     {%- endif -%}
+    
+    {%- if page.is1366Compatible -%}
+        <style>
+            .container {
+                width: 1300px !important;
+            }
+        </style>
+    {%- endif -%}
 </head>
