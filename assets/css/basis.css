@@ -4020,16 +4020,17 @@
       width: 83.1%;
       float: right;
     }
-    .usecaseItemList .usecaseItem:nth-child(odd) .useCaseDetail{
-        padding-right: 610px;
-        height: 460px;
-    }
+    .usecaseItemList .usecaseItem:nth-child(odd) .useCaseDetail {
+      padding-right: 650px;
+      height: 460px;
+  }
     .usecaseItemList .usecaseItem .useCaseImg {
       width: 560px;
       height: 460px;
     }
     .usecaseItemList .usecaseItem .useCaseImg img {
-      width: 100%;
+      width: 560px;
+      height: 460px;
     }
     .usecaseItemList .useCaseDetail {
       padding: 0px 70px 0;

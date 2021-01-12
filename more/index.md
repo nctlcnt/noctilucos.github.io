@@ -8,8 +8,8 @@ noTitleIndex: true
 is1366Compatible: true
 ---
 
-<p class="fontOswald textUpperCase">Use Cases</p>
-<h1 class="fontOswaldLight" style="text-align:center;margin-bottom:100px;">Achieving Goals Faster with Dynamsoft’s SDKs</h1>
+<p class="fontOswald textUpperCase tc" style="font-weight: bold;font-size: 20px;">Use Cases</p>
+<h1 class="fontOswaldLight" style="text-align:center;margin-bottom:100px;margin-top:0px;">Achieving Goals Faster with Dynamsoft’s SDKs</h1>
 
 <div class="usecaseItemList" style="position:relative;">
   <ul class="pageMenuList">
@@ -42,7 +42,7 @@ is1366Compatible: true
     <div class="useCaseDetail">
       <h2 id="vin-codes">VIN codes</h2>
       <p><a
-          href="#" class="orangeLink">Vehicle Identification Numbers (VIN)</a> codes are used in the automotive industry to identify individual motor vehicles. You can spot a VIN at the base of the windshield, on the driver’s side door, and on the registration certificate. It can either be a 17-digit alphanumeric code or a subset of Code 39 barcodes. Reading VINs on a vehicle door sticker or through a windshield isn’t easy and the problem is aggravated if the windshield has stains or glare. Dynamsoft’s SDKs can rapidly scan and decode VIN codes at different distances and angles.</p>
+          href="https://www.dynamsoft.com/blog/imaging/barcode/scanning-vin-codes-barcode-reader/" class="orangeLink">Vehicle Identification Numbers (VIN)</a> codes are used in the automotive industry to identify individual motor vehicles. You can spot a VIN at the base of the windshield, on the driver’s side door, and on the registration certificate. It can either be a 17-digit alphanumeric code or a subset of Code 39 barcodes. Reading VINs on a vehicle door sticker or through a windshield isn’t easy and the problem is aggravated if the windshield has stains or glare. Dynamsoft’s SDKs can rapidly scan and decode VIN codes at different distances and angles.</p>
     </div>
   </div>
   <div class="usecaseItem">
@@ -102,7 +102,8 @@ is1366Compatible: true
       <p>To optimize your supply chain, barcode inventory systems must be controlled and overseen to be efficient and
         accurate. Missed items result in inaccurate inventory, affecting the entire chain to customers. Barcode tracking
         software must deliver precision. While most barcode readers promise high recognition accuracy, even a success
-        rate of 99% may not be good enough. <a
+        rate of 99% may not be good enough. </p>
+        <p><a
           href="https://officecn.dynamsoft.com:808/Products/barcode-inventory-system.aspx" class="orangeLink">Dynamsoft Panorama™</a>, an
         enhanced module of the Dynamsoft Barcode Reader SDK, promises to fix the last 1% of scanning error rates that
         can collectively cost businesses billions annually.</p>
