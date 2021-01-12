@@ -69,9 +69,9 @@ is1366Compatible: true
         workforce. With a high recognition speed and the ability to scan a wide array of barcodes, organizations and
         professionals save time and effort.</p>
       <p>Avision Inc. is a top manufacturer of image scanners and multi-function products. They adopted Dynamsoft Barcode Reader SDK to create new barcode scanning and reading software. <a
-        href="https://www.dynamsoft.com/Company/case-study-Avision.aspx" class="fontOswald orangeLink textUpperCase">Read the case study &gt;</a></p>
+        href="https://www.dynamsoft.com/Company/case-study-Avision.aspx" class="fontOswald orangeLink textUpperCase">Read the case study</a></p>
       <p>Dynamsoft Barcode Reader SDK helped the German Red Cross Society to automate a barcode-to-PDF procedure. <a
-          href="https://www.dynamsoft.com/Company/case-study-Avision.aspx" class="fontOswald orangeLink textUpperCase">Read the case study &gt;</a></p>
+          href="https://www.dynamsoft.com/Company/case-study-Avision.aspx" class="fontOswald orangeLink textUpperCase">Read the case study</a></p>
     </div>
   </div>
   <div class="usecaseItem">

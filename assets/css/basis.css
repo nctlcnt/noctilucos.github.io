@@ -4011,8 +4011,8 @@
     }
     /* .usecaseItemList { padding-left: 370px; } */
     .usecaseItemList .usecaseItem {
-      margin-bottom: 120px;
-      width: 80%;
+      margin-bottom: 160px;
+      width: 83.1%;
       float: right;
     }
     .usecaseItemList .usecaseItem:nth-child(odd) .useCaseDetail{
