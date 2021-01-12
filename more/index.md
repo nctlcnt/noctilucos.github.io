@@ -29,7 +29,9 @@ is1366Compatible: true
     </div>
     <div class="useCaseDetail">
       <h2 id="multiple-codes">Multiple Codes</h2>
-      <p>Reading dozens of barcodes in a single scan increases productivity and saves time. But when capturing an entire barcode zone from a distance, the barcodes would be relatively small, so it could be almost impossible to read all of them at once. The situation is worse when some barcodes are of questionable quality. Dynamsoft Panorama™ addresses the issue by breaking the process into two steps: (1) take a bird’s eye view above all the barcodes; (2) move the camera closer and sweep over the barcodes. The “partial” images will be clearer and give better barcode scanning results. The results will then be mapped to the bird’s eye view image.</p>
+      <p>Reading dozens of barcodes in a single scan increases productivity and saves time. But when capturing an entire barcode zone from a distance, the barcodes would be relatively small, so it could be almost impossible to read all of them at once. The situation is worse when some barcodes are of questionable quality. </p>
+      <p><a
+          href="https://officecn.dynamsoft.com:808/Products/barcode-inventory-system.aspx" class="orangeLink">Dynamsoft Panorama™</a> addresses the issue by breaking the process into two steps: (1) take a bird’s eye view above all the barcodes; (2) move the camera closer and sweep over the barcodes. The “partial” images will be clearer and give better barcode scanning results. The results will then be mapped to the bird’s eye view image.</p>
     </div>
   </div>
   <div class="usecaseItem">
