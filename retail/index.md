@@ -62,7 +62,7 @@ noTitleIndex: true
 
 ## Featured Content
 
-<div class="content-wrapper two-column">
+<div class="content-wrapper two-column" style="margin-bottom: 160px;">
   <div class="content-card">
     <div class="imgBox"><span class="textUpperCase">Video</span><img src="assets/video.png"></div>
     <div class="card-text">
