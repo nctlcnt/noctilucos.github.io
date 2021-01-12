@@ -54,7 +54,7 @@ is1366Compatible: true
         numbers, and date codes. While DPM codes help to manage and track devices and components, it can often become
         challenging to scan these etched codes because of surface imperfections, bad lighting, distortions in dots, and
         low color and contrast. Dynamsoft Barcode Reader SDK overcomes these <a
-          href="https://www.dynamsoft.com/Products/direct-part-marking.aspx">DPM scanning</a> challenges by using
+          href="https://www.dynamsoft.com/Products/direct-part-marking.aspx" class="orangeLink">DPM scanning</a> challenges by using
         proprietary algorithmic capabilities.</p>
     </div>
   </div>
@@ -69,9 +69,9 @@ is1366Compatible: true
         workforce. With a high recognition speed and the ability to scan a wide array of barcodes, organizations and
         professionals save time and effort.</p>
       <p>Avision Inc. is a top manufacturer of image scanners and multi-function products. They adopted Dynamsoft Barcode Reader SDK to create new barcode scanning and reading software. <a
-        href="https://www.dynamsoft.com/Company/case-study-Avision.aspx">Read the case study &gt;</a></p>
+        href="https://www.dynamsoft.com/Company/case-study-Avision.aspx" class="fontOswald orangeLink textUpperCase">Read the case study &gt;</a></p>
       <p>Dynamsoft Barcode Reader SDK helped the German Red Cross Society to automate a barcode-to-PDF procedure. <a
-          href="https://www.dynamsoft.com/Company/case-study-Avision.aspx">Read the case study &gt;</a></p>
+          href="https://www.dynamsoft.com/Company/case-study-Avision.aspx" class="fontOswald orangeLink textUpperCase">Read the case study &gt;</a></p>
     </div>
   </div>
   <div class="usecaseItem">
@@ -100,7 +100,7 @@ is1366Compatible: true
         accurate. Missed items result in inaccurate inventory, affecting the entire chain to customers. Barcode tracking
         software must deliver precision. While most barcode readers promise high recognition accuracy, even a success
         rate of 99% may not be good enough. <a
-          href="https://officecn.dynamsoft.com:808/Products/barcode-inventory-system.aspx">Dynamsoft Panorama™</a>, an
+          href="https://officecn.dynamsoft.com:808/Products/barcode-inventory-system.aspx" class="orangeLink">Dynamsoft Panorama™</a>, an
         enhanced module of the Dynamsoft Barcode Reader SDK, promises to fix the last 1% of scanning error rates that
         can collectively cost businesses billions annually.</p>
     </div>
@@ -112,7 +112,7 @@ is1366Compatible: true
     </div>
     <div class="useCaseDetail">
       <h2 id="ups-maxicode">UPS MaxiCode</h2>
-      <p>A 2-dimensional barcode, <a href="https://www.dynamsoft.com/Barcode-Types/MaxiCode.aspx">MaxiCode</a>, was
+      <p>A 2-dimensional barcode, <a href="https://www.dynamsoft.com/Barcode-Types/MaxiCode.aspx" class="orangeLink">MaxiCode</a>, was
         developed by United Parcel Service in 1992 and is used for sorting and addressing US domestic packages, as well
         as international. MaxiCode consists of concentric circles or Bullseye, a hexagonal grid, and a fixed number of
         lines and modules.</p>
@@ -129,7 +129,7 @@ is1366Compatible: true
     <div class="useCaseDetail">
           <h2 id="aadhaar-card">Aadhaar Card</h2>
       <p>Issued by the Unique Identification Authority of India (UIDAI), the <a
-          href="https://www.dynamsoft.com/blog/insights/how-to-extract-aadhaar-card-information/">Aadhaar card’s QR
+          href="https://www.dynamsoft.com/blog/insights/how-to-extract-aadhaar-card-information/" class="orangeLink">Aadhaar card’s QR
           code</a> contains a person’s information, such as full name, date of birth, father’s name, and address.
         With Dynamsoft’s SDKs, developers can easily build a web application to scan multiple Aadhaar cards at once.
         Users can scan multiple pages, identifying which page is an Aadhaar card and saving the page as a PDF. The
