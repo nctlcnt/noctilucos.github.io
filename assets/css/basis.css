@@ -3786,11 +3786,11 @@
   
   @media (min-width: 768px) {
     
-    .usecaseItemList .usecaseItem:nth-child(even) .useCaseImg{
+    .usecaseItemList .usecaseItem:nth-child(odd) .useCaseImg{
         position: absolute;
         right: 0px;
     }
-    .usecaseItemList .usecaseItem:nth-child(even) .useCaseDetail{
+    .usecaseItemList .usecaseItem:nth-child(odd) .useCaseDetail{
         padding-right: 510px;
         height: 500px;
     }
@@ -3991,7 +3991,7 @@
     .usecaseItemList .useCaseDetail .useCaseInfo:last-child {
       margin-bottom: 0;
     }
-    .usecaseItemList .usecaseItem:nth-child(even) .useCaseDetail {
+    .usecaseItemList .usecaseItem:nth-child(odd) .useCaseDetail {
       padding-right: 350px;
       height: 310px;
     }
@@ -4015,7 +4015,7 @@
       width: 80%;
       float: right;
     }
-    .usecaseItemList .usecaseItem:nth-child(even) .useCaseDetail{
+    .usecaseItemList .usecaseItem:nth-child(odd) .useCaseDetail{
         padding-right: 610px;
         height: 460px;
     }
