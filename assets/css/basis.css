@@ -3916,10 +3916,7 @@
       color: #fe8e14;
     }
     /* .usecaseItemList { padding-left: 300px; } */
-    .usecaseItemList .usecaseItem {
-      width: 100%;
-      height: 460px;
-  }
+
     .usecaseItemList .usecaseItem:last-child {
       margin-bottom: 0;
     }
@@ -4049,6 +4046,10 @@
   @media (max-width: 1320px){
     .pageMenuList {
       display: none;
+    }
+    .usecaseItemList .usecaseItem {
+      width: 100%;
+      height: 460px;
     }
     .usecaseItemList .usecaseItem {
       width: 100%;
