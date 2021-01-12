@@ -142,21 +142,23 @@ a.orangeLink:active {
   color: #fea543 !important;
 }
 i.prev-icon {
+  background-image: url(../img-icon/normal_left.png);
   height: 43px;
   width: 43px;
   display: inline-block;
 }
 i.prev-icon.disabled {
-  color: gray;
+  background-image: url(../img-icon/disable_left.png);
 }
 
 i.next-icon {
+  background-image: url(../img-icon/normal_right.png);
   height: 43px;
   width: 43px;
   display: inline-block;
 }
 i.next-icon.disabled {
-  color: gray;
+  background-image: url(../img-icon/disable_right.png);
 }
 
 .otherLinkColour {
