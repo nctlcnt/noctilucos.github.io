@@ -157,7 +157,7 @@ $(document).ready(function(){
             return 0
         }
         var list = $('.usecaseItem')
-        if(scrollTop + $(window.height) === $(document).height){
+        if($(window).scrollTop() + $(window).height() == $(document).height()){
             return list.length-1
         }
         for(var i = 0; i < list.length; i++){
