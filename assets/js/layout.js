@@ -149,7 +149,15 @@ $(document).ready(function(){
         }
 
         $('.pageMenuList li').removeClass('on')
-        $($('.pageMenuList li')[getIndex(window.scrollY)]).addClass('on')
+        if(window.location.hash){
+            var list = $('.pageMenuList li a')
+            var item = list.filter((el)=>{
+                return $(el).attr('href') == window.location.hash
+            })[0]
+            $(($(item).parent)[0]).addClass('on')
+        } else {
+            $($('.pageMenuList li')[getIndex(window.scrollY)]).addClass('on')
+        }
     }
 
     function getIndex(scrollTop){
@@ -159,22 +167,6 @@ $(document).ready(function(){
         var list = $('.usecaseItem')
         for(var i = 0; i < list.length; i++){
             if(list[i].offsetTop + 500 > scrollTop){
-                return i
-            }
-        }
-    }
-    $('.pageMenuList li').on('click', function(e){
-        var idx = getMenuIndex(e.currentTarget)
-        setTimeout(function(){
-            $('.pageMenuList li').removeClass('on')
-            $($('.pageMenuList li')[idx]).addClass('on')
-        })
-    })
-
-    function getMenuIndex(el){
-        var list = $('.pageMenuList li')
-        for(var i = 0; i < list.length; i++){
-            if(list[i] == el){
                 return i
             }
         }
