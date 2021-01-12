@@ -3786,6 +3786,7 @@
   
   @media (min-width: 768px) {
     
+    
     .usecaseItemList .usecaseItem:nth-child(odd) .useCaseImg{
         position: absolute;
         right: 0px;
@@ -3796,7 +3797,7 @@
     }
     ul.pageMenuList, ul.pageMenuList li {
         list-style: none;
-        padding-left: 0px;
+        padding-left: 20px;
     }
     .pageMenuList {
       display: none;
