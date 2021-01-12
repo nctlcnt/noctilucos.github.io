@@ -16,7 +16,7 @@ is1366Compatible: true
     <li class="on"><a href="#multiple-codes">Multiple Codes</a></li>
     <li><a href="#vin-codes">VIN codes</a></li>
     <li><a href="#dpm-code-scanning">DPM Code Scanning</a></li>
-    <li><a href="#document-management">Document Management</a></li>
+    <li><a href="#document-management">Document<br/> Management</a></li>
     <li><a href="#parcel-tracking">Parcel Tracking</a></li>
     <li><a href="#inventory-count">Inventory Count</a></li>
     <li><a href="#ups-maxicode">UPS MaxiCode</a></li>
