@@ -168,7 +168,7 @@ $(document).ready(function(){
         setTimeout(function(){
             $('.pageMenuList li').removeClass('on')
             $($('.pageMenuList li')[idx]).addClass('on')
-        }, 1000)
+        }, 600)
     })
 
     function getMenuIndex(el){
