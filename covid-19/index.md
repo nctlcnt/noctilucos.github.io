@@ -12,7 +12,7 @@ noTitleIndex: true
 <p class="tc titleDescription">As the world continues to face the Covid-19 pandemic, innovators and governments of various countries have been trying numerous ways to contain its spread. Barcoding technology is one of them. From enabling contactless work environments to tracking testing kits to curb the Covid-19 spread, barcodes can revolutionize many processes amid the ongoing pandemic.
 </p>
 
-<h2 class="mt160 tc">User Stories</h2>
+<h2 class="mt160 tc" style="margin-top: 160px;">User Stories</h2>
 
 <ul class="tabList clearfix">
   <li class="fl on">Retail</li>
@@ -50,7 +50,7 @@ noTitleIndex: true
   
 </div>
 
-<h2 class="tc mt160">Featured Content</h2>
+<h2 class="tc mt160" style="margin-top: 160px;">Featured Content</h2>
 
 <table class="card-table" style="margin-bottom: 160px;">
   <tr>
