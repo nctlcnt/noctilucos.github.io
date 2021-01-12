@@ -11,7 +11,7 @@ noTitleIndex: true
 
 <p style="text-align: center;">Barcodes have long been used in retail, and the possibilities for their use continue to evolve and grow. They offer many benefits including:</p>
 
-<ul class="grey-wrapper">
+<ul class="grey-wrapper" style="margin-bottom: 160px;">
   <li class="grey-box">
   <i><img src="../assets/img-icon/Shopping-E-commerce - Carts - shopping-cart-man.png"/></i>
     <p>
@@ -32,9 +32,9 @@ noTitleIndex: true
   </li>
 </ul>
 
-## How Dynamsoft Barcode Reader is Optimized for Retail Product Scanning
+<h2 class="tc">How Dynamsoft Barcode Reader is Optimized for Retail Product Scanning</h2>
 
-<div class="content-wrapper scanning">
+<div class="content-wrapper scanning" style="margin-bottom: 160px;" >
   <div class="content-card">
     <div class="imgBox"><img src="assets/resist-wrinkles-and-deformation.png"/></div>
     <div class="card-text">
@@ -81,7 +81,7 @@ noTitleIndex: true
 
 ## Most Commonly Seen Barcode Symbologies in Retail
 
-<div class="carousel-wrapper content-wrapper">
+<div class="carousel-wrapper content-wrapper" style="margin-bottom: 160px;">
   <ul>
     <li style="vertical-align: top" class="content-card">
       <div>
@@ -175,7 +175,7 @@ noTitleIndex: true
     </li>
   </ul>
   <div class="button-wrapper">
-    <i class="prev-icon disabled"></i>
-    <i class="next-icon"></i>
+    <i class="fas fa-chevron-right prev-icon disabled"></i>
+    <i class="fas fa-chevron-left next-icon"></i>
   </div>
 </div>
