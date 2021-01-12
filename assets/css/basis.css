@@ -3869,9 +3869,6 @@
       width: 325px;
       vertical-align: middle;
     }
-    .usecaseItemList .usecaseItem .useCaseImg img {
-      width: 120%;
-    }
     .usecaseItemList .useCaseDetail {
       display: table-cell;
       display: table-cell;
@@ -4070,7 +4067,7 @@
       position: relative;
     }
     .usecaseItemList .usecaseItem:nth-child(odd) .useCaseDetail {
-      padding: 0 20px 0;
+      padding: 40px;
       height: auto;
     }
     .usecaseItemList .usecaseItem .useCaseImg {
@@ -4078,18 +4075,30 @@
       overflow: hidden;
       width: 560px;
       vertical-align: middle;
-  }
+    }
     .usecaseItemList .useCaseDetail {
       display: inline-block;
-      padding: 0 20px 0;
+      padding: 40px;
       vertical-align: middle;
       width: 560px;
-  }
+    }
+    .usecaseItemList .useCaseDetail h2 {
+      margin-top: 20px;
+      margin-bottom: 30px;
+      font-size: 30px;
+    }
   }
 
-  @media (max-width: 767px){
+  @media (max-width: 560px){
   .usecaseItemList .usecaseItem {
     width: 100%;
     margin-bottom: 160px;
+  }
+  .usecaseItemList .usecaseItem .useCaseImg {
+    width: 100%;
+    height: auto;
+  }
+  .usecaseItemList .useCaseDetail {
+    width: 100%;
   }
 }
