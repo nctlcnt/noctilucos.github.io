@@ -230,6 +230,10 @@
   .headCounter h3 {
     counter-increment: h3counter;
   }
+
+  .fontOswaldLight {
+    font-family: Oswald-Light;
+  }
   
   /* default-layout.html   ---- subHeadWrapper */
   
@@ -3977,21 +3981,25 @@
       line-height: 26px;
     }
     .usecaseItemList .usecaseItem {
-        margin-bottom: 160px;
-        height: 460px;
+      margin-bottom: 160px;
+      height: 440px;
+      width: 1050px;
     }
     .usecaseItemList .usecaseItem .useCaseImg {
-      width: 560px;
-      height: 460px;
-    }
-    .usecaseItemList .usecaseItem .useCaseImg img {
-      max-width: 560px;
-      height: 460px;
-    }
-    .usecaseItemList .usecaseItem:nth-child(odd) .useCaseDetail {
-      padding-right: 600px;
-      height: 310px;
-    }
+      width: 536px;
+      height: 440px;
+  }
+  .usecaseItemList .usecaseItem .useCaseImg img {
+    max-width: 536px;
+    height: 440px;
+}
+.usecaseItemList .usecaseItem:nth-child(odd) .useCaseDetail {
+  padding-right: 600px;
+  height: 310px;
+}
+    .usecaseItemList .useCaseDetail {
+      padding: 0 50px 0;
+  }
   }
   
   @media (min-width: 1680px) {
@@ -4001,7 +4009,7 @@
       line-height: 26px;
     }
     .usecaseItemList .useCaseDetail p {
-      font-size: 18px;
+      font-size: 18px !important;
     }
     .pageMenuList li {
       margin-bottom: 10px;
