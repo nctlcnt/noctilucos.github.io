@@ -123,6 +123,9 @@ h5 {
   margin: 0;
   padding: 0;
 }
+.mt160{
+  margin-top: 160px;
+}
 .fontOswald {
   font-family: Oswald;
 }
@@ -217,9 +220,7 @@ ul.disc > li.on p,
 ul.disc > li p:hover {
   color: #3196fc;
 }
-.mt160{
-  margin-top: 160px;
-}
+
 .mainPage {
   padding-left: 0px;
   line-height: 28px;
