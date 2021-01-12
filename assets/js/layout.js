@@ -150,11 +150,6 @@ $(document).ready(function(){
 
         $('.pageMenuList li').removeClass('on')
         $($('.pageMenuList li')[getIndex(window.scrollY)]).addClass('on')
-        $(window).scroll(function() {
-            if($(window).scrollTop() + $(window).height() == $(document).height()) {
-                alert("bottom!");
-            }
-         });
     }
 
     function getIndex(scrollTop){
