@@ -150,6 +150,11 @@ $(document).ready(function(){
 
         $('.pageMenuList li').removeClass('on')
         $($('.pageMenuList li')[getIndex(window.scrollY)]).addClass('on')
+        $(window).scroll(function() {
+            if($(window).scrollTop() + $(window).height() == $(document).height()) {
+                alert("bottom!");
+            }
+         });
     }
 
     function getIndex(scrollTop){
@@ -157,6 +162,9 @@ $(document).ready(function(){
             return 0
         }
         var list = $('.usecaseItem')
+        if(scrollTop + $(window.height) === $(document).height){
+            return list.length-1
+        }
         for(var i = 0; i < list.length; i++){
             if(list[i].offsetTop + 500 > scrollTop){
                 return i
