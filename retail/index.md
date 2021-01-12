@@ -175,7 +175,7 @@ noTitleIndex: true
     </li>
   </ul>
   <div class="button-wrapper">
-    <i class="fas fa-chevron-right prev-icon disabled"></i>
-    <i class="fas fa-chevron-left next-icon"></i>
+    <i class="fas fa-chevron-left prev-icon disabled"></i>
+    <i class="fas fa-chevron-right next-icon"></i>
   </div>
 </div>
