@@ -3784,10 +3784,7 @@
     }
   }
   
-  @media (min-width: 768px) {
-
-    
-    
+  @media (min-width: 768px) {   
     .usecaseItemList .usecaseItem:nth-child(odd) .useCaseImg{
         position: absolute;
         right: 0px;
@@ -3812,21 +3809,7 @@
     .usecaseItemList .usecaseItem:last-child {
       margin-bottom: 0;
     }
-    .usecaseItemList .usecaseItem .useCaseImg {
-      display: inline-block;
-      overflow: hidden;
-      width: 560px;
-      vertical-align: middle;
-  }
-    .usecaseItemList .usecaseItem .useCaseImg img {
-      width: 120%;
-    }
-    .usecaseItemList .useCaseDetail {
-      display: inline-block;
-      padding: 0 20px 0;
-      vertical-align: middle;
-      width: 560px;
-  }
+
     .usecaseItemList .useCaseDetail .useCaseTitle {
       margin-bottom: 15px;
     }
@@ -4010,11 +3993,11 @@
     .usecaseItemList .usecaseItem .useCaseImg img {
       max-width: 560px;
       height: 460px;
-  }
-  .usecaseItemList .usecaseItem:nth-child(odd) .useCaseDetail {
-    padding-right: 600px;
-    height: 310px;
-}
+    }
+    .usecaseItemList .usecaseItem:nth-child(odd) .useCaseDetail {
+      padding-right: 600px;
+      height: 310px;
+    }
   }
   
   @media (min-width: 1680px) {
@@ -4081,14 +4064,26 @@
       display: block;
       float: none;
       margin-bottom: 160px;
+    }
+    .usecaseItemList .usecaseItem:nth-child(odd) .useCaseImg {
+      position: relative;
+    }
+    .usecaseItemList .usecaseItem:nth-child(odd) .useCaseDetail {
+      padding: 0 20px 0;
+      height: auto;
+    }
+    .usecaseItemList .usecaseItem .useCaseImg {
+      display: inline-block;
+      overflow: hidden;
+      width: 560px;
+      vertical-align: middle;
   }
-  .usecaseItemList .usecaseItem:nth-child(odd) .useCaseImg {
-    position: relative;
-}
-.usecaseItemList .usecaseItem:nth-child(odd) .useCaseDetail {
-  padding: 0 20px 0;
-  height: auto;
-}
+    .usecaseItemList .useCaseDetail {
+      display: inline-block;
+      padding: 0 20px 0;
+      vertical-align: middle;
+      width: 560px;
+  }
   }
 
   @media (max-width: 767px){
