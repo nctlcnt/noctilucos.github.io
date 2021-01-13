@@ -152,10 +152,10 @@ $(document).ready(function(){
         $($('.pageMenuList li')[getIndex(window.scrollY)]).addClass('on')
 
         if($(window).scrollTop() + $(window).height() - $(document).height() <= -870) {
-            $('.pageMenuList').css("position", 'fixed');
+            $('.pageMenuList').css("position", 'absolute');
             $('.pageMenuList').css("top", 'unset');
-            $('.pageMenuList').css("bottom", 870 + $(window).scrollTop() + $(window).height() - $(document).height());
-        }
+            $('.pageMenuList').css("bottom", 0);
+        } 
     }
 
     function getIndex(scrollTop){
