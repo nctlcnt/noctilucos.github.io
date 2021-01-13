@@ -385,6 +385,9 @@ ul.disc > li p:hover {
   min-height: auto;
   padding-bottom: 50px;
 }
+.markdown-body .row {
+  margin: 0px;
+}
 .markdown-body table th,
 .markdown-body table td {
   border-left: 1px solid #306877;
@@ -991,9 +994,6 @@ ul::-webkit-scrollbar-corner {
   .markdown-body h3 {
     font-size: 21px;
   }
-  .markdown-body {
-    padding-right: 40px;
-  }
   .docContainer {
     border-left: 1px solid #ddd;
     padding-left: 40px;
@@ -1026,9 +1026,6 @@ ul::-webkit-scrollbar-corner {
   }
   .markdown-body h3 {
     font-size: 21px;
-  }
-  .markdown-body {
-    padding-right: 40px;
   }
   .docContainer {
     border-left: 1px solid #ddd;
@@ -1063,9 +1060,6 @@ ul::-webkit-scrollbar-corner {
     border-left: 1px solid #ddd;
     padding-left: 80px;
     min-height: calc(100vh - 203px);
-  }
-  .markdown-body {
-    padding-right: 80px;
   }
   .recordLink.sadLink {
     margin-left: 30px;
