@@ -34,7 +34,7 @@ function subscribe() {
 }
 
 window.onload = function(){
-    document.querySelector('.timePeriod').forEach(el=>{
+    document.querySelectorAll('.timePeriod').forEach(el=>{
         el.innerHTML = '2003–' + new Date().getFullYear()
     })
 }
