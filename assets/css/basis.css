@@ -388,9 +388,7 @@ ul.disc > li p:hover {
   min-height: auto;
   padding-bottom: 50px;
 }
-.markdown-body .row {
-  margin: 0px;
-}
+
 .markdown-body table th,
 .markdown-body table td {
   border-left: 1px solid #306877;
