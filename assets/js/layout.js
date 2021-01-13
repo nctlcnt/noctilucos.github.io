@@ -125,7 +125,7 @@ $(document).ready(function(){
         var lastItem = $('.usecaseItem')[$('.usecaseItem').length-1]
         if(scrollTop >= lastItem.offsetTop + lastItem.clientHeight){
             $('.pageMenuList').css("position", 'fixed');
-            $('.pageMenuList').css("top", lastItem.offsetTop + lastItem.clientHeight-scrollTop);
+            $('.pageMenuList').css("top", lastItem.offsetTop + lastItem.clientHeight-scrollTop+30);
         } else {
             if (document.documentElement.clientWidth >= 1680) {
                 if (scrollTop >= 220 && scrollTop <= 5899) {
@@ -136,7 +136,7 @@ $(document).ready(function(){
                     $('.pageMenuList').css("top", '0');
                 }
             }else if (document.documentElement.clientWidth >= 1200){
-                if (scrollTop >= 180 && scrollTop <= 4584) {
+                if (scrollTop >= 180 && scrollTop <= 4661) {
                     $('.pageMenuList').css("position", 'fixed');
                     $('.pageMenuList').css("top", '100px');
                 } else {
