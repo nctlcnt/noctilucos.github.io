@@ -125,7 +125,7 @@ is1366Compatible: true
         with Dynamsoft Barcode Reader SDK, users can easily scan these codes.</p>
     </div>
   </div>
-  <div class="usecaseItem" style="margin-bottom: 160px;">
+  <div class="usecaseItem">
     <div class="useCaseImg">
       <img src="./assets/Aadhaar-Card.jpg"
         alt="Scan voucher codes using mobile devices">
