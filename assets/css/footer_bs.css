@@ -54,7 +54,7 @@
 .dynamsoft-footer .big-icon .yt:hover { background-position: -5px -360px; }
 .dynamsoft-footer ul { list-style: none; margin: 0; padding: 0; }
 
-#footerTop { padding: 40px 0 32px; background: #3E3E3E; }
+#footerTop { padding: 40px 0 32px; background: #3E3E3E; margin-top: -7px; }
 #footerTop .products { width: 26%; }
 #footerTop .resources { width: 23%; }
 #footerTop .company { width: 20%; }
