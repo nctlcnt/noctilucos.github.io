@@ -18,6 +18,8 @@
             $('#toTop').hide()
         }
     })
+    var thisYear = new Date().getFullYear()
+    document.querySelector('.timePeriod').innerText = '2003–'+ thisYear
 })
 
 function subscribe() {
