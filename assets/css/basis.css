@@ -123,6 +123,9 @@ h5 {
   margin: 0;
   padding: 0;
 }
+.whiteLink {
+  color: white;
+}
 .mt160{
   margin-top: 160px;
 }

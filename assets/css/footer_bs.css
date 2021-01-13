@@ -59,7 +59,7 @@
 #footerTop .resources { width: 23%; }
 #footerTop .company { width: 20%; }
 #footerTop ul { float: left; }
-#footerTop ul li.title { margin-bottom: 16px; font-size: 14px; color: #fe8e14; line-height: 24px; font-family: Oswald-Regular; }
+#footerTop ul li.title { margin-bottom: 16px; font-size: 14px; color: #fe8e14; line-height: 24px; font-family: "Oswald"; }
 #footerTop .subscribe .newsLetter { margin-bottom: 16px; font-size: 16px; color: #ffffff; }
 #footerTop .subscribe .form { position: relative; width: 100%; }
 #footerTop .big-icon { display: block; }
