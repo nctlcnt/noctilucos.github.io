@@ -18,7 +18,7 @@
             $('#toTop').hide()
         }
     })
-    document.querySelector('.timePeriod').innerHTML = '2003–' + new Date().getFullYear()
+    document.querySelector('#timePeriod').innerHTML = '2003–' + new Date().getFullYear()
 })
 
 function subscribe() {
