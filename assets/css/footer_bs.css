@@ -54,7 +54,7 @@
 .dynamsoft-footer .big-icon .yt:hover { background-position: -5px -360px; }
 .dynamsoft-footer ul { list-style: none; margin: 0; padding: 0; }
 
-#footerTop { padding: 40px 0 32px; background: #3E3E3E; margin-top: -7px; }
+#footerTop { padding: 40px 0 32px; background: #3E3E3E; margin-bottom: -7px; }
 #footerTop .products { width: 26%; }
 #footerTop .resources { width: 23%; }
 #footerTop .company { width: 20%; }
@@ -169,7 +169,7 @@ a#toTop { display: none; position: fixed; z-index: 9; bottom: 30px; right: 2%; b
     .dynamsoft-footer .footer-bottom .dynamsoftLogo { width: 138px; height: 33px; margin: 20px 0 0; }
     .dynamsoft-footer .footer-bottom .rightMenu { margin: 0; height: 75px; line-height: 75px; }
     .dynamsoft-footer .footer-bottom .rightMenu li { font-size: 14px; color: #999; display: inline-block; margin-left: 30px; }
-    .dynamsoft-footer .footer-bottom .rightMenu li:first-child { margin-left: 0; }
+    .dynamsoft-footer .footer-bottom .rightMenu li:first-child { margin-left: 30px; }
     #footerTop .subscribe .form input { width: 69%; -webkit-appearance: none; float: left; padding-left: 14px; height: 42px; font-size: 16px; background: #ffffff; color: #606060; outline: none; border: 1px solid #ffffff; }
     #footerTop .subscribe .form .d-btn { width: 30%; color: #fff; float: left; padding: 0; height: 42px; line-height: 42px; text-align: center; font-family: OpenSans-Regular; font-size: 16px; }
     #footerTop .subscribe .shareList { text-align: left; margin-top: 30px; }
@@ -189,7 +189,7 @@ a#toTop { display: none; position: fixed; z-index: 9; bottom: 30px; right: 2%; b
     #footerTop ul > li:last-child { margin-bottom: 0; }
     #footerTop ul li a, #footerTop .subscribe .newsLetter { font-size: 16px; line-height: 26px; }
     .dynamsoft-footer .footer-bottom .dynamsoftLogo { width: 138px; height: 33px; margin: 20px 0 0; }
-    .dynamsoft-footer .footer-bottom .rightMenu { height: 75px; line-height: 75px; }
+    .dynamsoft-footer .footer-bottom .rightMenu { height: 75px; line-height: 75px; margin-right: 200px; }
     .dynamsoft-footer .footer-bottom .rightMenu li { font-size: 16px; color: #999; margin-left: 30px; }
     #footerTop .subscribe .form input { width: 69%; -webkit-appearance: none; float: left; padding-left: 14px; height: 46px; font-size: 18px; background: #ffffff; color: #606060; outline: none; border: 1px solid #ffffff; }
     #footerTop .subscribe .form .d-btn { width: 30%; color: #fff; float: left; padding: 0; height: 46px; line-height: 46px; text-align: center; font-family: OpenSans-Regular; font-size: 18px; }
