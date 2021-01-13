@@ -123,35 +123,29 @@ $(document).ready(function(){
         }
         var scrollTop = document.documentElement.scrollTop || window.pageYOffset || document.body.scrollTop;
 
-        if($(window).scrollTop() + $(window).height() - $(document).height() >= -500) {
-            $('.pageMenuList').css("position", 'absolute');
-            $('.pageMenuList').css("top", 'unset');
-            $('.pageMenuList').css("bottom", 0);
-        } else {
-            if (document.documentElement.clientWidth >= 1680) {
-                if (scrollTop >= 220 && scrollTop <= 5899) {
-                    $('.pageMenuList').css("position", 'fixed');
-                    $('.pageMenuList').css("top", '100px');
-                } else {
-                    $('.pageMenuList').css("position", 'absolute');
-                    $('.pageMenuList').css("top", '0');
-                }
-            }else if (document.documentElement.clientWidth >= 1200){
-                if (scrollTop >= 180 && scrollTop <= 4584) {
-                    $('.pageMenuList').css("position", 'fixed');
-                    $('.pageMenuList').css("top", '100px');
-                } else {
-                    $('.pageMenuList').css("position", 'absolute');
-                    $('.pageMenuList').css("top", '0');
-                }
-            }else {
-                if (scrollTop >= 260 && scrollTop <= 4300) {
-                    $('.pageMenuList').css("position", 'fixed');
-                    $('.pageMenuList').css("top", '100px');
-                } else {
-                    $('.pageMenuList').css("position", 'absolute');
-                    $('.pageMenuList').css("top", '0');
-                }
+        if (document.documentElement.clientWidth >= 1680) {
+            if (scrollTop >= 220 && scrollTop <= 5899) {
+                $('.pageMenuList').css("position", 'fixed');
+                $('.pageMenuList').css("top", '100px');
+            } else {
+                $('.pageMenuList').css("position", 'absolute');
+                $('.pageMenuList').css("top", '0');
+            }
+        }else if (document.documentElement.clientWidth >= 1200){
+            if (scrollTop >= 180 && scrollTop <= 4584) {
+                $('.pageMenuList').css("position", 'fixed');
+                $('.pageMenuList').css("top", '100px');
+            } else {
+                $('.pageMenuList').css("position", 'absolute');
+                $('.pageMenuList').css("top", '0');
+            }
+        }else {
+            if (scrollTop >= 260 && scrollTop <= 4300) {
+                $('.pageMenuList').css("position", 'fixed');
+                $('.pageMenuList').css("top", '100px');
+            } else {
+                $('.pageMenuList').css("position", 'absolute');
+                $('.pageMenuList').css("top", '0');
             }
         }
 
