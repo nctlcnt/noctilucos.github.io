@@ -146,6 +146,8 @@ i.prev-icon {
   height: 43px;
   width: 43px;
   display: inline-block;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 i.prev-icon.disabled {
   background-image: url(../img-icon/disable_left.png);
@@ -156,6 +158,8 @@ i.next-icon {
   height: 43px;
   width: 43px;
   display: inline-block;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 i.next-icon.disabled {
   background-image: url(../img-icon/disable_right.png);
@@ -376,7 +380,7 @@ ul.disc > li p:hover {
 }
 
 .markdown-body {
-  margin-top: 66px;
+  margin-top: 130px;
   box-sizing: border-box;
   min-height: auto;
   padding-bottom: 50px;
@@ -1084,10 +1088,11 @@ ul::-webkit-scrollbar-corner {
 
 /*  Header  */
 #dynamsoft-header {
-  position: relative;
+  position: fixed;
   height: auto;
   width: 100%;
   z-index: 1111;
+  top: 0px;
 }
 li,
 ul {
@@ -3389,7 +3394,7 @@ i.dbr-white-logo {
 }
 .tabList li.on {
   background: #f5f5f5;
-  color: #999999;
+  color: #000000;
 }
 .tabContentList {
   padding: 50px 30px;

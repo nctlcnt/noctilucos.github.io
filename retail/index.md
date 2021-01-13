@@ -60,7 +60,7 @@ noTitleIndex: true
   </div>
 </div>
 
-## Featured Content
+<h2 class="tc">Featured Content</h2>
 
 <div class="content-wrapper two-column" style="margin-bottom: 160px;">
   <div class="content-card">
@@ -79,7 +79,7 @@ noTitleIndex: true
   </div>
 </div>
 
-## Most Commonly Seen Barcode Symbologies in Retail
+<h2 class="tc">Most Commonly Seen Barcode Symbologies in Retail</h2>
 
 <div class="carousel-wrapper content-wrapper" style="margin-bottom: 160px;">
   <ul>
