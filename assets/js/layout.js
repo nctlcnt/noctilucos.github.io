@@ -122,10 +122,10 @@ $(document).ready(function(){
             $('.sideBar').css({'padding-top': '20px'})
         }
         var scrollTop = document.documentElement.scrollTop || window.pageYOffset || document.body.scrollTop;
-
-        if(scrollTop>=4742){
+        var lastItem = $('.usecaseItem')[$('.usecaseItem').length-1]
+        if(scrollTop >= lastItem.offsetTop + lastItem.clientHeight){
             $('.pageMenuList').css("position", 'fixed');
-            $('.pageMenuList').css("top", 4742-scrollTop);
+            $('.pageMenuList').css("top", lastItem.offsetTop + lastItem.clientHeight-scrollTop);
         } else {
             if (document.documentElement.clientWidth >= 1680) {
                 if (scrollTop >= 220 && scrollTop <= 5899) {
