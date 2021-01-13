@@ -12,7 +12,7 @@ is1366Compatible: true
 <h1 class="fontOswaldLight" style="text-align:center;margin-bottom:100px;margin-top:0px;">Achieving Goals Faster with Dynamsoft’s SDKs</h1>
 
 <div class="usecaseItemList" style="position:relative;margin-bottom: 160px;overflow:hidden;">
-  <ul class="pageMenuList">
+  <ul class="pageMenuList" style="margin-top:20px;">
     <li class="on"><a href="#multiple-codes">Multiple Codes</a></li>
     <li><a href="#vin-codes">VIN codes</a></li>
     <li><a href="#dpm-code-scanning">DPM Code Scanning</a></li>
