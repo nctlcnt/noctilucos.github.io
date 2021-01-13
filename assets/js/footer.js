@@ -18,7 +18,6 @@
             $('#toTop').hide()
         }
     })
-    document.querySelector('#timePeriod').innerHTML = '2003–' + new Date().getFullYear()
 })
 
 function subscribe() {
@@ -32,4 +31,8 @@ function subscribe() {
             alert("Subscribed. Thank you!");
         }
     })
+}
+
+window.onload = function(){
+    document.querySelector('#timePeriod').innerHTML = '2003–' + new Date().getFullYear()
 }
