@@ -24,7 +24,7 @@ noTitleIndex: true
       Instantly pulling up product information, availability, and stock location to help drive more sales
     </p>
   </li>
-  <li class="grey-box" style="margin-right: 0px;">
+  <li class="grey-box">
   <i><img src="../assets/img-icon/Shopping-E-commerce - E-commerce - e-commerce-touch-buy.png"/></i>
     <p>
       Reducing costs and cashier wait time by allowing convenient customer self-checkout
