@@ -13,7 +13,7 @@
 .dynamsoft-footer .footer-top .subscribeCnt .shareList { margin-top: 5rem; }
 
 .dynamsoft-footer .footer-bottom { height: 100%; background: #323234; }
-.dynamsoft-footer .footer-bottom .dynamsoftLogo { display: inline-block; width: 138px; height: 33px; margin: 35px 0 0; background: url(../images/dynamsoft-logos/logo-dynamsoft-white.svg) no-repeat 0; }
+.dynamsoft-footer .footer-bottom .dynamsoftLogo { display: inline-block; width: 138px; height: 33px; margin: 35px 0 0; background: url(../../assets/img-icon/logo-dynamsoft-white.svg) no-repeat 0; }
 .dynamsoft-footer .footer-bottom .rightMenu { margin: 0; }
 .dynamsoft-footer .footer-bottom .rightMenu li { font-size: 18px; color: #999; display: inline-block; margin-left: 150px; }
 .dynamsoft-footer .footer-bottom .rightMenu li:first-child { margin-left: 0; }
@@ -31,7 +31,7 @@
 .dynamsoft-footer .mobile-footer-top .mobile-links li { display: inline-block; margin-right: 35px; font-size: 14px; }
 .dynamsoft-footer .mobile-footer-top .mobile-links li:last-child { margin-right: 0; }
 .dynamsoft-footer .mobile-footer-top p { margin-bottom: 20px; }
-.dynamsoft-footer .mobile-footer-top .dynamsoftLogo { display: inline-block; width: 138px; height: 33px; background: url(../images/dynamsoft-logos/logo-dynamsoft-white.svg) no-repeat 0; }
+.dynamsoft-footer .mobile-footer-top .dynamsoftLogo { display: inline-block; width: 138px; height: 33px; background: url(../../assets/img-icon/logo-dynamsoft-white.svg) no-repeat 0; }
 .dynamsoft-footer .mobile-footer-top .shareList { margin-top: 25px; }
 .dynamsoft-footer .mobile-footer-bottom { padding: 25px 0; background: #323234; font-size: 14px; }
 .dynamsoft-footer .mobile-footer-bottom ul { list-style: none; margin: 0; padding: 0; }
