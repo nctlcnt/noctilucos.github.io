@@ -2889,7 +2889,7 @@ i.dbr-white-logo {
   .show-block-sm {
     display: block;
   }
-  .hide-block-sm {
+  .hide-block-sm, .hide-sm {
     display: none;
   }
 }
@@ -2898,7 +2898,7 @@ i.dbr-white-logo {
   .show-block-md {
     display: block;
   }
-  .hide-block-md {
+  .hide-block-md, .hide-md {
     display: none;
   }
 }
@@ -2907,7 +2907,7 @@ i.dbr-white-logo {
   .show-block-lg {
     display: block;
   }
-  .hide-block-lg {
+  .hide-block-lg, .hide-lg {
     display: none;
   }
 }
