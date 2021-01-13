@@ -18,8 +18,7 @@
             $('#toTop').hide()
         }
     })
-    var thisYear = new Date().getFullYear()
-    document.querySelector('.timePeriod').innerText = '2003–'+ thisYear
+    document.querySelector('.timePeriod').innerHTML = '2003–' + new Date().getFullYear()
 })
 
 function subscribe() {
