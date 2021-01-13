@@ -11,7 +11,7 @@ is1366Compatible: true
 <p class="fontOswaldMedium textUpperCase tc" style="font-size: 20px;">Use Cases</p>
 <h1 class="fontOswaldLight" style="text-align:center;margin-bottom:100px;margin-top:0px;">Achieving Goals Faster with Dynamsoft’s SDKs</h1>
 
-<div class="usecaseItemList" style="position:relative;margin-bottom: 160px;">
+<div class="usecaseItemList" style="position:relative;margin-bottom: 160px;overflow:hidden;">
   <ul class="pageMenuList">
     <li class="on"><a href="#multiple-codes">Multiple Codes</a></li>
     <li><a href="#vin-codes">VIN codes</a></li>
