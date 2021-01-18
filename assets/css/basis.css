@@ -3821,6 +3821,11 @@ ul.grey-wrapper li:last-child {
   width: 80%;
   float: right;
 }
+.usecaseItemList > a {
+  float: right;
+  clear: both;
+  margin-top: -120px;
+}
 html {
   scroll-behavior: smooth;
 }
