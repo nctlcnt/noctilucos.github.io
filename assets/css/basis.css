@@ -833,8 +833,13 @@ ul::-webkit-scrollbar-corner {
     max-height: unset;
   }
 }
-
+.card-table.covid-19 {
+  min-height: 380px;
+}
 @media (max-width: 991px) {
+  .card-table.covid-19 {
+    min-height: 420px;
+  }
   .footerWrapper {
     margin-top: 100px;
   }
@@ -1049,6 +1054,7 @@ ul::-webkit-scrollbar-corner {
 }
 
 @media (min-width: 1680px) {
+
   .subHeadWrapper .subHeaderMenuUl li.title {
     margin-right: 230px;
     padding: 0;
@@ -3613,7 +3619,7 @@ ul.grey-wrapper li:last-child {
   padding: 30px 31px;
 }
 
-@media (max-width: 1680px) {
+@media (max-width: 1679px) {
   .grey-wrapper .grey-box {
     width: 350px;
     font-size: 21px;

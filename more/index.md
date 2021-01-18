@@ -8,13 +8,13 @@ noTitleIndex: true
 is1366Compatible: true
 ---
 
-<p class="fontOswaldMedium textUpperCase tc" style="font-size: 20px;">Use Cases</p>
-<h1 class="fontOswaldLight" style="text-align:center;margin-bottom:100px;margin-top:0px;">Achieving Goals Faster with Dynamsoft’s SDKs</h1>
+<p class="fontOswald textUpperCase tc" style="font-size: 20px;">Use Cases</p>
+<h1 class="fontOswaldMedium" style="text-align:center;margin-bottom:100px;margin-top:0px;">Achieving Goals Faster with Dynamsoft’s SDKs</h1>
 
 <div class="usecaseItemList" style="position:relative;margin-bottom: 160px;overflow:hidden;">
   <ul class="pageMenuList" style="margin-top:20px;">
     <li class="on"><a href="#multiple-codes">Multiple Codes</a></li>
-    <li><a href="#vin-codes">VIN codes</a></li>
+    <li><a href="#vin-codes">VIN Codes</a></li>
     <li><a href="#dpm-code-scanning">DPM Code Scanning</a></li>
     <li><a href="#document-management" style="line-height: 20px;">Document<br/> Management</a></li>
     <li><a href="#parcel-tracking">Parcel Tracking</a></li>
@@ -22,36 +22,41 @@ is1366Compatible: true
     <li><a href="#ups-maxicode">UPS MaxiCode</a></li>
     <li><a href="#aadhaar-card">Aadhaar Card</a></li>
   </ul>
+  <a id="multiple-codes"></a>
   <div class="usecaseItem">
     <div class="useCaseImg">
       <img src="./assets/Multiple-Codes.jpg"
         alt="Identify vehicles by VIN code reader">
     </div>
     <div class="useCaseDetail">
-      <h2 id="multiple-codes">Multiple Codes</h2>
+      <h2>Multiple Codes</h2>
       <p>Reading dozens of barcodes in a single scan increases productivity and saves time. But when capturing an entire barcode zone from a distance, the barcodes would be relatively small, so it could be almost impossible to read all of them at once. The situation is worse when some barcodes are of questionable quality. </p>
       <p><a
           href="https://officecn.dynamsoft.com:808/Products/barcode-inventory-system.aspx" class="orangeLink">Dynamsoft Panorama™</a> addresses the issue by breaking the process into two steps: (1) take a bird’s eye view above all the barcodes; (2) move the camera closer and sweep over the barcodes. The “partial” images will be clearer and give better barcode scanning results. The results will then be mapped to the bird’s eye view image.</p>
     </div>
   </div>
+
+  <a id="vin-codes"></a>
   <div class="usecaseItem">
     <div class="useCaseImg">
       <img src="./assets/VIN.jpg"
         alt="OCR ensures accurate price label recognition">
     </div>
     <div class="useCaseDetail">
-      <h2 id="vin-codes">VIN codes</h2>
+      <h2>VIN Codes</h2>
       <p><a
           href="https://www.dynamsoft.com/blog/imaging/barcode/scanning-vin-codes-barcode-reader/" class="orangeLink">Vehicle Identification Numbers (VIN)</a> codes are used in the automotive industry to identify individual motor vehicles. You can spot a VIN at the base of the windshield, on the driver’s side door, and on the registration certificate. It can either be a 17-digit alphanumeric code or a subset of Code 39 barcodes. Reading VINs on a vehicle door sticker or through a windshield isn’t easy and the problem is aggravated if the windshield has stains or glare. Dynamsoft’s SDKs can rapidly scan and decode VIN codes at different distances and angles.</p>
     </div>
   </div>
+
+  <a id="dpm-code-scanning"></a>
   <div class="usecaseItem">
     <div class="useCaseImg">
       <img src="./assets/dpm.jpg"
         alt="Capture content with inventory label recognition">
     </div>
     <div class="useCaseDetail">
-      <h2 id="dpm-code-scanning">DPM Code Scanning</h2>
+      <h2>DPM Code Scanning</h2>
       <p>Direct Part Marking (DPM) is used in electronics manufacturing, automotive industry, medical devices, and
         aerospace to permanently mark products and parts with crucial product information, such as part numbers, serial
         numbers, and date codes. While DPM codes help to manage and track devices and components, it can often become
@@ -61,13 +66,15 @@ is1366Compatible: true
         proprietary algorithmic capabilities.</p>
     </div>
   </div>
+
+  <a id="document-management"></a>
   <div class="usecaseItem">
     <div class="useCaseImg">
       <img src="./assets/Document-Management.jpg"
         alt="Increase efficiency of passengers' check-in workflow">
     </div>
     <div class="useCaseDetail">
-      <h2 id="document-management">Document Management</h2>
+      <h2>Document Management</h2>
       <p>Document management is essential for organizations to reduce file loss, which impacts the productivity of their
         workforce. With a high recognition speed and the ability to scan a wide array of barcodes, organizations and
         professionals save time and effort.</p>
@@ -77,13 +84,15 @@ is1366Compatible: true
           href="https://www.dynamsoft.com/Company/case-study-Avision.aspx" class="fontOswald orangeLink textUpperCase">Read the case study</a></p>
     </div>
   </div>
+
+  <a id="parcel-tracking"></a>
   <div class="usecaseItem">
     <div class="useCaseImg">
       <img src="./assets/Parcel-Tracking.jpg"
         alt="OCR makes it easier to read parcel labels">
     </div>
     <div class="useCaseDetail">
-      <h2 id="parcel-tracking">Parcel Tracking</h2>
+      <h2>Parcel Tracking</h2>
       <p>Parcel tracking involves recording the date and time of the shipment’s arrival, the location it was sent to,
         and the recipient’s name. Barcodes ensure high speed, accuracy, accountability, and efficiency. With Dynamsoft
         Barcode Reader SDK, tasks such as searching, tracking, and sorting parcels becomes much easier and faster.</p>
@@ -92,13 +101,15 @@ is1366Compatible: true
         errors.</p>
     </div>
   </div>
+
+  <a id="inventory-count"></a>
   <div class="usecaseItem">
     <div class="useCaseImg">
       <img src="./assets/Inventory-Count.jpg"
         alt="Track and find different parts in a warehouse">
     </div>
     <div class="useCaseDetail">
-      <h2 id="inventory-count">Inventory Count</h2>
+      <h2>Inventory Count</h2>
       <p>To optimize your supply chain, barcode inventory systems must be controlled and overseen to be efficient and
         accurate. Missed items result in inaccurate inventory, affecting the entire chain to customers. Barcode tracking
         software must deliver precision. While most barcode readers promise high recognition accuracy, even a success
@@ -109,13 +120,15 @@ is1366Compatible: true
         can collectively cost businesses billions annually.</p>
     </div>
   </div>
+
+  <a id="ups-maxicode"></a>
   <div class="usecaseItem">
     <div class="useCaseImg">
       <img src="./assets/maxi-code.jpg"
         alt="Automatic data extraction with OCR">
     </div>
     <div class="useCaseDetail">
-      <h2 id="ups-maxicode">UPS MaxiCode</h2>
+      <h2>UPS MaxiCode</h2>
       <p>A 2-dimensional barcode, <a href="https://www.dynamsoft.com/Barcode-Types/MaxiCode.aspx" class="orangeLink">MaxiCode</a>, was
         developed by United Parcel Service in 1992 and is used for sorting and addressing US domestic packages, as well
         as international. MaxiCode consists of concentric circles or Bullseye, a hexagonal grid, and a fixed number of
@@ -125,13 +138,15 @@ is1366Compatible: true
         with Dynamsoft Barcode Reader SDK, users can easily scan these codes.</p>
     </div>
   </div>
+
+  <a id="aadhaar-card"></a>
   <div class="usecaseItem">
     <div class="useCaseImg">
       <img src="./assets/Aadhaar-Card.jpg"
         alt="Scan voucher codes using mobile devices">
     </div>
     <div class="useCaseDetail">
-          <h2 id="aadhaar-card">Aadhaar Card</h2>
+          <h2>Aadhaar Card</h2>
       <p>Issued by the Unique Identification Authority of India (UIDAI), the <a
           href="https://www.dynamsoft.com/blog/insights/how-to-extract-aadhaar-card-information/" class="orangeLink">Aadhaar card’s QR
           code</a> contains a person’s information, such as full name, date of birth, father’s name, and address.
