@@ -123,7 +123,7 @@ $(document).ready(function(){
         }
         var scrollTop = document.documentElement.scrollTop || window.pageYOffset || document.body.scrollTop;
         var lastItem = $('.usecaseItem')[$('.usecaseItem').length-1]
-        if(lastitem && scrollTop >= lastItem.offsetTop + lastItem.clientHeight){
+        if(lastItem && scrollTop >= lastItem.offsetTop + lastItem.clientHeight){
             $('.pageMenuList').css("position", 'fixed');
             $('.pageMenuList').css("top", lastItem.offsetTop + lastItem.clientHeight-scrollTop+30);
         } else {
