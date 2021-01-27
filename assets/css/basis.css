@@ -4225,9 +4225,38 @@ height: 310px;
 }
 
 .mb60 {
-  margin-bottom: 60px;
+  margin-bottom: 60px !important;
 }
 
 .wholeBlockTable {
   width: 100%;
+}
+
+.wholeBlockTable * {
+  border: none !important;
+  color: #323234;
+}
+.wholeBlockTable tr {
+  background: #F5F5F5;
+}
+.wholeBlockTable td:first-child{
+  padding: 70px 20px 65px 82px;
+}
+
+.drive-license.content-wrapper .content-card {
+  margin-right: 60px;
+}
+
+.parserList .leftContent{
+  padding: 165px 91px 127px 117px;
+}
+
+.parserList .rightList{
+  padding: 28px 123px;
+}
+
+@media (max-width: 1679px) {
+  .content-wrapper.drive-license .content-card {
+    margin-right: 40px;
+  }
 }

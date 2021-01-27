@@ -13,16 +13,16 @@ noTitleIndex: true
 </p>
 
 
-<table class="wholeBlockTable">
+<table class="wholeBlockTable ">
   <tr>
-    <td>
-      <p>According to the American Association of Motor Vehicle Administrators (AAMVA) <a>specification</a>, PDF417 symbology is used for storing personal information on US driver’s licenses. It comprises critical information about the cardholder, such as their name, gender, date of birth, height, etc. Many organizations, both government and private, use the driver’s license for identification purposes and age verification. Barcode recognition technology is considered more accurate and cost-effective than OCR for extracting data. Because the driver’s license is widely accepted as a form of identification in different areas and is considered the primary method of identification in countries like the US, it is imperative to use a barcode reader that accurately reads and extracts the data.</p>
+    <td class="col-6 v-align-middle">
+      <p class="f18">According to the American Association of Motor Vehicle Administrators (AAMVA) <a>specification</a>, PDF417 symbology is used for storing personal information on US driver’s licenses. It comprises critical information about the cardholder, such as their name, gender, date of birth, height, etc. Many organizations, both government and private, use the driver’s license for identification purposes and age verification. Barcode recognition technology is considered more accurate and cost-effective than OCR for extracting data. Because the driver’s license is widely accepted as a form of identification in different areas and is considered the primary method of identification in countries like the US, it is imperative to use a barcode reader that accurately reads and extracts the data.</p>
       <p>
-        <a>Try an Online Demo of Dynamsoft Barcode SDK ></a>  
+        <a class="f24 fontOswaldMedium orangelink">Try an Online Demo of Dynamsoft Barcode SDK ></a>  
       </p>
     </td>
-    <td>
-      <img />
+    <td class="col-6 v-align-middle">
+      <img src="assets/1.jpg"/>
     </td>
   </tr>
 </table>
@@ -32,7 +32,7 @@ noTitleIndex: true
 <p class="tc mb60">
   <span class="col-10 d-inline-block f18">Dynamsoft Barcode SDK is designed to read barcodes from a variety of platforms and devices. Below are some of the ways you can use the barcode SDK for reading the information on driver’s licenses.</span>
 </p>
-<div class="content-wrapper scanning" style="margin-bottom: 160px;" >
+<div class="content-wrapper scanning drive-license" style="margin-bottom: 160px;" >
   <div class="content-card">
     <div class="imgBox"><img src="assets/resist-wrinkles-and-deformation.png"/></div>
     <div class="card-text">
@@ -58,23 +58,27 @@ noTitleIndex: true
   </div>
 </div>
 
-<div>
-  <div>
-    <h2 class="fontOswaldMedium">Parser</h2>
-    <p class="f18">Dynamsoft Barcode Reader SDK is capable of quickly decoding PDF417 barcode symbology. Once decoded, a parser is required to convert the information contained in the barcode into human-readable formats. </p>
-    <p class="f18">The parser breaks down the decoded PDF417 values into field-value pairs, such as cardholder’s name, eye color, height, date of birth, etc.</p>
-  </div>
-  <div class="fr">
-    <h3>A Snippet of Parsed PDF417 Values</h3>
-    <ul>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-    </ul>
-  </div>
-</div>
+<table>
+  <tr>
+    <td>
+      <div class="leftContent">
+        <h2 class="fontOswaldMedium m-0 pb-5">Parser</h2>
+        <p class="f18">Dynamsoft Barcode Reader SDK is capable of quickly decoding PDF417 barcode symbology. Once decoded, a parser is required to convert the information contained in the barcode into human-readable formats. </p>
+        <p class="f18">The parser breaks down the decoded PDF417 values into field-value pairs, such as cardholder’s name, eye color, height, date of birth, etc.</p>
+      </div>
+    </td>
+    <td>
+    <h2 class="tc">A Snippet of Parsed PDF417 Values</h2>
+      <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+    </td>
+  </tr>
+</table>
 
 <h2 class="tc" style="margin-top: 140px;">Case Studies</h2>
 
