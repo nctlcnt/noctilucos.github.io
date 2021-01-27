@@ -27,6 +27,7 @@ docHomePage:
 # with the first-level path rather than the root path of the repository.
 
 COVID-19: /covid-19/
+Driver-License: /driver-license/
 
 # Example variable:
 
