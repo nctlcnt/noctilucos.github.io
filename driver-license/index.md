@@ -8,23 +8,30 @@ noTitleIndex: true
 ---
 
 <h1 style="text-align: center;" class="fontOswaldMedium">Use Dynamsoft Barcode Reader for Reading Driver’s Licenses</h1> 
-<p>
-  <a class>download 30-day free trial</a>
+<p class="tc">
+  <a class="orangeBgBtn textUpperCase bigBgBtn">download 30-day free trial</a>
 </p>
 
-<div>
-  <div>
-    <p>According to the American Association of Motor Vehicle Administrators (AAMVA) <a>specification</a>, PDF417 symbology is used for storing personal information on US driver’s licenses. It comprises critical information about the cardholder, such as their name, gender, date of birth, height, etc. Many organizations, both government and private, use the driver’s license for identification purposes and age verification. Barcode recognition technology is considered more accurate and cost-effective than OCR for extracting data. Because the driver’s license is widely accepted as a form of identification in different areas and is considered the primary method of identification in countries like the US, it is imperative to use a barcode reader that accurately reads and extracts the data.</p>
-    <p>
-      <a>Try an Online Demo of Dynamsoft Barcode SDK ></a>  
-    </p>
-  </div>
-  <div class="fr">
-  </div>
-</div>
 
-<h2 class="tc">How Dynamsoft Barcode Reader is Optimized for Retail Product Scanning</h2>
-<p class="tc">Dynamsoft Barcode SDK is designed to read barcodes from a variety of platforms and devices. Below are some of the ways you can use the barcode SDK for reading the information on driver’s licenses.</p>
+<table class="wholeBlockTable">
+  <tr>
+    <td>
+      <p>According to the American Association of Motor Vehicle Administrators (AAMVA) <a>specification</a>, PDF417 symbology is used for storing personal information on US driver’s licenses. It comprises critical information about the cardholder, such as their name, gender, date of birth, height, etc. Many organizations, both government and private, use the driver’s license for identification purposes and age verification. Barcode recognition technology is considered more accurate and cost-effective than OCR for extracting data. Because the driver’s license is widely accepted as a form of identification in different areas and is considered the primary method of identification in countries like the US, it is imperative to use a barcode reader that accurately reads and extracts the data.</p>
+      <p>
+        <a>Try an Online Demo of Dynamsoft Barcode SDK ></a>  
+      </p>
+    </td>
+    <td>
+      <img />
+    </td>
+  </tr>
+</table>
+
+
+<h2 class="fontOswaldMedium tc">Cross-platform and Cross-device Support</h2>
+<p class="tc mb60">
+  <span class="col-10 d-inline-block f18">Dynamsoft Barcode SDK is designed to read barcodes from a variety of platforms and devices. Below are some of the ways you can use the barcode SDK for reading the information on driver’s licenses.</span>
+</p>
 <div class="content-wrapper scanning" style="margin-bottom: 160px;" >
   <div class="content-card">
     <div class="imgBox"><img src="assets/resist-wrinkles-and-deformation.png"/></div>
@@ -53,9 +60,9 @@ noTitleIndex: true
 
 <div>
   <div>
-    <h2>Parser</h2>
-    <p>Dynamsoft Barcode Reader SDK is capable of quickly decoding PDF417 barcode symbology. Once decoded, a parser is required to convert the information contained in the barcode into human-readable formats. </p>
-    <p>The parser breaks down the decoded PDF417 values into field-value pairs, such as cardholder’s name, eye color, height, date of birth, etc.</p>
+    <h2 class="fontOswaldMedium">Parser</h2>
+    <p class="f18">Dynamsoft Barcode Reader SDK is capable of quickly decoding PDF417 barcode symbology. Once decoded, a parser is required to convert the information contained in the barcode into human-readable formats. </p>
+    <p class="f18">The parser breaks down the decoded PDF417 values into field-value pairs, such as cardholder’s name, eye color, height, date of birth, etc.</p>
   </div>
   <div class="fr">
     <h3>A Snippet of Parsed PDF417 Values</h3>
@@ -75,7 +82,7 @@ noTitleIndex: true
   <li class="fl on">Millennial Vision, Inc.</li>
   <li class="fl">VALID USA, Inc</li>
 </ul>
-<div class="tabContentList">
+<div class="tabContentList mb120">
   <div class="tabContent on">
     <h3>Retail - Contactless Shopping</h3>
     <div class="tabDetail clearfix">

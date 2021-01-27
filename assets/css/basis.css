@@ -129,6 +129,9 @@ h5 {
 .mt160{
   margin-top: 160px;
 }
+.mb120 {
+  margin-bottom: 120px;
+}
 .fontOswald {
   font-family: Oswald;
 }
@@ -4211,4 +4214,20 @@ height: 310px;
 .usecaseItemList .useCaseDetail {
   width: 100%;
 }
+}
+
+/* driver license */
+.bigBgBtn {
+  font-size: 18px!important;
+  height: 54px!important;
+  width: 287px;
+  line-height: 54px!important;
+}
+
+.mb60 {
+  margin-bottom: 60px;
+}
+
+.wholeBlockTable {
+  width: 100%;
 }
