@@ -7,7 +7,7 @@ needAutoGenerateSidebar: false
 noTitleIndex: true
 ---
 
-<h1 style="text-align: center;">Dynamsoft Barcode Reader in Retail</h1> 
+<h1 style="text-align: center;" class="fontOswaldMedium">Dynamsoft Barcode Reader in Retail</h1> 
 
 <p style="text-align: center;">Barcodes have long been used in retail, and the possibilities for their use continue to evolve and grow. They offer many benefits including:</p>
 

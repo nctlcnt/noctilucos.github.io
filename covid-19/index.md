@@ -8,7 +8,7 @@ breadcrumbText: COVID-19 Use Cases
 noTitleIndex: true
 ---
 
-<h1 class="tc h1Title">How Dynamsoft Barcode Reader helps fight against COVID-19 in healthcare, retail and other industries</h1>
+<h1 class="tc h1Title fontOswaldMedium">How Dynamsoft Barcode Reader helps fight against COVID-19 in healthcare, retail and other industries</h1>
 <p class="tc titleDescription">As the world continues to face the Covid-19 pandemic, innovators and governments of various countries have been trying numerous ways to contain its spread. Barcoding technology is one of them. From enabling contactless work environments to tracking testing kits to curb the Covid-19 spread, barcodes can revolutionize many processes amid the ongoing pandemic.
 </p>
 
@@ -52,7 +52,7 @@ noTitleIndex: true
 
 <h2 class="tc mt160" style="margin-top: 160px;">Featured Content</h2>
 
-<table class="card-table" style="margin-bottom: 160px;">
+<table class="card-table covid-19" style="margin-bottom: 160px;">
   <tr>
     <td width="33.3%" style="vertical-align: top">
       <div class="card-item">
