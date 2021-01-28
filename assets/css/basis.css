@@ -4252,6 +4252,7 @@ height: 310px;
 
 .drive-license.content-wrapper .content-card {
   margin-right: 60px;
+  height: 630px;
 }
 .drive-license.content-wrapper .content-card:last-child {
   margin-right: 0;
