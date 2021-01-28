@@ -4228,6 +4228,10 @@ height: 310px;
   margin-bottom: 60px !important;
 }
 
+.f18 {
+  font-size: 18px !important;
+}
+
 .wholeBlockTable {
   width: 100%;
 }
@@ -4256,8 +4260,30 @@ height: 310px;
 .parserTable tr,.parserTable td  {
   border: none;
 }
-.parserTable td {
+.parserTable td.rightContent {
   height: 840px;
+}
+.parserTable td.rightContent dl {
+  padding: 27px 137px;
+  color: #323234;
+  font-family: 'OpenSans-Regular';
+}
+.parserTable td.rightContent dt {
+  font-weight: normal;
+  font-size: 18px;
+}
+.parserTable td.rightContent dt:before {
+  content: "\A";
+  border-style: solid;
+  border-width: 6px 10px 6px 0;
+  border-color: transparent #FE8E14 transparent transparent;
+  position: absolute;
+  transform: rotate(180deg);
+  left: -17px;
+  top: 6px;
+}
+.parserTable td.rightContent dd {
+  padding: 0px;
 }
 .parserTable .leftContent {
   background: #f5f5f5;

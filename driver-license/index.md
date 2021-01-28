@@ -12,7 +12,6 @@ noTitleIndex: true
   <a class="orangeBgBtn textUpperCase bigBgBtn">download 30-day free trial</a>
 </p>
 
-
 <table class="wholeBlockTable ">
   <tr>
     <td class="col-6 v-align-middle">
@@ -26,7 +25,6 @@ noTitleIndex: true
     </td>
   </tr>
 </table>
-
 
 <h2 class="fontOswaldMedium tc">Cross-platform and Cross-device Support</h2>
 <p class="tc mb60">
@@ -60,8 +58,8 @@ noTitleIndex: true
 </div>
 
 <table class="parserTable">
-  <tr>
-    <td>
+  <tr class="border-0">
+    <td class="p-0 border-0">
       <div class="leftContent">
         <h2 class="fontOswaldMedium m-0 pb-5">Parser</h2>
         <p class="f18">Dynamsoft Barcode Reader SDK is capable of quickly decoding PDF417 barcode symbology. Once decoded, a parser is required to convert the information contained in the barcode into human-readable formats. </p>
@@ -86,7 +84,6 @@ noTitleIndex: true
 </table>
 
 <h2 class="tc" style="margin-top: 140px;">Case Studies</h2>
-
 <ul class="tabList clearfix">
   <li class="fl on">Millennial Vision, Inc.</li>
   <li class="fl">VALID USA, Inc</li>
