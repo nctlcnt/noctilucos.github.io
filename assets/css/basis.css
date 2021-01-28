@@ -4273,6 +4273,7 @@ height: 310px;
   font-weight: normal;
   font-size: 18px;
   font-style: normal;
+  position: relative;
 }
 .parserTable td.rightContent dt:before {
   content: "\A";
@@ -4304,5 +4305,48 @@ height: 310px;
 @media (max-width: 1679px) {
   .content-wrapper.drive-license .content-card {
     margin-right: 40px;
+  }
+  .parserTable td.rightContent {
+    height: 710px;
+}
+  .parserTable .leftContent {
+    padding: 115px 41px 67px 47px;
+  }
+  .drive-license.content-wrapper .content-card {
+    height: 570px;
+}
+.parserTable td.rightContent dl {
+  padding: 17px 67px;
+}
+.parserTable td.rightContent h2 {
+  font-size: 26px;
+}
+.parserTable td.rightContent dt, .parserTable td.rightContent dd{
+  font-size: 16px;
+}
+.content-wrapper.drive-license .content-card {
+  margin: auto;
+  margin-bottom: 60px;
+  /* height: auto; */
+}
+.drive-license.content-wrapper .content-card:last-child{
+  margin: auto;
+}
+}
+
+@media (max-width: 991px) {
+  .parserTable .leftContent {
+    padding: 40px 60px;
+}
+  .parserTable .rightContent h2 {
+    height: 100px;
+    line-height: 100px;
+    background: #f5f5f5;
+    color: #323234;
+}
+}
+@media (max-width: 767px){
+  .parserTable .rightContent h2 {
+    padding-top: 0px;
   }
 }

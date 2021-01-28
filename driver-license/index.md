@@ -19,7 +19,7 @@ noTitleIndex: true
       <p>Barcode recognition technology is considered more accurate and cost-effective than OCR for extracting data. Because the driver’s license is widely accepted as a form of identification in different areas and is considered the primary method of identification in countries like the US, it is imperative to use a barcode reader that accurately reads and extracts the data. </p>
       <a href="https://www.dynamsoft.com/barcode-reader/downloads/" class="f24 fontOswaldMedium orangelink">Try an online demo of Dynamsoft Barcode SDK ></a> 
     </td>
-    <td class="col-6 v-align-middle tc">
+    <td class="col-6 hidden-sm tc v-align-middle">
       <img src="assets/1.jpg"/>
     </td>
   </tr>
@@ -58,7 +58,7 @@ noTitleIndex: true
 
 <table class="parserTable">
   <tr class="border-0">
-    <td class="p-0 border-0">
+    <td class="border-0 hidden-sm hidden-xs p-0">
       <div class="leftContent">
         <h2 class="fontOswaldMedium m-0 pb-5">Parser</h2>
         <p class="f18">Dynamsoft Barcode Reader SDK is capable of quickly decoding PDF417 barcode symbology. Once decoded, a parser is required to convert the information contained in the barcode into human-readable formats. </p>
@@ -78,6 +78,11 @@ noTitleIndex: true
         <dt>Mailing Jurisdiction Code</dt><dd>IN</dd>
         <dt>Mailing Postal Code</dt><dd>462040000</dd>
       </dl>
+      <div class="leftContent show-block-md show-block-sm">
+        <h2 class="fontOswaldMedium m-0 pb-5">Parser</h2>
+        <p class="f18">Dynamsoft Barcode Reader SDK is capable of quickly decoding PDF417 barcode symbology. Once decoded, a parser is required to convert the information contained in the barcode into human-readable formats. </p>
+        <p class="f18">The parser breaks down the decoded PDF417 values into field-value pairs, such as cardholder’s name, eye color, height, date of birth, etc. </p>
+      </div>
     </td>
   </tr>
 </table>
