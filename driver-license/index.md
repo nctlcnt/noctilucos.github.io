@@ -1,6 +1,6 @@
 ---
 layout: home-page
-title: Dynamsoft Barcode Reader Use Cases in Retail
+title: Dynamsoft Barcode Reader Use Cases in Driver
 description: How Dynamsoft Barcode Reader helps provide better  customer experience, reduce costs, and drive more sales in retail
 keywords: retail, barcode reader, SDK
 needAutoGenerateSidebar: false
