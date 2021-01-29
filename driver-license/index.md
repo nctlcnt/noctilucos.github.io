@@ -20,7 +20,7 @@ noTitleIndex: true
       <a href="https://www.dynamsoft.com/barcode-reader/downloads/" class="f24 fontOswaldMedium orangelink">Try an online demo of Dynamsoft Barcode SDK ></a> 
     </td>
     <td class="col-6 hidden-sm tc v-align-middle">
-      <img src="assets/1.jpg"/>
+      <img src="assets/Image_2.png"/>
     </td>
   </tr>
 </table>
@@ -31,7 +31,7 @@ noTitleIndex: true
 </p>
 <div class="content-wrapper scanning drive-license" style="margin-bottom: 160px;" >
   <div class="content-card">
-    <div class="imgBox"><img src="assets/resist-wrinkles-and-deformation.png"/></div>
+    <div class="imgBox"><img src="assets/driver-license_1.jpg"/></div>
     <div class="card-text">
       <h2>Scan documents and read driver’s license synchronously</h2>
       <p>Working together with <a href="https://www.dynamsoft.com/Products/WebTWAIN_Overview.aspx">Dynamic Web TWAIN</a>, the barcode reader add-on allows you to scan a picture of a US driver’s license from a document scanner and extract data from the barcode. </p>
@@ -39,7 +39,7 @@ noTitleIndex: true
     </div>
   </div>
   <div class="content-card">
-    <div class="imgBox"><img src="assets/remove-glares-on-reflective-cans.png" /></div>
+    <div class="imgBox"><img src="assets/driver-license_2.jpg" /></div>
     <div class="card-text">
       <h2>Decode PDF417 from cameras in a web application on mobile and desktop devices</h2>
       <p>Dynamsoft JavaScript Barcode SDK provides high-performance barcode scanning functionality to web developers. It also offers built-in camera module APIs, making the process of creating an HTML5 barcode reader with cameras extremely convenient. </p>
@@ -47,7 +47,7 @@ noTitleIndex: true
     </div>
   </div>
   <div class="content-card">
-    <div class="imgBox"><img src="assets/verify-via-accompanying-text.png"/></div>
+    <div class="imgBox"><img src="assets/driver-license_3.jpg"/></div>
     <div class="card-text">
       <h2>Read driver’s licenses in Android and iOS native applications</h2>
       <p>With Dynamsoft Barcode Reader SDK for iOS and Android, developers can easily create a barcode reader app to extract information from PDF417 codes on driver’s licenses.</p>
@@ -102,7 +102,7 @@ noTitleIndex: true
         <p><a href="https://www.dynamsoft.com/Company/millennial-vision-auto-populate-driver%27s-license-data-case-study.aspx " class="fontOswald orangeLink textUpperCase">Learn More ></a></p>
       </div>
       <div class="imgCnt fl">
-        <img src="assets\Lee-Valley-Scan-Barcode.jpg" alt="user story of retail contactless shopping"/>
+        <img src="assets\Original-MVI-Logo.png" alt="user story of retail contactless shopping"/>
       </div>
     </div>
   </div>
@@ -115,7 +115,7 @@ noTitleIndex: true
         <p><a href="https://www.dynamsoft.com/Company/enrollment-application-case-study.aspx" class="fontOswald orangeLink textUpperCase">Learn More ></a></p>
       </div>
       <div class="imgCnt fl">
-        <img src="assets\user-story-vault-health.png" alt="user story of tracking COVID-19 diagnostic samples"/>
+        <img src="assets\Valid_Company_Logo.jpg" alt="user story of tracking COVID-19 diagnostic samples"/>
       </div>
     </div>
   </div>
