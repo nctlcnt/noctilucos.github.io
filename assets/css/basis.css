@@ -4243,7 +4243,7 @@ height: 310px;
   border: none !important;
   color: #323234;
 }
-.wholeBlockTable tr {
+.markdown-body table.wholeBlockTable tr {
   background: #F5F5F5;
 }
 .wholeBlockTable td:first-child{
@@ -4341,6 +4341,7 @@ height: 310px;
   }
   .parserTable .leftContent {
     padding: 40px 60px;
+    height: auto;
 }
   .parserTable .rightContent h2 {
     height: 100px;
