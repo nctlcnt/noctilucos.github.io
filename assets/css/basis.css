@@ -4238,7 +4238,10 @@ height: 310px;
 .bg-basic-grey {
   background-color: #F5F5F5;
 }
-
+.wholeBlockTable {
+  margin-top: 120px;
+  margin-bottom: 160px;
+}
 .wholeBlockTable * {
   border: none !important;
   color: #323234;
@@ -4304,7 +4307,7 @@ height: 310px;
 
 @media (max-width: 1679px) {
   .content-wrapper.drive-license .content-card {
-    margin-right: 40px;
+    margin-right: 20px;
   }
   .parserTable td.rightContent {
     height: 710px;
@@ -4313,7 +4316,7 @@ height: 310px;
     padding: 115px 41px 67px 47px;
   }
   .drive-license.content-wrapper .content-card {
-    height: 570px;
+    height: 610px;
 }
 .parserTable td.rightContent dl {
   padding: 17px 67px;

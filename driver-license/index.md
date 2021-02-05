@@ -19,7 +19,7 @@ noTitleIndex: true
       <p class="f18">Barcode recognition technology is considered more accurate and cost-effective than OCR for extracting data. Because the driver’s license is widely accepted as a form of identification in different areas and is considered the primary method of identification in countries like the US, it is imperative to use a barcode reader that accurately reads and extracts the data. </p>
       <a href="https://www.dynamsoft.com/barcode-reader/downloads/" class="f24 fontOswaldMedium orangelink">Try an online demo of Dynamsoft Barcode SDK ></a> 
     </td>
-    <td class="col-6 hidden-sm tc v-align-middle">
+    <td class="col-6 hidden-sm hidden-xs tc v-align-middle">
       <img src="assets/Image_2.png"/>
     </td>
   </tr>
@@ -102,7 +102,7 @@ noTitleIndex: true
         <p><a href="https://www.dynamsoft.com/Company/millennial-vision-auto-populate-driver%27s-license-data-case-study.aspx " class="fontOswald orangeLink textUpperCase">Learn More ></a></p>
       </div>
       <div class="imgCnt fl">
-        <img src="assets\Original-MVI-Logo.png" alt="user story of retail contactless shopping"/>
+        <img src="assets\Original-MVI-Logo.png" style="width: auto;" alt="user story of retail contactless shopping"/>
       </div>
     </div>
   </div>
