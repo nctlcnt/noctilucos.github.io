@@ -3421,16 +3421,25 @@ i.dbr-white-logo {
   padding-right: 50px;
 }
 .tabDetail .descCnt p {
-  font-size: 16px;
+  font-size: 18px;
 }
 .tabDetail .imgCnt {
   display: inline-block;
   width: 45%;
   padding-right: 10px;
+  background: white;
+  height: 270px;
+  box-shadow: 15px 16px 0 0 #323234;
+  position: relative;
 }
 .tabDetail .imgCnt img {
   width: 100%;
-  box-shadow: 15px 16px 0px 0px #323234;
+  /* box-shadow: 15px 16px 0 0 #323234; */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  max-width: 50%;
 }
 
 @media (max-width: 1679px) {
@@ -3574,7 +3583,7 @@ ul.grey-wrapper {
   margin-top: unset;
 }
 .content-wrapper .content-card .card-text p {
-  font-size: 16px;
+  font-size: 18px;
 }
 
 .content-wrapper .content-card a.orangeLink.mediumLink {
@@ -3649,7 +3658,7 @@ ul.grey-wrapper li:last-child {
     padding: 20px 15px;
   }
   .content-wrapper .content-card .card-text h2 {
-    font-size: 26px;
+    font-size: 22px;
   }
 
   /* two columns */
@@ -4255,7 +4264,7 @@ height: 310px;
 
 .drive-license.content-wrapper .content-card {
   margin-right: 60px;
-  height: 630px;
+  height: 610px;
 }
 .drive-license.content-wrapper .content-card:last-child {
   margin-right: 0;
@@ -4311,6 +4320,7 @@ height: 310px;
 h2.card-title {
   font-size: 24px;
   line-height: 30px;
+  margin-bottom: 10px;
 }
 @media (max-width: 1679px) {
   .content-wrapper.drive-license .content-card {
@@ -4323,7 +4333,7 @@ h2.card-title {
     padding: 115px 41px 67px 47px;
   }
   .drive-license.content-wrapper .content-card {
-    height: 520px;
+    height: 530px;
 }
 .parserTable td.rightContent dl {
   padding: 17px 67px;
@@ -4343,7 +4353,7 @@ h2.card-title {
 }
 
 .f18,.content-wrapper .content-card .card-text p {
-  font-size: 14px;
+  font-size: 16px !important;
 }
 h2.card-title {
   font-size: 20px;
