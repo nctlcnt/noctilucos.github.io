@@ -4305,7 +4305,7 @@ height: 310px;
   color: white;
 }
 .mt-block {
-  margin-top: 140px;
+  margin-top: 140px !important;
 }
 @media (max-width: 1679px) {
   .content-wrapper.drive-license .content-card {
@@ -4318,13 +4318,13 @@ height: 310px;
     padding: 115px 41px 67px 47px;
   }
   .drive-license.content-wrapper .content-card {
-    height: 610px;
+    height: 520px;
 }
 .parserTable td.rightContent dl {
   padding: 17px 67px;
 }
 .parserTable td.rightContent h2 {
-  font-size: 26px;
+  font-size: 22px;
 }
 .parserTable td.rightContent dt, .parserTable td.rightContent dd{
   font-size: 16px;
@@ -4332,6 +4332,13 @@ height: 310px;
 
 .mt-block {
   margin-top: 100px;
+}
+.wholeBlockTable img {
+  max-width: 80%;
+}
+
+.f18,.content-wrapper .content-card .card-text p {
+  font-size: 14px;
 }
 
 }
