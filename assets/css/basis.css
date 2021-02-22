@@ -4308,7 +4308,7 @@ height: 310px;
   margin-top: 140px !important;
 }
 
-.card-title {
+h2.card-title {
   font-size: 24px;
   line-height: 30px;
 }
@@ -4336,7 +4336,7 @@ height: 310px;
 }
 
 .mt-block {
-  margin-top: 100px;
+  margin-top: 100px !important;
 }
 .wholeBlockTable img {
   max-width: 80%;
@@ -4345,7 +4345,7 @@ height: 310px;
 .f18,.content-wrapper .content-card .card-text p {
   font-size: 14px;
 }
-.card-title {
+h2.card-title {
   font-size: 20px;
   line-height: 26px;
 }
@@ -4353,7 +4353,7 @@ height: 310px;
 
 @media (max-width: 1199px){
   .mt-block {
-    margin-top: 80px;
+    margin-top: 80px !important;
   }
 }
 
