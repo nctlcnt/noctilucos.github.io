@@ -4304,7 +4304,9 @@ height: 310px;
   background: #323234;
   color: white;
 }
-
+.mt-block {
+  margin-top: 140px;
+}
 @media (max-width: 1679px) {
   .content-wrapper.drive-license .content-card {
     margin-right: 20px;
@@ -4328,6 +4330,16 @@ height: 310px;
   font-size: 16px;
 }
 
+.mt-block {
+  margin-top: 100px;
+}
+
+}
+
+@media (max-width: 1199px){
+  .mt-block {
+    margin-top: 80px;
+  }
 }
 
 @media (max-width: 991px) {

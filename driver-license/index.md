@@ -7,12 +7,12 @@ needAutoGenerateSidebar: false
 noTitleIndex: true
 ---
 
-<h1 style="text-align: center;" class="fontOswaldMedium mt-lg-0 mt-sm-6 pt-6 pt-lg-1">Use Dynamsoft Barcode Reader for Reading Driver’s Licenses</h1> 
+<h1 style="text-align: center;" class="fontOswaldMedium mt-sm-6 pt-6 pt-lg-1">Use Dynamsoft Barcode Reader for Reading Driver’s Licenses</h1> 
 <p class="tc">
   <a class="orangeBgBtn textUpperCase bigBgBtn">download 30-day free trial</a>
 </p>
 
-<table class="wholeBlockTable ">
+<table class="wholeBlockTable mt-block">
   <tr>
     <td class="col-6 v-align-middle">
       <p class="f18">According to the American Association of Motor Vehicle Administrators (AAMVA) <a href="https://www.aamva.org/DL-ID-Card-Design-Standard/">specification</a>, PDF417 symbology is used for storing personal information on US driver’s licenses. It comprises critical information about the cardholder, such as their name, gender, date of birth, height, etc. Many organizations, both government and private, use the driver’s license for identification purposes and age verification. </p>
@@ -25,7 +25,7 @@ noTitleIndex: true
   </tr>
 </table>
 
-<h2 class="fontOswaldMedium tc">Cross-platform and Cross-device Support</h2>
+<h2 class="fontOswaldMedium tc mt-block">Cross-platform and Cross-device Support</h2>
 <p class="tc mb60">
   <span class="col-10 d-inline-block f18">Dynamsoft Barcode SDK is designed to read barcodes from a variety of platforms and devices. Below are some of the ways you can use the barcode SDK for reading the information on driver’s licenses.</span>
 </p>
@@ -56,7 +56,7 @@ noTitleIndex: true
   </div>
 </div>
 
-<table class="parserTable">
+<table class="parserTable mt-block">
   <tr class="border-0">
     <td class="border-0 hidden-sm hidden-xs p-0">
       <div class="leftContent">
@@ -87,7 +87,7 @@ noTitleIndex: true
   </tr>
 </table>
 
-<h2 class="tc" style="margin-top: 140px;">Case Studies</h2>
+<h2 class="tc mt-block">Case Studies</h2>
 <ul class="tabList clearfix">
   <li class="fl on">Millennial Vision, Inc.</li>
   <li class="fl">VALID USA, Inc</li>
