@@ -33,7 +33,7 @@ noTitleIndex: true
   <div class="content-card">
     <div class="imgBox"><img src="assets/driver-license_1.jpg"/></div>
     <div class="card-text">
-      <h2>Scan documents and read driver’s license synchronously</h2>
+      <p class='card-title'>Scan documents and read driver’s license synchronously</p>
       <p>Working together with <a href="https://www.dynamsoft.com/Products/WebTWAIN_Overview.aspx">Dynamic Web TWAIN</a>, the barcode reader add-on allows you to scan a picture of a US driver’s license from a document scanner and extract data from the barcode. </p>
       <p><a class="orangeLink fontOswald mediumLink textUpperCase" href="https://demo.dynamsoft.com/Samples/dwt/Scan-Driver-License-and-Extract-Information/DWT_HTML_Driver_License_PDF417Barcode.html">See it in action ></a></p>
     </div>
@@ -41,7 +41,7 @@ noTitleIndex: true
   <div class="content-card">
     <div class="imgBox"><img src="assets/driver-license_2.jpg" /></div>
     <div class="card-text">
-      <h2>Decode PDF417 from cameras in a web application on mobile and desktop devices</h2>
+      <p class='card-title'>Decode PDF417 from cameras in a web application on mobile and desktop devices</p>
       <p>Dynamsoft JavaScript Barcode SDK provides high-performance barcode scanning functionality to web developers. It also offers built-in camera module APIs, making the process of creating an HTML5 barcode reader with cameras extremely convenient. </p>
       <p><a class="orangeLink fontOswald mediumLink textUpperCase" href="https://github.com/yushulx/javascript-driver-license">Source code ></a></p>
     </div>
@@ -49,7 +49,7 @@ noTitleIndex: true
   <div class="content-card">
     <div class="imgBox"><img src="assets/driver-license_3.jpg"/></div>
     <div class="card-text">
-      <h2>Read driver’s licenses in Android and iOS native applications</h2>
+      <p class='card-title'>Read driver’s licenses in Android and iOS native applications</p>
       <p>With Dynamsoft Barcode Reader SDK for iOS and Android, developers can easily create a barcode reader app to extract information from PDF417 codes on driver’s licenses.</p>
       <p><a class="orangeLink fontOswald mediumLink textUpperCase" href="https://github.com/yushulx/android-driver-license">Source code ></a></p>
     </div>
