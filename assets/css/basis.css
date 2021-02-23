@@ -3401,7 +3401,7 @@ i.dbr-white-logo {
   color: #000000;
 }
 .tabContentList {
-  padding: 50px 30px;
+  padding: 50px 80px;
   background: #f5f5f5;
 }
 .tabContentList .tabContent {
@@ -3417,20 +3417,21 @@ i.dbr-white-logo {
 }
 .tabDetail .descCnt {
   display: inline-block;
-  width: 50%;
-  padding-right: 50px;
+  width: 44%;
+  padding-right: 40px;
+  margin-right: 130px;
 }
 .tabDetail .descCnt p {
   font-size: 18px;
 }
 .tabDetail .imgCnt {
   display: inline-block;
-  width: 45%;
-  padding-right: 10px;
-  background: white;
-  height: 270px;
-  box-shadow: 15px 16px 0 0 #323234;
-  position: relative;
+    width: 43%;
+    padding-right: 10px;
+    background: #fff;
+    height: 360px;
+    box-shadow: 15px 16px 0 0 #323234;
+    position: relative;
 }
 .tabDetail .imgCnt img {
   width: 100%;
@@ -3451,6 +3452,9 @@ i.dbr-white-logo {
   }
   .card-item {
     font-size: 16px;
+  }
+  .tabDetail .imgCnt {
+    width: 42%;
   }
 }
 
@@ -4274,7 +4278,7 @@ height: 310px;
   border: none;
 }
 .parserTable td.rightContent {
-  height: 840px;
+  height: 780px;
 }
 .parserTable td.rightContent dl {
   padding: 27px 137px;
@@ -4314,7 +4318,10 @@ height: 310px;
   color: white;
 }
 .mt-block {
-  margin-top: 140px !important;
+  margin-top: 100px !important;
+}
+.f22 {
+  font-size: 22px;
 }
 
 h2.card-title {
