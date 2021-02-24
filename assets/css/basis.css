@@ -3563,7 +3563,7 @@ ul.grey-wrapper {
   vertical-align: top;
   margin-right: 28px;
   background: #f5f5f5;
-  height: 590px;
+  height: 610px;
   position: relative;
 }
 
@@ -3908,11 +3908,11 @@ html {
 }
 
 @media (min-width: 768px) {   
-  .usecaseItemList .usecaseItem:nth-child(odd) .useCaseImg{
+  .usecaseItemList .usecaseItem:nth-of-type(odd) .useCaseImg{
       position: absolute;
       right: 0px;
   }
-  .usecaseItemList .usecaseItem:nth-child(odd) .useCaseDetail{
+  .usecaseItemList .usecaseItem:nth-of-type(odd) .useCaseDetail{
       padding-right: 510px;
       height: 500px;
   }
@@ -4113,9 +4113,9 @@ html {
   height: 440px;
 }
 .usecaseItemList .usecaseItem:nth-child(odd) .useCaseDetail {
-padding-right: 600px;
-height: 310px;
-}
+  padding-right: 600px;
+  height: 310px;
+  }
   .usecaseItemList .useCaseDetail {
     padding: 0 50px 0;
 }
@@ -4139,10 +4139,13 @@ height: 310px;
     width: 83.1%;
     float: right;
   }
-  .usecaseItemList .usecaseItem:nth-child(odd) .useCaseDetail {
+  .usecaseItemList .usecaseItem:nth-of-type(odd) .useCaseDetail {
     padding-right: 650px;
     height: 460px;
-}
+  }
+  .usecaseItemList .usecaseItem:nth-of-type(even) .useCaseDetail {
+    padding-right: 70px;
+  }
   .usecaseItemList .usecaseItem .useCaseImg {
     width: 560px;
     height: 460px;
