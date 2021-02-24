@@ -4081,7 +4081,7 @@ html {
   .usecaseItemList .useCaseDetail .useCaseInfo:last-child {
     margin-bottom: 0;
   }
-  .usecaseItemList .usecaseItem:nth-child(odd) .useCaseDetail {
+  .usecaseItemList .usecaseItem:nth-of-type(odd) .useCaseDetail {
     padding-right: 610px;
     height: 460px;
 }
@@ -4112,7 +4112,7 @@ html {
   max-width: 536px;
   height: 440px;
 }
-.usecaseItemList .usecaseItem:nth-child(odd) .useCaseDetail {
+.usecaseItemList .usecaseItem:nth-of-type(odd) .useCaseDetail {
   padding-right: 600px;
   height: 310px;
   }
@@ -4196,10 +4196,10 @@ html {
     float: none;
     margin-bottom: 160px;
   }
-  .usecaseItemList .usecaseItem:nth-child(odd) .useCaseImg {
+  .usecaseItemList .usecaseItem:nth-of-type(odd) .useCaseImg {
     position: relative;
   }
-  .usecaseItemList .usecaseItem:nth-child(odd) .useCaseDetail {
+  .usecaseItemList .usecaseItem:nth-of-type(odd) .useCaseDetail {
     padding: 40px;
     height: auto;
   }
