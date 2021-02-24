@@ -17,7 +17,7 @@ noTitleIndex: true
     <td class="col-6 v-align-middle">
       <p class="f18">According to the American Association of Motor Vehicle Administrators (AAMVA) <a href="https://www.aamva.org/DL-ID-Card-Design-Standard/">specification</a>, PDF417 symbology is used for storing personal information on US driver’s licenses. It comprises critical information about the cardholder, such as their name, gender, date of birth, height, etc. Many organizations, both government and private, use the driver’s license for identification purposes and age verification. </p>
       <p class="f18">Barcode recognition technology is considered more accurate and cost-effective than OCR for extracting data. Because the driver’s license is widely accepted as a form of identification in different areas and is considered the primary method of identification in countries like the US, it is imperative to use a barcode reader that accurately reads and extracts the data. </p>
-      <a href="https://www.dynamsoft.com/barcode-reader/downloads/" class="f22 fontOswaldMedium orangelink">Try an online demo of Dynamsoft Barcode SDK ></a> 
+      <a href="https://www.dynamsoft.com/barcode-reader/downloads/" class="tryBtn fontOswaldMedium orangelink textUpperCase">Try an online demo of Dynamsoft Barcode SDK ></a> 
     </td>
     <td class="col-6 hidden-sm hidden-xs tc v-align-middle">
       <img src="assets/Image_2.png"/>

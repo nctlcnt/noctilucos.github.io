@@ -70,6 +70,7 @@ h5 {
   font-family: Oswald;
   font-weight: normal;
 }
+
 strong {
   color: #444;
   font-weight: 400;
@@ -390,6 +391,10 @@ ul.disc > li p:hover {
   box-sizing: border-box;
   min-height: auto;
   padding-bottom: 50px;
+}
+
+.markdown-body {
+  font-family: OpenSans-Regular;
 }
 
 .markdown-body table th,
@@ -4248,6 +4253,10 @@ height: 310px;
 .wholeBlockTable {
   width: 100%;
 }
+
+.tryBtn {
+  font-size: 22px;
+}
 .bg-basic-grey {
   background-color: #F5F5F5;
 }
@@ -4330,6 +4339,9 @@ h2.card-title {
   margin-bottom: 10px;
 }
 @media (max-width: 1679px) {
+  .tryBtn {
+    font-size: 16px;
+  }
   .content-wrapper.drive-license .content-card {
     margin-right: 20px;
   }
@@ -4340,7 +4352,11 @@ h2.card-title {
     padding: 115px 41px 67px 47px;
   }
   .drive-license.content-wrapper .content-card {
-    height: 530px;
+    height: 550px;
+}
+
+.content-wrapper .content-card a.orangeLink.mediumLink {
+  font-size: 16px;
 }
 .parserTable td.rightContent dl {
   padding: 17px 67px;
