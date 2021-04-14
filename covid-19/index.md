@@ -8,7 +8,7 @@ breadcrumbText: COVID-19 Use Cases
 noTitleIndex: true
 ---
 
-<h1 class="tc h1Title fontOswaldMedium">How Dynamsoft Barcode Reader helps fight against COVID-19 in healthcare, retail and other industries</h1>
+<h1 class="tc h1Title fontOswald">How Dynamsoft Barcode Reader helps fight against COVID-19 in healthcare, retail and other industries</h1>
 <p class="tc titleDescription">As the world continues to face the Covid-19 pandemic, innovators and governments of various countries have been trying numerous ways to contain its spread. Barcoding technology is one of them. From enabling contactless work environments to tracking testing kits to curb the Covid-19 spread, barcodes can revolutionize many processes amid the ongoing pandemic.
 </p>
 
@@ -29,7 +29,7 @@ noTitleIndex: true
         <p>"The health and safety of our customers and staff is our number one priority and our new easy-to-use mobile feature provides another layer of protection while shopping in-store during these unprecedented times," said Jason Tassé, Chief Operating Officer, Lee Valley Tools. "We're thrilled to launch this mobile tool in all our stores across Canada to give our customers a user-friendly way of making the browsing and purchase process contactless."</p>
         <p><a href="https://www.dynamsoft.com/Company/Media.aspx#2020" class="fontOswald orangeLink textUpperCase">Media coverage of the story ></a></p>
       </div>
-      <div class="imgCnt fl">
+      <div class="imgCnt fl left-img">
         <img src="assets\Lee-Valley-Scan-Barcode.jpg" alt="user story of retail contactless shopping"/>
       </div>
     </div>
@@ -42,7 +42,7 @@ noTitleIndex: true
         <p>The key feature that the company requires in their application is 100% accuracy in a web-based barcode scanner. Also, for maximum customer reach, the barcode scanner needs to work on mobile and desktop browsers. The company validated Dynamsoft Barcode Reader against other offerings and found it was the best option. Dynamsoft’s javascript barcode SDK offers many benefits like, ease of implementation, flexible licensing, and ease of use.</p>
         <p>With the help of the barcode SDK, the healthcare company designed their application quickly, in two weeks from the point of planning to actually making it available for use.</p>
       </div>
-      <div class="imgCnt fl">
+      <div class="imgCnt fl covid-right-img">
         <img src="assets\user-story-vault-health.png" alt="user story of tracking COVID-19 diagnostic samples"/>
       </div>
     </div>

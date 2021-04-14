@@ -3437,6 +3437,7 @@ i.dbr-white-logo {
     height: 360px;
     box-shadow: 15px 16px 0 0 #323234;
     position: relative;
+    overflow: hidden;
 }
 .tabDetail .imgCnt img {
   width: 100%;
@@ -3446,6 +3447,18 @@ i.dbr-white-logo {
   left: 50%;
   transform: translate(-50%,-50%);
   max-width: 50%;
+}
+.tabDetail .imgCnt.covid-right-img {
+  overflow: hidden;
+}
+.tabDetail .imgCnt.covid-right-img img {
+  max-width: initial;
+  height: 100%;
+  width: auto;
+}
+.imgCnt.fl.left-img img {
+  width: 100%;
+  max-width: inherit;
 }
 
 @media (max-width: 1679px) {
@@ -4340,6 +4353,9 @@ h2.card-title {
   font-size: 24px;
   line-height: 30px;
   margin-bottom: 10px;
+}
+h3.card-title {
+  font-weight: 400 !important;
 }
 @media (max-width: 1679px) {
   .tryBtn {
